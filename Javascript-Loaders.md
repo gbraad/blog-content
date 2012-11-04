@@ -1,4 +1,6 @@
 ---
+layout: default
+title: JavaScript Loaders
 ---
 
 * http://requirejs.org/docs/commonjs.html#autoconversion
