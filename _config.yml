@@ -1,0 +1,12 @@
+future:      true
+lsi:         false
+pygments:    true
+markdown:    maruku
+permalink:   /:title.html
+
+maruku:
+  use_tex:    false
+  use_divs:   true
+
+rdiscount:
+  extensions: []
