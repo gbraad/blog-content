@@ -1,8 +1,7 @@
 ---
 layout: default
-title: Overview of available pages
 ---
 
 # Pages
-{% for post in site.pages %}
-* [{{ post.title }}](.{{ post.url }}){% endfor %}
+{% for post in site.pages %}{% if post.title %}
+* [{{ post.title }}](.{{ post.url }}){% endif %}{% endfor %}
