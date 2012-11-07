@@ -17,4 +17,4 @@ After this go to your Github repo, open the admin and go to 'Service hooks'. Add
 `https://build.phonegap.com/apps/[appid]/build/?auth_token=[token]
 `
 
-Save this and trigger it with 'Test hook'. When you would open: https://build.phonegap.com/apps/[appid]/builds you will probably see a new build.
+Save this and trigger it with 'Test hook'. When you would open: ```https://build.phonegap.com/apps/[appid]/builds``` you will probably see a new build.
