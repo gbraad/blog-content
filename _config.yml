@@ -1,7 +1,7 @@
 future:      true
 lsi:         false
-pygments:    true
-markdown:    maruku
+highlighter: true
+markdown:    kramdown
 permalink:   /:title.html
 
 maruku:

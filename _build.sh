@@ -1,6 +1,5 @@
 #!/bin/sh
-
-jekyll
+jekyll build
 cd _site
 git init
 git remote add origin git@github.com:gbraad/articles.git
