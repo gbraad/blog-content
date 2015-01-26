@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Fedora 11 on coLinux"
+date: 2009-07-26
+comments: false
+categories:
+ - colinux
+ - qemu
+ - fedora
+---
+
+<div class='post'>
+After some minor issues I managed to install <a href="http://www.fedoraproject.org/">Fedora</a> 11 on <a href="http://www.colinux.org/">coLinux</a>. Normally I would perform a manual installation by creating a basic rpm environment, but with Fedora 11 I encountered problems during the installation; first the version of squashfs was different. This was easily fixed with a dump from Fedora 10... but second, rpm packages were all of a sudden not available halfway a rpm transaction. Since it occurred more than once, I settled for using qemu again.<br /><br />The file colinux-fedora11.exe (82MB) is published on [<a href="http://gbraad.fedorapeople.org/files/colinux-fedora11.exe">fedorapeople</a>], [<a href="http://dl.getdropbox.com/u/131903/colinux-fedora11.exe">dropbox</a>] and [<a href="http://files.gbraad.nl/virtual/colinux/colinux-fedora11.exe">files</a>]. It does have some minor issues during startup, but besides this it is operational. The installation was performed as a basic installation; so it does not contain any graphical environment, no additional network servers, no updates, etc. This way the download is small. The only added packages are <i>wget</i>, <i>mc</i> and my <a href="http://gbraad.fedorapeople.org/files/kernel-modules-2.6-co0.7.3.i386.rpm">kernel modules RPM</a>.<br /><br /><img src="http://lh3.ggpht.com/_ZmgfsgbGDLs/Sm4Hj8LVn1I/AAAAAAAAGl0/kZ3ME5zvf_Y/s288/leonidas.jpg" /><br /><br />All you need to run it is: coLinux, <a href="http://www.winpcap.org/">winpcap</a> and the archive. The file 'run.bat' would start the cooperative environment. Any tweaks you would like to make can be placed in the 'run.txt' file. The user is 'root' without a password. After you start it, do set a password for this user.<br /><br />Personally I use the environment for <a href="http://chitlesh.fedorapeople.org/FEL/">Fedora Electronic Lab</a> which coexists with Cygwin. Not all the tools I use for electronics are available on Linux... yet!<br /><br />Note: I have used version 0.7.3 of coLinux because the current stable release 0.7.4 suffers from a problem with the tap device.<br /><br />Note 21-09-09: The original image has been replaced by the <a href="http://blog.gbraad.nl/2009/09/fedora-11-on-colinux-fixes.html">updated image</a> from HenryN. IF needed the original image is available upon request. It should however be considered as obsolete.</div>

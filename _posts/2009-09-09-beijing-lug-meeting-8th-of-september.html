@@ -1,0 +1,21 @@
+---
+layout: post
+title: "Beijing LUG meeting (8th of September 2009)"
+date: 2009-09-09
+comments: false
+categories:
+ - redhat
+ - c++
+ - beijing
+ - mips
+ - rpm
+ - opensuse
+ - qemu
+ - opencl
+ - stream computing
+ - ulrich drepper
+ - blug
+---
+
+<div class='post'>
+Last night I attended a <a href="http://www.beijinglug.org/en/index.php?option=com_content&amp;task=view&amp;id=426&amp;Itemid=14">meeting</a> of the <a href="http://www.beijinglug.org/">Beijing Linux User Group</a>. It was for me the first time I could attend it during my time in Beijing and it is certainly something I will do more often. Every 2nd Tuesday of the month they will have a group meeting in which they will have speakers about a subject. I was lucky to listen to <span style="font-style: italic;">Coly Li</span> and <span style="font-style: italic;">Ulrich Drepper</span>.<br /><br /><a href="http://farm4.static.flickr.com/3422/3901133414_f2e74d30d1.jpg"><img style="margin: 5px; float: right; width: 256px; height: 192px;" src="http://farm4.static.flickr.com/3422/3901133414_f2e74d30d1.jpg" alt="Ulrich Drepper at BLUG" border="0" /></a><span style="font-style: italic;">Coly Li</span> is a kernel developer who supervised a Google Summer of Code student, <span style="font-style: italic;">YuEr</span>, who ported openSUSE to MIPS. YuEr showed what he had done, the results and the errors still left. He was able to start a X11 session using FVWM on a Gdium (MIPS-based smartbook). For this he had used a cross-platform RPM build environment targeting MIPS and qemu. Amazing results for such a short period he was able to work on it.<br /><br /><span style="font-style: italic;">Ulrich Drepper</span> gave the same talk as he did at the RedHat Summit in Chicago about '<a href="http://people.redhat.com/drepper/summit09-stream.pdf">Acceleration Through Stream Computing</a>'. In this talk he explains how to speed up applications by using vectorization and the vector extensions as provided by SSE. Using templates and partial specialization in C++ it is possible to speed up applications without a lot of changes. The specialized critical code could be altered by experts and just a rebuild would suffice. He explains this for instance with a simple example of a vector scaling and translation... the result speaks for themselves. It was also apparent that Ulrich is not a promoter of CUDA (or even CTM) either. In my opinion they result in vendor-lockin. The alternative to look for is OpenCL...<br /><br />Overall it was a nice evening. I talked to a talented bunch of 'folklore dancers' wearing T-Shirts. If you ever have the chance to be in Beijing, stop by... you will not regret it.</div>

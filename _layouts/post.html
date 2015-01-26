@@ -1,0 +1,37 @@
+<!DOCTYPE html "Gerard Braad">
+<html>
+    <head>
+        <meta charset="utf-8">
+        <title>Gerard Braad - F/OSS & IT Consultant{% if page.title %} - {{ page.title }}{% endif %}</title>
+        <link rel="stylesheet" href="//cdn.gbraad.nl/css/default.css">
+        <meta name="description" content="Gerard Braad - F/OSS & IT Consultant, Software/Hardware Engineer in China, FOSS FLOSS">
+        <meta name="keywords" content="FOSS, F/OSS, FLOSS, IT COnsultant, IT Engineer, Hardware Engineer, Software Engineer, Dutch, Netherlands, China, Open Source, gbraad, @gbraad, Linux, Unix, FreeBSD, OpenBSD, Windows, C/C++, Python, C#, .NET">
+        <meta name="generator" content="Spot Snel Content Manager">
+        <link rel="openid2.provider openid.server" href="http://pip.verisignlabs.com/server">
+        <link rel="openid2.local_id openid.delegate" href="http://gbraad.pip.verisignlabs.com">
+        <meta http-equiv="X-XRDS-Location" content="http://pip.verisignlabs.com/user/gbraad/yadisxrds">
+    </head>
+    <body>
+        <div id='main-wrapper'>
+
+            <div id='navigation'>
+                <ul>
+                     <li><a href="//gbraad.nl/">Home</a></li>
+                     <li><a href="//blog.gbraad.nl/">Blog</a></li>
+                     <li><a href="//files.gbraad.nl/">Files</a></li>
+                </ul>
+            </div>
+
+            <div id='title-wrapper'>
+                <h1 class='title' title='吉拉德'>Gerard Braad</h1>
+                <h3 class='description'><span class='orange'>F/OSS</span> <span class='black'>&</a> <span class='lightblue'>IT</span> <span class='black'>Consultant</span></h3>
+            </div>
+
+            <div id='post-wrapper'>
+                {% if page.title %}<h3>{{page.title}}</h3>{% endif %}
+                {{content}}
+            </div>
+
+        </div>
+    </body>
+</html>

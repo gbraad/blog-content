@@ -1,0 +1,241 @@
+/* Author: Gerard Braad (me@gbraad.nl) */
+
+/*
+    Deja Vu Serif
+    Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+    Bitstream Vera is a trademark of Bitstream, Inc.
+    Copyright (c) 2006 by Tavmjong Bah. All Rights Reserved.
+*/
+
+@font-face {
+    font-family: 'DejaVuSerifBook';
+    src: url('../fonts/deja_vu/DejaVuSerif-webfont.eot');
+    src: local('☺'), url('../fonts/deja_vu/DejaVuSerif-webfont.woff') format('woff'), url('/fonts/deja_vu/DejaVuSerif-webfont.ttf') format('truetype'), url('/fonts/deja_vu/DejaVuSerif-webfont.svg#webfontCFu7RF0I') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSerifItalic';
+    src: url('../fonts/deja_vu/DejaVuSerif-Italic-webfont.eot');
+    src: local('☺'), url('../fonts/deja_vu/DejaVuSerif-Italic-webfont.woff') format('woff'), url('/fonts/deja_vu/DejaVuSerif-Italic-webfont.ttf') format('truetype'), url('/fonts/deja_vu/DejaVuSerif-Italic-webfont.svg#webfontaLa5SnEz') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'DejaVuSerifBold';
+    src: url('../fonts/deja_vu/DejaVuSerif-Bold-webfont.eot');
+    src: local('☺'), url('../fonts/deja_vu/DejaVuSerif-Bold-webfont.woff') format('woff'), url('/fonts/deja_vu/DejaVuSerif-Bold-webfont.ttf') format('truetype'), url('/fonts/deja_vu/DejaVuSerif-Bold-webfont.svg#webfontghjTfi8K') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3.dejavu {
+    font-family:"DejaVuSerifBook";
+}
+
+p.dejavu {
+    font-family:"DejaVuSerifBook";
+    font-size:13px;
+    line-height:21px;
+}
+
+.dejavuitalic {
+    font-family:"DejaVuSerifItalic";
+    font-style:normal;
+}
+
+.dejavubold {
+    font-family:"DejaVuSerifBold";
+    font-weight:normal;
+}
+
+/*
+    Bitstream Vera Sans
+    Copyright (c) 2003 by Bitstream, Inc. All Rights Reserved.
+    Bitstream Vera is a trademark of Bitstream, Inc.
+*/
+
+@font-face {
+    font-family: 'BitstreamVeraSansRoman';
+    src: url('../fonts/vera_sans/Vera-webfont.eot');
+    src: local('☺'), url('../fonts/vera_sans/Vera-webfont.woff') format('woff'), url('/fonts/vera_sans/Vera-webfont.ttf') format('truetype'), url('/fonts/vera_sans/Vera-webfont.svg#webfontHBSQ3oqr') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BitstreamVeraSansOblique';
+    src: url('../fonts/vera_sans/Vera-Italic-webfont.eot');
+    src: local('☺'), url('../fonts/vera_sans/Vera-Italic-webfont.woff') format('woff'), url('/fonts/vera_sans/Vera-Italic-webfont.ttf') format('truetype'), url('/fonts/vera_sans/Vera-Italic-webfont.svg#webfontWP43HMd4') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'BitstreamVeraSansBold';
+    src: url('../fonts/vera_sans/Vera-Bold-webfont.eot');
+    src: local('☺'), url('../fonts/vera_sans/Vera-Bold-webfont.woff') format('woff'), url('/fonts/vera_sans/Vera-Bold-webfont.ttf') format('truetype'), url('/fonts/vera_sans/Vera-Bold-webfont.svg#webfontUJ0ocPd0') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+h3.verasans {
+    font-family:"BitstreamVeraSansRoman";
+}
+
+p.verasans {
+    font-family:"BitstreamVeraSansRoman";
+    font-size:13px;
+    line-height:21px;
+}
+
+.verasansitalic {
+    font-family:"BitstreamVeraSansOblique";
+    font-style:normal;
+}
+
+.verasansbold {
+    font-family:"BitstreamVeraSansBold";
+    font-weight:normal;
+}
+
+/* Page styling */
+
+body
+{
+    font-family: "BitstreamVeraSansRoman", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: small;
+    color: black;
+    margin: 0px;
+    background: black url('../images/background.png') no-repeat fixed 0 0; /* rgb(255, 140, 0); */
+}
+
+p, td, th
+{
+    font-family: "BitstreamVeraSansRoman", Verdana, Geneva, Arial, Helvetica, sans-serif;
+    font-size: small;
+}
+
+a:link {
+    color:#5588aa;
+    text-decoration:none;
+}
+
+a:visited {
+    color:#999999;
+    text-decoration:none;
+}
+
+a:hover {
+    color:#000000;
+    text-decoration:underline;
+}
+
+a img {
+    border-width:0;
+}
+
+hr {
+    height: 1px;
+    color: #339966;
+    background-color: #339966;
+}
+
+#main-wrapper {
+    margin: 42px auto;
+    position: relative;
+    text-align: left;
+    width: 770px;
+    border-radius: 14px;
+    -moz-border-radius: 14px;
+    -webkit-border-radius: 14px;
+    -o-border-radius: 14px;
+    background-color: white;
+}
+
+#navigation {
+    padding-bottom: 10px;
+    padding-top: 10px;
+}
+
+#navigation ul {
+    font-weight:bold;
+    list-style-image:none;
+    list-style-position:outside;
+    list-style-type:none;
+    margin: 0;
+    padding:0;
+    position:absolute;
+    width:inherit;
+}
+
+#navigation li {
+    border-right:1px solid #CDCDCD;
+    float:left;
+    margin-right:5px;
+    padding:0 10px;
+}
+
+li {
+   list-style-image:none;
+   list-style-position:outside;
+   list-style-type:none;
+}
+
+
+#title-wrapper {
+    padding: 10px;
+    margin: 0px;
+}
+
+#post-wrapper {
+    padding: 2%;
+    margin: 1%;
+    padding-top: 0px;
+    margin-top: 0px;
+}
+
+acronym, abbr, .help {
+    border-bottom:	1px dotted #333;
+    cursor:		help;
+}
+
+.photo {
+    float: right;
+    margin: 10px;
+}
+
+/* Color */
+
+#megbraadnl-container {
+    margin: 10px auto;
+    margin-top: 10em;
+    position: relative;
+    text-align: center;
+}
+
+.megbraadnl {
+	font-size: 12em;
+}
+
+.blue {
+	color: rgb(0, 112, 224);
+}
+
+.lightblue {
+	color: rgb(15, 147, 249);
+}
+
+.white {
+	color: white;
+}
+
+.black {
+	color: black;
+}
+
+.orange {
+	color: rgb(255, 140, 0);
+}

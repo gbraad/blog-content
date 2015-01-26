@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Accidently installed i386 packages on x86_64?"
+date: 2009-08-25
+comments: false
+categories:
+ - packages
+ - rpm
+ - linux
+ - installation
+ - centos
+ - fedora
+ - yum
+ - x86_64
+---
+
+<div class='post'>
+If you have a CentOS installation (or Fedora) running as x86_64 architecture, be sure to install your packages with <span style="font-style:italic;">yum</span> using the following command:<br /><br /><div style="color:white;background:black"><code>$ yum install [packagename].x86_64<br /></code></div><br />This way you will specify the architecture to use. If you do not specify the architecture you might end up installing both the x86_64 and the i386 packages with all it's dependencies.<br /><br />If you have already done so in error, you can easily query for these packages using the following command:<br /><br /><div style="color:white;background:black"><code>$ rpm -qa --qf '%{name}.%{ARCH}\n' |grep i386<br /></code></div><br />this command returns all i386 packages. You can pipe it directly into <span style="font-style:italic;">rpm -e</span> or choose to uninstall them by hand.</div>

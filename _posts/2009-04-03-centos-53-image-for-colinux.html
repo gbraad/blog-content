@@ -1,0 +1,14 @@
+---
+layout: post
+title: "CentOS 5.3 image for coLinux"
+date: 2009-04-03
+comments: false
+categories:
+ - colinux
+ - linux
+ - installation
+ - centos
+---
+
+<div class='post'>
+A few days ago <a href="http://centos.org/">CentOS</a> 5.3 was finally released. Just like what I have done with the previous version, I created a <a href="http://colinux.org/">coLinux</a> environment. This installation is a base system performed using the previously described <a href="http://blog.gbraad.nl/2009/03/manually-installing-centos-52-on.html">manual method</a>. Updated instructions are included in the published archive.<br /><br />For now you can find the files here:<br />colinux-centos53.exe [<a href="http://delivery.vipeers.com/file_sharing?message_hash=QUllJkSLYR_sB1jpF8lGXQ==">VIPeers</a>] [<a href="http://dl.getdropbox.com/u/131903/colinux-centos53.exe">dropbox</a>] (98mb)<br /><br />It is configured to use DHCP on the network connections eth0 (slirp) and eth1 (bridged). The user account is 'root' without a password. After login, you should change the password. During startup you will see some complaints about the kernel modules. To solve this you can install my <a href="http://gbraad.fedorapeople.org/files/kernel-modules-2.6-co0.7.3.i386.rpm">kernel modules RPM</a> or use the tarball provided by coLinux.</div>

@@ -1,0 +1,12 @@
+---
+layout: post
+title: "CentOS 5.2 image for coLinux"
+date: 2009-03-13
+comments: false
+categories:
+ - colinux
+ - centos
+---
+
+<div class='post'>
+Although soon we hope to have the newer 5.3 release of CentOS, I still decided to create a coLinux image of the current release. The problem with this release is that the kernel has issues when run on Qemu as can be seen in <a href="http://bugs.centos.org/view.php?id=2912">this bug report</a>. This issues is known upstream and is solvable by installing 5.1 and then update it beyond the problematic kernel... or you could just wait until CentOS 5.3 is released.<br /><br />To make CentOS 5.2 usable in coLinux you could install 5.1 in this way using Qemu and update it. I just took a different approach: use RPM. I used a modified initrd image and installed a basic RPM installation (kinda similar to the FC3-CentOS frankenupgrade). More details about how the installation was performed will follow. <br /><br /><img style="width: 320px; height: 185px;" src="http://4.bp.blogspot.com/_ZmgfsgbGDLs/Sbq-NYDCGHI/AAAAAAAAD_U/DsgmMmRuew0/s320/centos52-colinux.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5312767847439669362" /><br /><br />For now you can find the files here:<br />colinux-centos52.exe [<a href="http://delivery.vipeers.com/file_sharing?message_hash=DqndxLVLCZtSWzi5b3x3rQ==">VIPeers</a>] [<a href="http://dl.getdropbox.com/u/131903/colinux-centos52.exe">dropbox</a>] (82mb)<br /><br />The files contain an image with a minimal installation which you can use on coLinux 0.7.3. The startup is not error-free... but you can ignore the failures for now, since I will update the images to reflect the Fedora images. Your suggestions are of course welcome.<br /><br />It is configured to use DHCP on the network connections eth0 and eth1. The user account is 'root' without a password.<br /><br /><span style="font-style:italic;">Edit: repacked the archive to be self-extracting and kernel modules (co0.7.3) have been installed by RPM.</span></div>
