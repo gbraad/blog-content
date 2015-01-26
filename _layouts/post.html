@@ -2,10 +2,8 @@
 <html>
     <head>
         <meta charset="utf-8">
-        <title>Gerard Braad - Blog{% if page.title %} - {{ page.title }}{% endif %}</title>
+        <title>Gerard Braad - F/OSS & IT Consultant{% if page.title %} - {{ page.title }}{% endif %}</title>
         <link rel="stylesheet" href="//cdn.gbraad.nl/css/default.css">
-        <link rel="stylesheet" href="//cdn.gbraad.nl/3rdparty/bootstrap.min.css">
-        <link rel="stylesheet" href="//cdn.gbraad.nl/3rdparty/bootswatch-cyborg.min.css">
         <meta name="description" content="Gerard Braad - F/OSS & IT Consultant, Software/Hardware Engineer in China, FOSS FLOSS">
         <meta name="keywords" content="FOSS, F/OSS, FLOSS, IT COnsultant, IT Engineer, Hardware Engineer, Software Engineer, Dutch, Netherlands, China, Open Source, gbraad, @gbraad, Linux, Unix, FreeBSD, OpenBSD, Windows, C/C++, Python, C#, .NET">
         <meta name="generator" content="Spot Snel Content Manager">
@@ -28,13 +26,12 @@
                 <h1 class='title' title='吉拉德'>Gerard Braad</h1>
                 <h3 class='description'><span class='orange'>F/OSS</span> <span class='black'>&</a> <span class='lightblue'>IT</span> <span class='black'>Consultant</span></h3>
             </div>
-            <div id='post-wrapper' class="container body-content">
+
+            <div id='post-wrapper'>
                 {% if page.title %}<h3>{{page.title}}</h3>{% endif %}
                 {{content}}
             </div>
 
         </div>
-	<script src="//cdn.gbraad.nl/3rdparty/jquery.min.js"></script>
-        <script src="//cdn.gbraad.nl/3rdparty/bootstrap.min.js"></script>
     </body>
 </html>

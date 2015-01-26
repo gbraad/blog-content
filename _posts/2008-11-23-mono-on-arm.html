@@ -1,0 +1,13 @@
+---
+layout: post
+title: "Mono on ARM"
+date: 2008-11-23
+comments: false
+categories:
+ - arm
+ - alt.net
+ - mono
+---
+
+<div class='post'>
+At the moment I am 'experimenting' with Mono on ARM devices, like the Maemo (Nokia Internet Tablets), BeagleBoard, Linksys NSLU2, etc.<br /><br /><br /><img alt="" border="0" id="BLOGGER_PHOTO_ID_5271829453222964818" src="http://3.bp.blogspot.com/_ZmgfsgbGDLs/SSlM9NPL7lI/AAAAAAAADic/AdX7LpjiE9g/s320/banshee-mojo.png" style="height: 249px; margin: 0pt 10px 10px 0pt; width: 320px;" /><br /><br />Banshee runs from within a Mojo installation (Ubuntu compiled for ARM) on the provided Mono. The screenshot shows a qemu session with XFCE4 and Banshee. Several other binaries do not work well yet... like IronPython, which aborts with an 'ERROR:inssel.c:3687):mono_burg_emit: code should not be reached'. Hmmm... still trying to find out why.<br /><br /><br />The Nokia Internet Tablets recently got a new release of Mono, version 2.0.1, from Everaldo. On the device this release runs IronPython 1.1.2. From within the Scratchbox environment it is @*s... it segfaults/aborts. This is related to the Nokia toolchain. At the moment I am trying to get qemu to emulate the Nokia N810 as described by Marcin. for now I only get to see a white Nokia bootloader screen... Marcin provided me his config.mtd to see if it results from a bad mtd.block, but I personally suspect it to be qemu. The build I made, also had issues with running the Mojo distribution :-/...<br /><br /><br />As you can see, the results are mixed. This is unrelated to Mono. Cross-compiling and emulation environments can always result in unexpected behaviour (as also on actual devices). Mono runs quite well on the N810. This can also be seen in the images posted by Everaldo.<br /><br /><a href="http://ecanuto.blogspot.com/2008/11/mono-201-for-nokia-devices.html"><img border="0" src="http://lh5.ggpht.com/_Wu1rKePvjfc/SR0E4nfdYII/AAAAAAAAAB4/LYCCs1XqlYI/s400/maemo-diablo-02.jpg" /></a><br /><br />More information will follow...<br /><br />Links:<br /><a href="http://http//www.mono-project.com/Mono:ARM">Mono:ARM</a>, <br /><a href="http://mojo.handhelds.org/">Mojo Handhelds</a>,<br /><a href="http://bellard.org/qemu/">Qemu, processor emulator</a>,<br /><a href="http://ecanuto.blogspot.com/2008/11/mono-201-for-nokia-devices.html">Mono on Maemo</a>,<br /><a href="http://blog.haerwu.biz/2008/09/20/maemo-in-qemu-n8x0-emulation-presentation/">Maemo on qemu</a></div>

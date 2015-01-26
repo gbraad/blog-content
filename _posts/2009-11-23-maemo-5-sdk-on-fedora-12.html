@@ -1,0 +1,16 @@
+---
+layout: post
+title: "Maemo 5 SDK on Fedora 12"
+date: 2009-11-23
+comments: false
+categories:
+ - scratchbox
+ - linux
+ - development
+ - installation
+ - fedora
+ - maemo
+---
+
+<div class='post'>
+It is possible to install the Maemo 5 SDK (final) on Fedora 12. It only takes two minor edits to the installer script. You first need to make sure you have installed Xephyr. You can do so with the command:<br /><br /><div style="color:white;background:black"><code>$ yum install Xephyr<br /></code></div><br />since the installer is not able to do so for other distributions than Ubuntu and debian. You can download the GUI installer script from Forum Nokia: <a href="http://www.forum.nokia.com/info/sw.nokia.com/id/c05693a1-265c-4c7f-a389-fc227db4c465/Maemo_5_SDK.html">Maemo 5 SDK</a>.<br /><br />In the file  maemo-sdk-install-wizard_5.0.py you can change line 129 to<br /><br /><div style="color:white;background:black"><code>SB_PATH="/opt/scratchbox"<br /></code></div><br />It is just optional. But to me this location feels more appropriate then '/scratchbox'. On my system it is linked to another location with other hardware and software development tools.<br /><br />The current version of the script seems to fail on Fedora because of not being able to install scratchbox due to a missing path.<br /><br />Change line 2311 to:<br /><div style="color:white;background:black"><code>exec_cmd(sb_installer_fn + opt + "-s " + SB_PATH)<br /></code></div><br />Change line 2351 to:<br /><div style="color:white;background:black"><code>cmd = "%s -d -m %s -s %s" % (sdk_installer_fn, self.__sdk_inst_m_opt_arg, SB_PATH)<br /></code></div><br />This includes the Scratchbox path during the command invocation. You can then install the SDK by running the script. It will handle the download of PyQT and sip itself.<br /><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" src="http://lh6.ggpht.com/_ZmgfsgbGDLs/Swm7miSGTwI/AAAAAAAAHmI/S1kcjs-efHQ/s320/maemosdk_install.png" /><br /></div><br />After the install you can start Xephyr. However you can not use the -kb option:<br /><br /><div style="color:white;background:black"><code>$ Xephyr :2 -host-cursor -screen 800x480x16 -dpi 96 -ac &amp;<br /></code></div><br />The first start of af-sb-init.sh failed for me with a coredump and several segmentation faults. try to close the scratchbox environment and try again.<br /><br /><div class="separator" style="clear: both; text-align: center;"><img border="0" src="http://lh3.ggpht.com/_ZmgfsgbGDLs/SwnCCjHHqJI/AAAAAAAAHmw/4H9Wf5Dc9GM/s320/sb-af.png" /><br /></div><br />Note: I haven't tried it with SELinux as enforcing since I currently run my workstation as permissive. Discussion is possible on the <a href="http://talk.maemo.org/showthread.php?p=386373#post386373">Maemo developer's forum posting</a>.</div>

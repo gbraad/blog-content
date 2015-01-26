@@ -1,0 +1,1377 @@
+<?xml version='1.0' encoding='UTF-8'?><?xml-stylesheet href="http://www.blogger.com/styles/atom.css" type="text/css"?><feed xmlns='http://www.w3.org/2005/Atom' xmlns:openSearch='http://a9.com/-/spec/opensearchrss/1.0/' xmlns:georss='http://www.georss.org/georss' xmlns:gd='http://schemas.google.com/g/2005' xmlns:thr='http://purl.org/syndication/thread/1.0'><id>tag:blogger.com,1999:blog-2279047302869942430.archive</id><updated>2012-04-12T23:47:14.016+02:00</updated><title type='text'>Gerard Braad about .NET on Un*x/Linux</title><link rel='http://schemas.google.com/g/2005#feed' type='application/atom+xml' href='http://dotnet.gbraad.nl/feeds/archive'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/archive'/><link rel='http://schemas.google.com/g/2005#post' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/archive'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author><generator version='7.00' uri='http://www.blogger.com'>Blogger</generator><entry><id>tag:blogger.com,1999:blog-2279047302869942430.layout</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#template'/><title type='text'>Template: Gerard Braad about .NET on Un*x/Linux</title><content type='text'>&lt;?xml version="1.0" encoding="UTF-8" ?&gt;
+&lt;!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd"&gt;
+&lt;html expr:dir='data:blog.languageDirection' xmlns='http://www.w3.org/1999/xhtml' xmlns:b='http://www.google.com/2005/gml/b' xmlns:data='http://www.google.com/2005/gml/data' xmlns:expr='http://www.google.com/2005/gml/expr'&gt;
+  &lt;head&gt;
+    &lt;b:include data='blog' name='all-head-content'/&gt;
+    &lt;title&gt;&lt;data:blog.pageTitle/&gt;&lt;/title&gt;
+    &lt;b:skin&gt;&lt;![CDATA[
+body {
+margin: 0;
+font-family:        Verdana, Geneva, Arial, Helvetica, sans-serif;
+font-size:          small;
+background:    #0070E0 url('http://img.gbraad.nl/shadowmanshadedcropped.png') no-repeat fixed 0 0;
+}
+a:link {
+color:#5588aa;
+text-decoration:none;
+}
+a:visited {
+color:#999999;
+text-decoration:none;
+}
+a:hover {
+color:#000000;
+text-decoration:underline;
+}
+a img {
+border-width:0;
+}
+#outer-wrapper {
+margin:             1em auto;
+position:           relative;
+text-align:         left;
+width:              770px;
+-moz-border-radius: 14px;
+background-color:   #FFFFFF;
+}
+#main {
+padding:            14px;
+margin:             1px;
+}
+#LinkList1 {
+padding-bottom: 10px;
+}
+#LinkList1 ul {
+font-weight:bold;
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+margin: 0;
+padding:0;
+position:absolute;
+width:inherit;
+}
+#LinkList1 li {
+border-right:1px solid #CDCDCD;
+float:left;
+margin-right:5px;
+padding:0 10px;
+}
+li {
+list-style-image:none;
+list-style-position:outside;
+list-style-type:none;
+}
+h1 {
+border-bottom:dotted 1px #999999;
+margin-bottom:0px;
+color: #000000;
+}
+h1 a, h1 a:link, h1 a:visited {
+color: #000000;
+}
+h2 {
+margin:0px;
+padding: 0px;
+}
+#main .widget {
+clear: both;
+}
+#main .Header {
+border-bottom-width: 0px;
+}
+h2.date-header {
+padding-top:15px;
+color:#555555;
+padding-bottom:0px;
+margin-bottom:0px;
+font-size: 90%;
+}
+h3.post-title {
+font-size: 140%;
+color: #000000;
+}
+.post {
+padding-left:5%;
+padding-right:10%;
+}
+.post-footer {
+color:#555555;
+}
+#comments {
+padding-top:30px;
+color:#000000;
+padding-bottom:0px;
+margin-bottom:0px;
+font-weight:bold;
+}
+#comments .comment-footer {
+font-size:1em;
+font-weight:normal;
+color:#555555;
+margin-right:10px;
+display:inline;
+}
+.comment-author {
+margin-top: 3%;
+}
+.comment-body {
+font-size:1em;
+font-weight:normal;
+}
+.deleted-comment {
+font-style:italic;
+color:gray;
+}
+.comment-link {
+margin-left:.6em;
+}
+.feed-links {
+clear: both;
+line-height: 2.5em;
+}
+#blog-pager-newer-link {
+float: left;
+}
+#blog-pager-older-link {
+float: right;
+}
+#blog-pager {
+text-align: center;
+}
+code {
+color: white;
+}
+.clear {
+clear: both;
+}
+.profile-img {
+float: left;
+margin-top: 0;
+margin-right: 5px;
+margin-bottom: 5px;
+margin-left: 0;
+}
+body#layout #outer-wrapper {
+margin-top: 0px;
+margin-right: 50px;
+margin-bottom: 0;
+margin-left: 50px;
+}
+]]&gt;&lt;/b:skin&gt;
+  &lt;/head&gt;
+
+  &lt;body&gt;
+  &lt;b:section class='navbar' id='navbar' maxwidgets='1' showaddelement='no'&gt;
+&lt;b:widget id='Navbar1' locked='true' title='Navbar' type='Navbar'&gt;
+&lt;b:includable id='main'&gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+    function setAttributeOnload(object, attribute, val) {
+      if(window.addEventListener) {
+        window.addEventListener(&amp;#39;load&amp;#39;,
+          function(){ object[attribute] = val; }, false);
+      } else {
+        window.attachEvent(&amp;#39;onload&amp;#39;, function(){ object[attribute] = val; });
+      }
+    }
+  &amp;lt;/script&amp;gt;
+&amp;lt;div id=&amp;quot;navbar-iframe-container&amp;quot;&amp;gt;&amp;lt;/div&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot; src=&amp;quot;https://apis.google.com/js/plusone.js&amp;quot;&amp;gt;&amp;lt;/script&amp;gt;
+&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+        gapi.load(&amp;quot;iframes-styles-bubble&amp;quot;, function() {
+          if (window.iframes &amp;amp;&amp;amp; iframes.open) {
+            iframes.open(
+                &amp;#39;//www.blogger.com/navbar.g?targetBlogID\0752279047302869942430\46blogName\75Gerard+Braad+about+.NET+on+Un*x/Linux\46publishMode\75PUBLISH_MODE_HOSTED\46navbarType\75BLUE\46layoutType\75LAYOUTS\46searchRoot\75http://dotnet.gbraad.nl/search\46blogLocale\75nl\46v\0752\46homepageUrl\75http://dotnet.gbraad.nl/\46readAccessMode\75PRIVATE\46vt\0757471454553787527276&amp;#39;,
+                {
+                  container: &amp;quot;navbar-iframe-container&amp;quot;,
+                  id: &amp;quot;navbar-iframe&amp;quot;
+                },
+                {
+                });
+          }
+        });
+      &amp;lt;/script&amp;gt;&amp;lt;script type=&amp;quot;text/javascript&amp;quot;&amp;gt;
+(function() {
+var script = document.createElement(&amp;#39;script&amp;#39;);
+script.type = &amp;#39;text/javascript&amp;#39;;
+script.src = &amp;#39;//pagead2.googlesyndication.com/pagead/js/google_top_exp.js&amp;#39;;
+var head = document.getElementsByTagName(&amp;#39;head&amp;#39;)[0];
+if (head) {
+head.appendChild(script);
+}})();
+&amp;lt;/script&amp;gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;/b:section&gt;
+
+
+  &lt;div id='outer-wrapper'&gt;
+    &lt;b:section class='main' id='main' showaddelement='yes'&gt;
+&lt;b:widget id='LinkList1' locked='false' title='' type='LinkList'&gt;
+&lt;b:includable id='main'&gt;
+
+&lt;b:if cond='data:title'&gt;&lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;&lt;/b:if&gt;
+ &lt;div class='widget-content'&gt;
+   &lt;ul&gt;
+     &lt;b:loop values='data:links' var='link'&gt;
+       &lt;li&gt;&lt;a expr:href='data:link.target'&gt;&lt;data:link.name/&gt;&lt;/a&gt;&lt;/li&gt;
+     &lt;/b:loop&gt;
+   &lt;/ul&gt;
+   &lt;b:include name='quickedit'/&gt;
+ &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;b:widget id='Header1' locked='false' title='Gerard Braad about .NET on Un*x/Linux (Kop)' type='Header'&gt;
+&lt;b:includable id='main'&gt;
+
+  &lt;b:if cond='data:useImage'&gt;
+    &lt;b:if cond='data:imagePlacement == &amp;quot;BEHIND&amp;quot;'&gt;
+      &lt;!--
+      Show image as background to text. You can't really calculate the width
+      reliably in JS because margins are not taken into account by any of
+      clientWidth, offsetWidth or scrollWidth, so we don't force a minimum
+      width if the user is using shrink to fit.
+      This results in a margin-width's worth of pixels being cropped. If the
+      user is not using shrink to fit then we expand the header.
+      --&gt;
+      &lt;b:if cond='data:mobile'&gt;
+          &lt;div id='header-inner'&gt;
+            &lt;div class='titlewrapper' style='background: transparent'&gt;
+              &lt;h1 class='title' style='background: transparent; border-width: 0px'&gt;
+                &lt;b:include name='title'/&gt;
+              &lt;/h1&gt;
+            &lt;/div&gt;
+            &lt;b:include name='description'/&gt;
+          &lt;/div&gt;
+        &lt;b:else/&gt;
+          &lt;div expr:style='&amp;quot;background-image: url(\&amp;quot;&amp;quot; + data:sourceUrl + &amp;quot;\&amp;quot;); &amp;quot;                        + &amp;quot;background-position: &amp;quot;                        + data:backgroundPositionStyleStr + &amp;quot;; &amp;quot;                        + data:widthStyleStr                        + &amp;quot;min-height: &amp;quot; + data:height                        + &amp;quot;_height: &amp;quot; + data:height                        + &amp;quot;background-repeat: no-repeat; &amp;quot;' id='header-inner'&gt;
+            &lt;div class='titlewrapper' style='background: transparent'&gt;
+              &lt;h1 class='title' style='background: transparent; border-width: 0px'&gt;
+                &lt;b:include name='title'/&gt;
+              &lt;/h1&gt;
+            &lt;/div&gt;
+            &lt;b:include name='description'/&gt;
+          &lt;/div&gt;
+        &lt;/b:if&gt;
+    &lt;b:else/&gt;
+      &lt;!--Show the image only--&gt;
+      &lt;div id='header-inner'&gt;
+        &lt;a expr:href='data:blog.homepageUrl' style='display: block'&gt;
+          &lt;img expr:alt='data:title' expr:height='data:height' expr:id='data:widget.instanceId + &amp;quot;_headerimg&amp;quot;' expr:src='data:sourceUrl' expr:width='data:width' style='display: block'/&gt;
+        &lt;/a&gt;
+        &lt;!--Show the description--&gt;
+        &lt;b:if cond='data:imagePlacement == &amp;quot;BEFORE_DESCRIPTION&amp;quot;'&gt;
+          &lt;b:include name='description'/&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+  &lt;b:else/&gt;
+    &lt;!--No header image --&gt;
+    &lt;div id='header-inner'&gt;
+      &lt;div class='titlewrapper'&gt;
+        &lt;h1 class='title'&gt;
+          &lt;b:include name='title'/&gt;
+        &lt;/h1&gt;
+      &lt;/div&gt;
+      &lt;b:include name='description'/&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='title'&gt;
+  &lt;b:if cond='data:blog.url == data:blog.homepageUrl'&gt;
+    &lt;data:title/&gt;
+  &lt;b:else/&gt;
+    &lt;a expr:href='data:blog.homepageUrl'&gt;&lt;data:title/&gt;&lt;/a&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='description'&gt;
+  &lt;div class='descriptionwrapper'&gt;
+    &lt;p class='description'&gt;&lt;span&gt;&lt;data:description/&gt;&lt;/span&gt;&lt;/p&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;b:widget id='Blog1' locked='true' title='Blogberichten' type='Blog'&gt;
+&lt;b:includable id='main' var='top'&gt;
+  &lt;b:if cond='data:mobile == &amp;quot;false&amp;quot;'&gt;
+
+    &lt;!-- posts --&gt;
+    &lt;div class='blog-posts hfeed'&gt;
+
+      &lt;b:include data='top' name='status-message'/&gt;
+
+      &lt;data:defaultAdStart/&gt;
+      &lt;b:loop values='data:posts' var='post'&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &lt;b:if cond='data:post.isFirstPost == &amp;quot;false&amp;quot;'&gt;
+            &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &amp;lt;div class=&amp;quot;date-outer&amp;quot;&amp;gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.dateHeader'&gt;
+          &lt;h2 class='date-header'&gt;&lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;&lt;/h2&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:post.isDateStart'&gt;
+          &amp;lt;div class=&amp;quot;date-posts&amp;quot;&amp;gt;
+        &lt;/b:if&gt;
+        &lt;div class='post-outer'&gt;
+        &lt;b:include data='post' name='post'/&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:include data='post' name='comment_picker'/&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+          &lt;b:include data='post' name='comment_picker'/&gt;
+        &lt;/b:if&gt;
+        &lt;/div&gt;
+        &lt;b:if cond='data:post.includeAd'&gt;
+          &lt;b:if cond='data:post.isFirstPost'&gt;
+            &lt;data:defaultAdEnd/&gt;
+          &lt;b:else/&gt;
+            &lt;data:adEnd/&gt;
+          &lt;/b:if&gt;
+          &lt;div class='inline-ad'&gt;
+            &lt;data:adCode/&gt;
+          &lt;/div&gt;
+          &lt;data:adStart/&gt;
+        &lt;/b:if&gt;
+      &lt;/b:loop&gt;
+      &lt;b:if cond='data:numPosts != 0'&gt;
+        &amp;lt;/div&amp;gt;&amp;lt;/div&amp;gt;
+      &lt;/b:if&gt;
+      &lt;data:adEnd/&gt;
+    &lt;/div&gt;
+
+    &lt;!-- navigation --&gt;
+    &lt;b:include name='nextprev'/&gt;
+
+    &lt;!-- feed links --&gt;
+    &lt;b:include name='feedLinks'/&gt;
+
+    &lt;b:if cond='data:top.showStars'&gt;
+      &lt;script src='//www.google.com/jsapi' type='text/javascript'/&gt;
+      &lt;script type='text/javascript'&gt;
+        google.load(&amp;quot;annotations&amp;quot;, &amp;quot;1&amp;quot;, {&amp;quot;locale&amp;quot;: &amp;quot;&lt;data:top.languageCode/&gt;&amp;quot;});
+        function initialize() {
+          google.annotations.setApplicationId(&lt;data:top.blogspotReviews/&gt;);
+          google.annotations.createAll();
+          google.annotations.fetch();
+        }
+        google.setOnLoadCallback(initialize);
+      &lt;/script&gt;
+    &lt;/b:if&gt;
+
+  &lt;b:else/&gt;
+    &lt;b:include name='mobile-main'/&gt;
+  &lt;/b:if&gt;
+
+  &lt;b:if cond='data:top.showDummy'&gt;
+    &lt;data:top.dummyBootstrap/&gt;
+  &lt;/b:if&gt;
+
+&lt;/b:includable&gt;
+&lt;b:includable id='nextprev'&gt;
+  &lt;div class='blog-pager' id='blog-pager'&gt;
+    &lt;b:if cond='data:newerPageUrl'&gt;
+      &lt;span id='blog-pager-newer-link'&gt;
+      &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;&lt;data:newerPageTitle/&gt;&lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:olderPageUrl'&gt;
+      &lt;span id='blog-pager-older-link'&gt;
+      &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;&lt;data:olderPageTitle/&gt;&lt;/a&gt;
+      &lt;/span&gt;
+    &lt;/b:if&gt;
+
+    &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
+
+    &lt;b:if cond='data:mobileLinkUrl'&gt;
+      &lt;div class='blog-mobile-link'&gt;
+        &lt;a expr:href='data:mobileLinkUrl'&gt;&lt;data:mobileLinkMsg/&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+  &lt;/div&gt;
+  &lt;div class='clear'/&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='post' var='post'&gt;
+  &lt;div class='post hentry uncustomized-post-template' itemprop='blogPost' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'&gt;
+    &lt;b:if cond='data:post.thumbnailUrl'&gt;
+      &lt;meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/&gt;
+    &lt;/b:if&gt;
+    &lt;meta expr:content='data:blog.blogId' itemprop='blogId'/&gt;
+    &lt;meta expr:content='data:post.id' itemprop='postId'/&gt;
+
+    &lt;a expr:name='data:post.id'/&gt;
+    &lt;b:if cond='data:post.title'&gt;
+      &lt;h3 class='post-title entry-title' itemprop='name'&gt;
+      &lt;b:if cond='data:post.link'&gt;
+        &lt;a expr:href='data:post.link'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+      &lt;b:else/&gt;
+        &lt;b:if cond='data:post.url'&gt;
+          &lt;b:if cond='data:blog.url != data:post.url'&gt;
+            &lt;a expr:href='data:post.url'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+          &lt;b:else/&gt;
+            &lt;data:post.title/&gt;
+          &lt;/b:if&gt;
+        &lt;b:else/&gt;
+          &lt;data:post.title/&gt;
+        &lt;/b:if&gt;
+      &lt;/b:if&gt;
+      &lt;/h3&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='post-header'&gt;
+    &lt;div class='post-header-line-1'/&gt;
+    &lt;/div&gt;
+
+    &lt;b:if cond='data:blog.metaDescription == &amp;quot;&amp;quot;'&gt;
+      &lt;!-- Then use the post body as the schema.org description,
+          for good G+/FB snippeting. --&gt;
+      &lt;div class='post-body entry-content' expr:id='&amp;quot;post-body-&amp;quot; + data:post.id' itemprop='description articleBody'&gt;
+        &lt;data:post.body/&gt;
+        &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
+      &lt;/div&gt;
+    &lt;b:else/&gt;
+      &lt;div class='post-body entry-content' expr:id='&amp;quot;post-body-&amp;quot; + data:post.id' itemprop='articleBody'&gt;
+        &lt;data:post.body/&gt;
+        &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:post.hasJumpLink'&gt;
+      &lt;div class='jump-link'&gt;
+        &lt;a expr:href='data:post.url + &amp;quot;#more&amp;quot;' expr:title='data:post.title'&gt;&lt;data:post.jumpText/&gt;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='post-footer'&gt;
+    &lt;div class='post-footer-line post-footer-line-1'&gt;
+      &lt;span class='post-author vcard'&gt;
+        &lt;b:if cond='data:top.showAuthor'&gt;
+          &lt;data:top.authorLabel/&gt;
+            &lt;b:if cond='data:post.authorProfileUrl'&gt;
+              &lt;span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'&gt;
+                &lt;meta expr:content='data:post.authorProfileUrl' itemprop='url'/&gt;
+                &lt;a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'&gt;
+                  &lt;span itemprop='name'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+                &lt;/a&gt;
+              &lt;/span&gt;
+            &lt;b:else/&gt;
+              &lt;span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'&gt;
+                &lt;span itemprop='name'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+              &lt;/span&gt;
+            &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+
+      &lt;span class='post-timestamp'&gt;
+        &lt;b:if cond='data:top.showTimestamp'&gt;
+          &lt;data:top.timestampLabel/&gt;
+        &lt;b:if cond='data:post.url'&gt;
+          &lt;meta expr:content='data:post.url' itemprop='url'/&gt;
+          &lt;a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'&gt;&lt;abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'&gt;&lt;data:post.timestamp/&gt;&lt;/abbr&gt;&lt;/a&gt;
+        &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+
+      &lt;span class='reaction-buttons'&gt;
+        &lt;b:if cond='data:top.showReactions'&gt;
+          &lt;table border='0' cellpadding='0' cellspacing='0' width='100%'&gt;&lt;tr&gt;
+            &lt;td class='reactions-label-cell' nowrap='nowrap' valign='top' width='1%'&gt;
+              &lt;span class='reactions-label'&gt;
+              &lt;data:top.reactionsLabel/&gt;&lt;/span&gt;&amp;#160;&lt;/td&gt;
+            &lt;td&gt;&lt;iframe allowtransparency='true' class='reactions-iframe' expr:src='data:post.reactionsUrl' frameborder='0' name='reactions' scrolling='no'/&gt;&lt;/td&gt;
+           &lt;/tr&gt;&lt;/table&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+
+      &lt;span class='star-ratings'&gt;
+        &lt;b:if cond='data:top.showStars'&gt;
+           &lt;div expr:g:background-color='data:backgroundColor' expr:g:text-color='data:textColor' expr:g:url='data:post.absoluteUrl' g:height='42' g:type='RatingPanel' g:width='280'/&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+
+      &lt;span class='post-comment-link'&gt;
+        &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+          &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+            &lt;b:if cond='data:post.allowComments'&gt;
+              &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;
+                &lt;data:post.commentLabelFull/&gt;:
+              &lt;/a&gt;
+            &lt;/b:if&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+
+       &lt;!-- backlinks --&gt;
+       &lt;span class='post-backlinks post-comment-link'&gt;
+         &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+           &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+             &lt;b:if cond='data:post.showBacklinks'&gt;
+               &lt;a class='comment-link' expr:href='data:post.url + &amp;quot;#links&amp;quot;'&gt;&lt;data:top.backlinkLabel/&gt;&lt;/a&gt;
+             &lt;/b:if&gt;
+           &lt;/b:if&gt;
+         &lt;/b:if&gt;
+       &lt;/span&gt;
+
+      &lt;span class='post-icons'&gt;
+        &lt;!-- email post links --&gt;
+        &lt;b:if cond='data:post.emailPostUrl'&gt;
+          &lt;span class='item-action'&gt;
+          &lt;a expr:href='data:post.emailPostUrl' expr:title='data:top.emailPostMsg'&gt;
+              &lt;img alt='' class='icon-action' height='13' src='http://img1.blogblog.com/img/icon18_email.gif' width='18'/&gt;
+          &lt;/a&gt;
+          &lt;/span&gt;
+        &lt;/b:if&gt;
+
+        &lt;!-- quickedit pencil --&gt;
+        &lt;b:include data='post' name='postQuickEdit'/&gt;
+      &lt;/span&gt;
+
+      &lt;!-- share buttons --&gt;
+      &lt;div class='post-share-buttons goog-inline-block'&gt;
+        &lt;b:if cond='data:post.sharePostUrl'&gt;
+          &lt;b:include data='post' name='shareButtons'/&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+
+      &lt;/div&gt;
+
+      &lt;div class='post-footer-line post-footer-line-2'&gt;
+      &lt;span class='post-labels'&gt;
+        &lt;b:if cond='data:post.labels'&gt;
+          &lt;data:postLabelsLabel/&gt;
+          &lt;b:loop values='data:post.labels' var='label'&gt;
+            &lt;a expr:href='data:label.url' rel='tag'&gt;&lt;data:label.name/&gt;&lt;/a&gt;&lt;b:if cond='data:label.isLast != &amp;quot;true&amp;quot;'&gt;,&lt;/b:if&gt;
+          &lt;/b:loop&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+      &lt;/div&gt;
+
+      &lt;div class='post-footer-line post-footer-line-3'&gt;
+      &lt;span class='post-location'&gt;
+        &lt;b:if cond='data:top.showLocation'&gt;
+          &lt;b:if cond='data:post.location'&gt;
+            &lt;data:postLocationLabel/&gt;
+            &lt;a expr:href='data:post.location.mapsUrl' target='_blank'&gt;&lt;data:post.location.name/&gt;&lt;/a&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='postQuickEdit' var='post'&gt;
+  &lt;b:if cond='data:post.editUrl'&gt;
+    &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:post.adminClass'&gt;
+      &lt;a expr:href='data:post.editUrl' expr:title='data:top.editPostMsg'&gt;
+        &lt;img alt='' class='icon-action' height='18' src='http://img2.blogblog.com/img/icon18_edit_allbkg.gif' width='18'/&gt;
+      &lt;/a&gt;
+    &lt;/span&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='shareButtons' var='post'&gt;
+  &lt;b:if cond='data:top.showEmailButton'&gt;&lt;a class='goog-inline-block share-button sb-email' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=email&amp;quot;' expr:title='data:top.emailThisMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.emailThisMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showBlogThisButton'&gt;&lt;a class='goog-inline-block share-button sb-blog' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=blog&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=270,width=475\&amp;quot;); return false;&amp;quot;' expr:title='data:top.blogThisMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.blogThisMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showTwitterButton'&gt;&lt;a class='goog-inline-block share-button sb-twitter' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=twitter&amp;quot;' expr:title='data:top.shareToTwitterMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToTwitterMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showFacebookButton'&gt;&lt;a class='goog-inline-block share-button sb-facebook' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=facebook&amp;quot;' expr:onclick='&amp;quot;window.open(this.href, \&amp;quot;_blank\&amp;quot;, \&amp;quot;height=430,width=640\&amp;quot;); return false;&amp;quot;' expr:title='data:top.shareToFacebookMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToFacebookMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showOrkutButton'&gt;&lt;a class='goog-inline-block share-button sb-orkut' expr:href='data:post.sharePostUrl + &amp;quot;&amp;amp;target=orkut&amp;quot;' expr:title='data:top.shareToOrkutMsg' target='_blank'&gt;&lt;span class='share-button-link-text'&gt;&lt;data:top.shareToOrkutMsg/&gt;&lt;/span&gt;&lt;/a&gt;&lt;/b:if&gt;&lt;b:if cond='data:top.showDummy'&gt;&lt;div class='goog-inline-block dummy-container'&gt;&lt;data:post.dummyTag/&gt;&lt;/div&gt;&lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='commentDeleteIcon' var='comment'&gt;
+  &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:comment.adminClass'&gt;
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div class='goog-toggle-button'&gt;
+        &lt;div class='goog-inline-block comment-action-icon'/&gt;
+      &lt;/div&gt;
+    &lt;b:else/&gt;
+      &lt;a class='comment-delete' expr:href='data:comment.deleteUrl' expr:title='data:top.deleteCommentMsg'&gt;
+        &lt;img src='//www.blogger.com/img/icon_delete13.gif'/&gt;
+      &lt;/a&gt;
+    &lt;/b:if&gt;
+  &lt;/span&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='backlinkDeleteIcon' var='backlink'&gt;
+  &lt;span expr:class='&amp;quot;item-control &amp;quot; + data:backlink.adminClass'&gt;
+    &lt;a expr:href='data:backlink.deleteUrl' expr:title='data:top.deleteBacklinkMsg'&gt;
+      &lt;img src='//www.blogger.com/img/icon_delete13.gif'/&gt;
+    &lt;/a&gt;
+  &lt;/span&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='comment_picker' var='post'&gt;
+  &lt;b:if cond='data:post.forceIframeComments'&gt;
+    &lt;b:include data='post' name='iframe_comments'/&gt;
+    &lt;b:if cond='data:post.showThreadedComments'&gt;
+      &lt;b:include data='post' name='threaded_comments'/&gt;
+    &lt;b:else/&gt;
+      &lt;b:include data='post' name='comments'/&gt;
+    &lt;/b:if&gt;
+  &lt;b:else/&gt;
+    &lt;b:if cond='data:post.commentSource == 1'&gt;
+      &lt;b:include data='post' name='iframe_comments'/&gt;
+    &lt;b:else/&gt;
+      &lt;b:if cond='data:post.showThreadedComments'&gt;
+        &lt;b:include data='post' name='threaded_comments'/&gt;
+      &lt;b:else/&gt;
+        &lt;b:include data='post' name='comments'/&gt;
+      &lt;/b:if&gt;
+    &lt;/b:if&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='comments' var='post'&gt;
+  &lt;div class='comments' id='comments'&gt;
+    &lt;a name='comments'/&gt;
+    &lt;b:if cond='data:post.allowComments'&gt;
+      &lt;h4&gt;&lt;data:post.commentLabelFull/&gt;:&lt;/h4&gt;
+
+      &lt;b:if cond='data:post.commentPagingRequired'&gt;
+        &lt;span class='paging-control-container'&gt;
+          &lt;b:if cond='data:post.hasOlderLinks'&gt;
+            &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'&gt;&lt;data:post.oldestLinkText/&gt;&lt;/a&gt;
+              &amp;#160;
+            &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'&gt;&lt;data:post.olderLinkText/&gt;&lt;/a&gt;
+              &amp;#160;
+          &lt;/b:if&gt;
+
+          &lt;data:post.commentRangeText/&gt;
+
+          &lt;b:if cond='data:post.hasNewerLinks'&gt;
+            &amp;#160;
+            &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'&gt;&lt;data:post.newerLinkText/&gt;&lt;/a&gt;
+            &amp;#160;
+            &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'&gt;&lt;data:post.newestLinkText/&gt;&lt;/a&gt;
+          &lt;/b:if&gt;
+        &lt;/span&gt;
+      &lt;/b:if&gt;
+
+      &lt;div expr:id='data:widget.instanceId + &amp;quot;_comments-block-wrapper&amp;quot;'&gt;
+        &lt;dl expr:class='data:post.avatarIndentClass' id='comments-block'&gt;
+          &lt;b:loop values='data:post.comments' var='comment'&gt;
+            &lt;dt expr:class='&amp;quot;comment-author &amp;quot; + data:comment.authorClass' expr:id='data:comment.anchorName'&gt;
+              &lt;b:if cond='data:comment.favicon'&gt;
+                &lt;img expr:src='data:comment.favicon' height='16px' style='margin-bottom:-2px;' width='16px'/&gt;
+              &lt;/b:if&gt;
+              &lt;a expr:name='data:comment.anchorName'/&gt;
+              &lt;b:if cond='data:blog.enabledCommentProfileImages'&gt;
+                &lt;data:comment.authorAvatarImage/&gt;
+              &lt;/b:if&gt;
+              &lt;b:if cond='data:comment.authorUrl'&gt;
+                &lt;a expr:href='data:comment.authorUrl' rel='nofollow'&gt;&lt;data:comment.author/&gt;&lt;/a&gt;
+              &lt;b:else/&gt;
+                &lt;data:comment.author/&gt;
+              &lt;/b:if&gt;
+              &lt;data:commentPostedByMsg/&gt;
+            &lt;/dt&gt;
+            &lt;dd class='comment-body' expr:id='data:widget.instanceId + data:comment.cmtBodyIdPostfix'&gt;
+              &lt;b:if cond='data:comment.isDeleted'&gt;
+                &lt;span class='deleted-comment'&gt;&lt;data:comment.body/&gt;&lt;/span&gt;
+              &lt;b:else/&gt;
+                &lt;p&gt;
+                  &lt;data:comment.body/&gt;
+                &lt;/p&gt;
+              &lt;/b:if&gt;
+            &lt;/dd&gt;
+            &lt;dd class='comment-footer'&gt;
+              &lt;span class='comment-timestamp'&gt;
+                &lt;a expr:href='data:comment.url' title='comment permalink'&gt;
+                  &lt;data:comment.timestamp/&gt;
+                &lt;/a&gt;
+                &lt;b:include data='comment' name='commentDeleteIcon'/&gt;
+              &lt;/span&gt;
+            &lt;/dd&gt;
+          &lt;/b:loop&gt;
+        &lt;/dl&gt;
+      &lt;/div&gt;
+
+      &lt;b:if cond='data:post.commentPagingRequired'&gt;
+        &lt;span class='paging-control-container'&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.oldestLinkUrl'&gt;
+            &lt;data:post.oldestLinkText/&gt;
+          &lt;/a&gt;
+          &lt;a expr:class='data:post.oldLinkClass' expr:href='data:post.olderLinkUrl'&gt;
+            &lt;data:post.olderLinkText/&gt;
+          &lt;/a&gt;
+          &amp;#160;
+          &lt;data:post.commentRangeText/&gt;
+          &amp;#160;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newerLinkUrl'&gt;
+            &lt;data:post.newerLinkText/&gt;
+          &lt;/a&gt;
+          &lt;a expr:class='data:post.newLinkClass' expr:href='data:post.newestLinkUrl'&gt;
+            &lt;data:post.newestLinkText/&gt;
+          &lt;/a&gt;
+        &lt;/span&gt;
+      &lt;/b:if&gt;
+
+      &lt;p class='comment-footer'&gt;
+        &lt;b:if cond='data:post.embedCommentForm'&gt;
+          &lt;b:if cond='data:post.allowNewComments'&gt;
+            &lt;b:include data='post' name='comment-form'/&gt;
+          &lt;b:else/&gt;
+            &lt;data:post.noNewCommentsText/&gt;
+          &lt;/b:if&gt;
+        &lt;b:else/&gt;
+          &lt;b:if cond='data:post.allowComments'&gt;
+            &lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+
+      &lt;/p&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div id='comment-popup'&gt;
+        &lt;iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'&gt;
+        &lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div id='backlinks-container'&gt;
+    &lt;div expr:id='data:widget.instanceId + &amp;quot;_backlinks-container&amp;quot;'&gt;
+       &lt;b:if cond='data:post.showBacklinks'&gt;
+         &lt;b:include data='post' name='backlinks'/&gt;
+       &lt;/b:if&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='comment-form' var='post'&gt;
+  &lt;div class='comment-form'&gt;
+    &lt;a name='comment-form'/&gt;
+    &lt;b:if cond='data:mobile'&gt;
+      &lt;h4 id='comment-post-message'&gt;
+        &lt;a expr:id='data:widget.instanceId + &amp;quot;_comment-editor-toggle-link&amp;quot;' href='javascript:void(0)'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/&gt;
+    &lt;b:else/&gt;
+      &lt;h4 id='comment-post-message'&gt;&lt;data:postCommentMsg/&gt;&lt;/h4&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/&gt;
+    &lt;/b:if&gt;
+    &lt;data:post.friendConnectJs/&gt;
+    &lt;data:post.cmtfpIframe/&gt;
+    &lt;script type='text/javascript'&gt;
+      BLOG_CMT_createIframe(&amp;#39;&lt;data:post.appRpcRelayPath/&gt;&amp;#39;, &amp;#39;&lt;data:post.communityId/&gt;&amp;#39;);
+    &lt;/script&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='backlinks' var='post'&gt;
+  &lt;a name='links'/&gt;&lt;h4&gt;&lt;data:post.backlinksLabel/&gt;&lt;/h4&gt;
+  &lt;b:if cond='data:post.numBacklinks != 0'&gt;
+    &lt;dl class='comments-block' id='comments-block'&gt;
+      &lt;b:loop values='data:post.backlinks' var='backlink'&gt;
+        &lt;div class='collapsed-backlink backlink-control'&gt;
+          &lt;dt class='comment-title'&gt;
+            &lt;span class='backlink-toggle-zippy'&gt;&amp;#160;&lt;/span&gt;
+            &lt;a expr:href='data:backlink.url' rel='nofollow'&gt;&lt;data:backlink.title/&gt;&lt;/a&gt;
+            &lt;b:include data='backlink' name='backlinkDeleteIcon'/&gt;
+          &lt;/dt&gt;
+          &lt;dd class='comment-body collapseable'&gt;
+            &lt;data:backlink.snippet/&gt;
+          &lt;/dd&gt;
+          &lt;dd class='comment-footer collapseable'&gt;
+            &lt;span class='comment-author'&gt;&lt;data:post.authorLabel/&gt; &lt;data:backlink.author/&gt;&lt;/span&gt;
+            &lt;span class='comment-timestamp'&gt;&lt;data:post.timestampLabel/&gt; &lt;data:backlink.timestamp/&gt;&lt;/span&gt;
+          &lt;/dd&gt;
+        &lt;/div&gt;
+      &lt;/b:loop&gt;
+    &lt;/dl&gt;
+  &lt;/b:if&gt;
+  &lt;p class='comment-footer'&gt;
+    &lt;a class='comment-link' expr:href='data:post.createLinkUrl' expr:id='data:widget.instanceId + &amp;quot;_backlinks-create-link&amp;quot;' target='_blank'&gt;&lt;data:post.createLinkLabel/&gt;&lt;/a&gt;
+  &lt;/p&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='feedLinks'&gt;
+  &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt; &lt;!-- Blog feed links --&gt;
+    &lt;b:if cond='data:feedLinks'&gt;
+      &lt;div class='blog-feeds'&gt;
+        &lt;b:include data='feedLinks' name='feedLinksBody'/&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:else/&gt; &lt;!--Post feed links --&gt;
+    &lt;div class='post-feeds'&gt;
+      &lt;b:loop values='data:posts' var='post'&gt;
+        &lt;b:if cond='data:post.allowComments'&gt;
+          &lt;b:if cond='data:post.feedLinks'&gt;
+            &lt;b:include data='post.feedLinks' name='feedLinksBody'/&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/b:loop&gt;
+    &lt;/div&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='feedLinksBody' var='links'&gt;
+  &lt;div class='feed-links'&gt;
+  &lt;data:feedLinksMsg/&gt;
+  &lt;b:loop values='data:links' var='f'&gt;
+     &lt;a class='feed-link' expr:href='data:f.url' expr:type='data:f.mimeType' target='_blank'&gt;&lt;data:f.name/&gt; (&lt;data:f.feedType/&gt;)&lt;/a&gt;
+  &lt;/b:loop&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='status-message'&gt;
+  &lt;b:if cond='data:navMessage'&gt;
+  &lt;div class='status-msg-wrap'&gt;
+    &lt;div class='status-msg-body'&gt;
+      &lt;data:navMessage/&gt;
+    &lt;/div&gt;
+    &lt;div class='status-msg-border'&gt;
+      &lt;div class='status-msg-bg'&gt;
+        &lt;div class='status-msg-hidden'&gt;&lt;data:navMessage/&gt;&lt;/div&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;div style='clear: both;'/&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='mobile-main' var='top'&gt;
+    &lt;!-- posts --&gt;
+    &lt;div class='blog-posts hfeed'&gt;
+
+      &lt;b:include data='top' name='status-message'/&gt;
+
+      &lt;b:if cond='data:blog.pageType == &amp;quot;index&amp;quot;'&gt;
+        &lt;b:loop values='data:posts' var='post'&gt;
+          &lt;b:include data='post' name='mobile-index-post'/&gt;
+        &lt;/b:loop&gt;
+      &lt;b:else/&gt;
+        &lt;b:loop values='data:posts' var='post'&gt;
+          &lt;b:include data='post' name='mobile-post'/&gt;
+        &lt;/b:loop&gt;
+      &lt;/b:if&gt;
+    &lt;/div&gt;
+
+   &lt;b:include name='mobile-nextprev'/&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='mobile-nextprev'&gt;
+  &lt;div class='blog-pager' id='blog-pager'&gt;
+    &lt;b:if cond='data:newerPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-newer-link'&gt;
+      &lt;a class='blog-pager-newer-link' expr:href='data:newerPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-newer-link&amp;quot;' expr:title='data:newerPageTitle'&gt;&amp;amp;lsaquo;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;b:if cond='data:olderPageUrl'&gt;
+      &lt;div class='mobile-link-button' id='blog-pager-older-link'&gt;
+      &lt;a class='blog-pager-older-link' expr:href='data:olderPageUrl' expr:id='data:widget.instanceId + &amp;quot;_blog-pager-older-link&amp;quot;' expr:title='data:olderPageTitle'&gt;&amp;amp;rsaquo;&lt;/a&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='mobile-link-button' id='blog-pager-home-link'&gt;
+    &lt;a class='home-link' expr:href='data:blog.homepageUrl'&gt;&lt;data:homeMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+    &lt;div class='mobile-desktop-link'&gt;
+      &lt;a class='home-link' expr:href='data:desktopLinkUrl'&gt;&lt;data:desktopLinkMsg/&gt;&lt;/a&gt;
+    &lt;/div&gt;
+
+  &lt;/div&gt;
+  &lt;div class='clear'/&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='mobile-index-post' var='post'&gt;
+  &lt;div class='mobile-date-outer date-outer'&gt;
+    &lt;b:if cond='data:post.dateHeader'&gt;
+      &lt;div class='date-header'&gt;
+        &lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div class='mobile-post-outer'&gt;
+      &lt;a expr:href='data:post.url'&gt;
+        &lt;h3 class='mobile-index-title entry-title' itemprop='name'&gt;
+          &lt;data:post.title/&gt;
+        &lt;/h3&gt;
+
+        &lt;div class='mobile-index-arrow'&gt;&amp;amp;rsaquo;&lt;/div&gt;
+
+        &lt;div class='mobile-index-contents'&gt;
+          &lt;b:if cond='data:post.thumbnailUrl'&gt;
+            &lt;div class='mobile-index-thumbnail'&gt;
+              &lt;div class='Image'&gt;
+                &lt;img expr:src='data:post.thumbnailUrl'/&gt;
+              &lt;/div&gt;
+            &lt;/div&gt;
+          &lt;/b:if&gt;
+
+          &lt;div class='post-body'&gt;
+            &lt;b:if cond='data:post.snippet'&gt;&lt;data:post.snippet/&gt;&lt;/b:if&gt;
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;div style='clear: both;'/&gt;
+      &lt;/a&gt;
+
+      &lt;div class='mobile-index-comment'&gt;
+        &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:if cond='data:post.allowComments'&gt;
+            &lt;b:if cond='data:post.numComments != 0'&gt;
+              &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;
+                &lt;data:post.commentLabelFull/&gt;:
+              &lt;/a&gt;
+            &lt;/b:if&gt;
+          &lt;/b:if&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='mobile-post' var='post'&gt;
+  &lt;div class='date-outer'&gt;
+    &lt;b:if cond='data:post.dateHeader'&gt;
+      &lt;h2 class='date-header'&gt;&lt;span&gt;&lt;data:post.dateHeader/&gt;&lt;/span&gt;&lt;/h2&gt;
+    &lt;/b:if&gt;
+    &lt;div class='date-posts'&gt;
+      &lt;div class='post-outer'&gt;
+
+        &lt;div class='post hentry uncustomized-post-template' itemscope='itemscope' itemtype='http://schema.org/BlogPosting'&gt;
+          &lt;b:if cond='data:post.thumbnailUrl'&gt;
+            &lt;meta expr:content='data:post.thumbnailUrl' itemprop='image_url'/&gt;
+          &lt;/b:if&gt;
+          &lt;meta expr:content='data:blog.blogId' itemprop='blogId'/&gt;
+          &lt;meta expr:content='data:post.id' itemprop='postId'/&gt;
+
+          &lt;a expr:name='data:post.id'/&gt;
+          &lt;b:if cond='data:post.title'&gt;
+            &lt;h3 class='post-title entry-title' itemprop='name'&gt;
+              &lt;b:if cond='data:post.link'&gt;
+                &lt;a expr:href='data:post.link'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+              &lt;b:else/&gt;
+                &lt;b:if cond='data:post.url'&gt;
+                  &lt;b:if cond='data:blog.url != data:post.url'&gt;
+                    &lt;a expr:href='data:post.url'&gt;&lt;data:post.title/&gt;&lt;/a&gt;
+                  &lt;b:else/&gt;
+                    &lt;data:post.title/&gt;
+                  &lt;/b:if&gt;
+                &lt;b:else/&gt;
+                  &lt;data:post.title/&gt;
+                &lt;/b:if&gt;
+              &lt;/b:if&gt;
+            &lt;/h3&gt;
+          &lt;/b:if&gt;
+
+          &lt;div class='post-header'&gt;
+            &lt;div class='post-header-line-1'/&gt;
+          &lt;/div&gt;
+
+          &lt;div class='post-body entry-content' expr:id='&amp;quot;post-body-&amp;quot; + data:post.id' itemprop='articleBody'&gt;
+            &lt;data:post.body/&gt;
+            &lt;div style='clear: both;'/&gt; &lt;!-- clear for photos floats --&gt;
+          &lt;/div&gt;
+
+          &lt;div class='post-footer'&gt;
+            &lt;div class='post-footer-line post-footer-line-1'&gt;
+              &lt;span class='post-author vcard'&gt;
+                &lt;b:if cond='data:top.showAuthor'&gt;
+                  &lt;b:if cond='data:post.authorProfileUrl'&gt;
+                    &lt;span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'&gt;
+                      &lt;meta expr:content='data:post.authorProfileUrl' itemprop='url'/&gt;
+                      &lt;a expr:href='data:post.authorProfileUrl' rel='author' title='author profile'&gt;
+                        &lt;span itemprop='name'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+                      &lt;/a&gt;
+                    &lt;/span&gt;
+                  &lt;b:else/&gt;
+                    &lt;span class='fn' itemprop='author' itemscope='itemscope' itemtype='http://schema.org/Person'&gt;
+                      &lt;span itemprop='name'&gt;&lt;data:post.author/&gt;&lt;/span&gt;
+                    &lt;/span&gt;
+                  &lt;/b:if&gt;
+                &lt;/b:if&gt;
+              &lt;/span&gt;
+
+              &lt;span class='post-timestamp'&gt;
+                &lt;b:if cond='data:top.showTimestamp'&gt;
+                  &lt;data:top.timestampLabel/&gt;
+                  &lt;b:if cond='data:post.url'&gt;
+                    &lt;meta expr:content='data:post.url' itemprop='url'/&gt;
+                    &lt;a class='timestamp-link' expr:href='data:post.url' rel='bookmark' title='permanent link'&gt;&lt;abbr class='published' expr:title='data:post.timestampISO8601' itemprop='datePublished'&gt;&lt;data:post.timestamp/&gt;&lt;/abbr&gt;&lt;/a&gt;
+                  &lt;/b:if&gt;
+                &lt;/b:if&gt;
+              &lt;/span&gt;
+
+              &lt;span class='post-comment-link'&gt;
+                &lt;b:if cond='data:blog.pageType != &amp;quot;item&amp;quot;'&gt;
+                  &lt;b:if cond='data:blog.pageType != &amp;quot;static_page&amp;quot;'&gt;
+                    &lt;b:if cond='data:post.allowComments'&gt;
+                      &lt;a class='comment-link' expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;
+                        &lt;data:post.commentLabelFull/&gt;:
+                      &lt;/a&gt;
+                    &lt;/b:if&gt;
+                  &lt;/b:if&gt;
+                &lt;/b:if&gt;
+              &lt;/span&gt;
+            &lt;/div&gt;
+
+            &lt;div class='post-footer-line post-footer-line-2'&gt;
+              &lt;b:if cond='data:top.showMobileShare'&gt;
+                &lt;div class='mobile-link-button goog-inline-block' id='mobile-share-button'&gt;
+                  &lt;a href='javascript:void(0);'&gt;&lt;data:shareMsg/&gt;&lt;/a&gt;
+                &lt;/div&gt;
+              &lt;/b:if&gt;
+              &lt;b:if cond='data:top.showDummy'&gt;
+                &lt;div class='goog-inline-block dummy-container'&gt;&lt;data:post.dummyTag/&gt;&lt;/div&gt;
+              &lt;/b:if&gt;
+            &lt;/div&gt;
+
+          &lt;/div&gt;
+        &lt;/div&gt;
+
+        &lt;b:if cond='data:blog.pageType == &amp;quot;static_page&amp;quot;'&gt;
+          &lt;b:include data='post' name='comment_picker'/&gt;
+        &lt;/b:if&gt;
+        &lt;b:if cond='data:blog.pageType == &amp;quot;item&amp;quot;'&gt;
+          &lt;b:include data='post' name='comment_picker'/&gt;
+        &lt;/b:if&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='threaded_comments' var='post'&gt;
+  &lt;div class='comments' id='comments'&gt;
+    &lt;a name='comments'/&gt;
+    &lt;h4&gt;&lt;data:post.commentLabelFull/&gt;:&lt;/h4&gt;
+
+    &lt;div class='comments-content'&gt;
+      &lt;b:if cond='data:post.embedCommentForm'&gt;
+        &lt;b:include data='post' name='threaded_comment_js'/&gt;
+      &lt;/b:if&gt;
+      &lt;div id='comment-holder'&gt;
+         &lt;data:post.commentHtml/&gt;
+      &lt;/div&gt;
+    &lt;/div&gt;
+
+    &lt;p class='comment-footer'&gt;
+      &lt;b:if cond='data:post.allowNewComments'&gt;
+        &lt;b:include data='post' name='threaded-comment-form'/&gt;
+      &lt;b:else/&gt;
+        &lt;data:post.noNewCommentsText/&gt;
+      &lt;/b:if&gt;
+    &lt;/p&gt;
+
+    &lt;b:if cond='data:showCmtPopup'&gt;
+      &lt;div id='comment-popup'&gt;
+        &lt;iframe allowtransparency='true' frameborder='0' id='comment-actions' name='comment-actions' scrolling='no'&gt;
+        &lt;/iframe&gt;
+      &lt;/div&gt;
+    &lt;/b:if&gt;
+
+    &lt;div id='backlinks-container'&gt;
+    &lt;div expr:id='data:widget.instanceId + &amp;quot;_backlinks-container&amp;quot;'&gt;
+       &lt;b:if cond='data:post.showBacklinks'&gt;
+         &lt;b:include data='post' name='backlinks'/&gt;
+       &lt;/b:if&gt;
+    &lt;/div&gt;
+    &lt;/div&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='threaded-comment-form' var='post'&gt;
+  &lt;div class='comment-form'&gt;
+    &lt;a name='comment-form'/&gt;
+    &lt;b:if cond='data:mobile'&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' style='display: none' width='100%'/&gt;
+    &lt;b:else/&gt;
+      &lt;p&gt;&lt;data:blogCommentMessage/&gt;&lt;/p&gt;
+      &lt;data:blogTeamBlogMessage/&gt;
+      &lt;a expr:href='data:post.commentFormIframeSrc' id='comment-editor-src'/&gt;
+      &lt;iframe allowtransparency='true' class='blogger-iframe-colorize blogger-comment-from-post' frameborder='0' height='410' id='comment-editor' name='comment-editor' src='' width='100%'/&gt;
+    &lt;/b:if&gt;
+    &lt;data:post.friendConnectJs/&gt;
+    &lt;data:post.cmtfpIframe/&gt;
+    &lt;script type='text/javascript'&gt;
+      BLOG_CMT_createIframe(&amp;#39;&lt;data:post.appRpcRelayPath/&gt;&amp;#39;, &amp;#39;&lt;data:post.communityId/&gt;&amp;#39;);
+    &lt;/script&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='threaded_comment_js' var='post'&gt;
+  &lt;script async='async' expr:src='data:post.commentSrc' type='text/javascript'/&gt;
+
+  &lt;script type='text/javascript'&gt;
+    (function() {
+      var items = &lt;data:post.commentJso/&gt;;
+      var msgs = &lt;data:post.commentMsgs/&gt;;
+      var config = &lt;data:post.commentConfig/&gt;;
+
+// &lt;![CDATA[
+      var cursor = null;
+      if (items &amp;&amp; items.length &gt; 0) {
+        cursor = parseInt(items[items.length - 1].timestamp) + 1;
+      }
+
+      var bodyFromEntry = function(entry) {
+        if (entry.gd$extendedProperty) {
+          for (var k in entry.gd$extendedProperty) {
+            if (entry.gd$extendedProperty[k].name == 'blogger.contentRemoved') {
+              return '&lt;span class="deleted-comment"&gt;' + entry.content.$t + '&lt;/span&gt;';
+            }
+          }
+        }
+        return entry.content.$t;
+      }
+
+      var parse = function(data) {
+        cursor = null;
+        var comments = [];
+        if (data &amp;&amp; data.feed &amp;&amp; data.feed.entry) {
+          for (var i = 0, entry; entry = data.feed.entry[i]; i++) {
+            var comment = {};
+            // comment ID, parsed out of the original id format
+            var id = /blog-(\d+).post-(\d+)/.exec(entry.id.$t);
+            comment.id = id ? id[2] : null;
+            comment.body = bodyFromEntry(entry);
+            comment.timestamp = Date.parse(entry.published.$t) + '';
+            if (entry.author &amp;&amp; entry.author.constructor === Array) {
+              var auth = entry.author[0];
+              if (auth) {
+                comment.author = {
+                  name: (auth.name ? auth.name.$t : undefined),
+                  profileUrl: (auth.uri ? auth.uri.$t : undefined),
+                  avatarUrl: (auth.gd$image ? auth.gd$image.src : undefined)
+                };
+              }
+            }
+            if (entry.link) {
+              if (entry.link[2]) {
+                comment.link = comment.permalink = entry.link[2].href;
+              }
+              if (entry.link[3]) {
+                var pid = /.*comments\/default\/(\d+)\?.*/.exec(entry.link[3].href);
+                if (pid &amp;&amp; pid[1]) {
+                  comment.parentId = pid[1];
+                }
+              }
+            }
+            comment.deleteclass = 'item-control blog-admin';
+            if (entry.gd$extendedProperty) {
+              for (var k in entry.gd$extendedProperty) {
+                if (entry.gd$extendedProperty[k].name == 'blogger.itemClass') {
+                  comment.deleteclass += ' ' + entry.gd$extendedProperty[k].value;
+                } else if (entry.gd$extendedProperty[k].name == 'blogger.displayTime') {
+                  comment.displayTime = entry.gd$extendedProperty[k].value;
+                }
+              }
+            }
+            comments.push(comment);
+          }
+        }
+        return comments;
+      };
+
+      var paginator = function(callback) {
+        if (hasMore()) {
+          var url = config.feed + '?alt=json&amp;v=2&amp;orderby=published&amp;reverse=false&amp;max-results=50';
+          if (cursor) {
+            url += '&amp;published-min=' + new Date(cursor).toISOString();
+          }
+          window.bloggercomments = function(data) {
+            var parsed = parse(data);
+            cursor = parsed.length &lt; 50 ? null
+                : parseInt(parsed[parsed.length - 1].timestamp) + 1
+            callback(parsed);
+            window.bloggercomments = null;
+          }
+          url += '&amp;callback=bloggercomments';
+          var script = document.createElement('script');
+          script.type = 'text/javascript';
+          script.src = url;
+          document.getElementsByTagName('head')[0].appendChild(script);
+        }
+      };
+      var hasMore = function() {
+        return !!cursor;
+      };
+      var getMeta = function(key, comment) {
+        if ('iswriter' == key) {
+          var matches = !!comment.author
+              &amp;&amp; comment.author.name == config.authorName
+              &amp;&amp; comment.author.profileUrl == config.authorUrl;
+          return matches ? 'true' : '';
+        } else if ('deletelink' == key) {
+          return config.baseUri + '/delete-comment.g?blogID='
+               + config.blogId + '&amp;postID=' + comment.id;
+        } else if ('deleteclass' == key) {
+          return comment.deleteclass;
+        }
+        return '';
+      };
+
+      var replybox = null;
+      var replyUrlParts = null;
+      var replyParent = undefined;
+
+      var onReply = function(commentId, domId) {
+        if (replybox == null) {
+          // lazily cache replybox, and adjust to suit this style:
+          replybox = document.getElementById('comment-editor');
+          if (replybox != null) {
+            replybox.height = '250px';
+            replybox.style.display = 'block';
+            replyUrlParts = replybox.src.split('#');
+          }
+        }
+        if (replybox &amp;&amp; (commentId !== replyParent)) {
+          document.getElementById(domId).insertBefore(replybox, null);
+          replybox.src = replyUrlParts[0]
+              + (commentId ? '&amp;parentID=' + commentId : '')
+              + '#' + replyUrlParts[1];
+          replyParent = commentId;
+        }
+      };
+
+      var hash = (window.location.hash || '#').substring(1);
+      var startThread, targetComment;
+      if (/^comment-form_/.test(hash)) {
+        startThread = hash.substring('comment-form_'.length);
+      } else if (/^c[0-9]+$/.test(hash)) {
+        targetComment = hash.substring(1);
+      }
+
+      // Configure commenting API:
+      var configJso = {
+        'maxDepth': config.maxThreadDepth
+      };
+      var provider = {
+        'id': config.postId,
+        'data': items,
+        'loadNext': paginator,
+        'hasMore': hasMore,
+        'getMeta': getMeta,
+        'onReply': onReply,
+        'rendered': true,
+        'initComment': targetComment,
+        'initReplyThread': startThread,
+        'config': configJso,
+        'messages': msgs
+      };
+
+      var render = function() {
+        if (window.goog &amp;&amp; window.goog.comments) {
+          var holder = document.getElementById('comment-holder');
+          window.goog.comments.render(holder, provider);
+        }
+      };
+
+      // render now, or queue to render when library loads:
+      if (window.goog &amp;&amp; window.goog.comments) {
+        render();
+      } else {
+        window.goog = window.goog || {};
+        window.goog.comments = window.goog.comments || {};
+        window.goog.comments.loadQueue = window.goog.comments.loadQueue || [];
+        window.goog.comments.loadQueue.push(render);
+      }
+    })();
+// ]]&gt;
+  &lt;/script&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='iframe_comments' var='post'&gt;
+
+  &lt;b:if cond='data:post.allowIframeComments'&gt;
+    &lt;script expr:src='data:post.iframeCommentSrc' type='text/javascript'/&gt;
+    &lt;div class='cmt_iframe_holder'/&gt;
+
+    &lt;b:if cond='data:post.embedCommentForm == &amp;quot;false&amp;quot;'&gt;
+      &lt;a expr:href='data:post.addCommentUrl' expr:onclick='data:post.addCommentOnclick'&gt;&lt;data:postCommentMsg/&gt;&lt;/a&gt;
+    &lt;/b:if&gt;
+  &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;b:widget id='BlogArchive1' locked='false' title='Archive' type='BlogArchive'&gt;
+&lt;b:includable id='main'&gt;
+  &lt;b:if cond='data:title'&gt;
+    &lt;h2&gt;&lt;data:title/&gt;&lt;/h2&gt;
+  &lt;/b:if&gt;
+  &lt;div class='widget-content'&gt;
+  &lt;div id='ArchiveList'&gt;
+  &lt;div expr:id='data:widget.instanceId + &amp;quot;_ArchiveList&amp;quot;'&gt;
+    &lt;b:if cond='data:style == &amp;quot;HIERARCHY&amp;quot;'&gt;
+     &lt;b:include data='data' name='interval'/&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:style == &amp;quot;FLAT&amp;quot;'&gt;
+      &lt;b:include data='data' name='flat'/&gt;
+    &lt;/b:if&gt;
+    &lt;b:if cond='data:style == &amp;quot;MENU&amp;quot;'&gt;
+      &lt;b:include data='data' name='menu'/&gt;
+    &lt;/b:if&gt;
+  &lt;/div&gt;
+  &lt;/div&gt;
+  &lt;b:include name='quickedit'/&gt;
+  &lt;/div&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='flat' var='data'&gt;
+  &lt;ul class='flat'&gt;
+    &lt;b:loop values='data:data' var='i'&gt;
+      &lt;li class='archivedate'&gt;
+        &lt;a expr:href='data:i.url'&gt;&lt;data:i.name/&gt;&lt;/a&gt; (&lt;data:i.post-count/&gt;)
+      &lt;/li&gt;
+    &lt;/b:loop&gt;
+  &lt;/ul&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='menu' var='data'&gt;
+  &lt;select expr:id='data:widget.instanceId + &amp;quot;_ArchiveMenu&amp;quot;'&gt;
+    &lt;option value=''&gt;&lt;data:title/&gt;&lt;/option&gt;
+    &lt;b:loop values='data:data' var='i'&gt;
+      &lt;option expr:value='data:i.url'&gt;&lt;data:i.name/&gt; (&lt;data:i.post-count/&gt;)&lt;/option&gt;
+    &lt;/b:loop&gt;
+  &lt;/select&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='interval' var='intervalData'&gt;
+  &lt;b:loop values='data:intervalData' var='i'&gt;
+      &lt;ul class='hierarchy'&gt;
+        &lt;li expr:class='&amp;quot;archivedate &amp;quot; + data:i.expclass'&gt;
+          &lt;b:include data='i' name='toggle'/&gt;
+          &lt;a class='post-count-link' expr:href='data:i.url'&gt;&lt;data:i.name/&gt;&lt;/a&gt;
+            &lt;span class='post-count' dir='ltr'&gt;(&lt;data:i.post-count/&gt;)&lt;/span&gt;
+          &lt;b:if cond='data:i.data'&gt;
+            &lt;b:include data='i.data' name='interval'/&gt;
+          &lt;/b:if&gt;
+          &lt;b:if cond='data:i.posts'&gt;
+            &lt;b:include data='i.posts' name='posts'/&gt;
+          &lt;/b:if&gt;
+        &lt;/li&gt;
+      &lt;/ul&gt;
+  &lt;/b:loop&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='toggle' var='interval'&gt;
+  &lt;b:if cond='data:interval.toggleId'&gt;
+  &lt;b:if cond='data:interval.expclass == &amp;quot;expanded&amp;quot;'&gt;
+    &lt;a class='toggle' href='javascript:void(0)'&gt;
+      &lt;span class='zippy toggle-open'&gt;&amp;#9660;&amp;#160;&lt;/span&gt;
+    &lt;/a&gt;
+  &lt;b:else/&gt;
+    &lt;a class='toggle' href='javascript:void(0)'&gt;
+      &lt;span class='zippy'&gt;
+        &lt;b:if cond='data:blog.languageDirection == &amp;quot;rtl&amp;quot;'&gt;
+          &amp;#9668;&amp;#160;
+        &lt;b:else/&gt;
+          &amp;#9658;&amp;#160;
+        &lt;/b:if&gt;
+      &lt;/span&gt;
+    &lt;/a&gt;
+  &lt;/b:if&gt;
+ &lt;/b:if&gt;
+&lt;/b:includable&gt;
+&lt;b:includable id='posts' var='posts'&gt;
+  &lt;ul class='posts'&gt;
+    &lt;b:loop values='data:posts' var='i'&gt;
+      &lt;li&gt;&lt;a expr:href='data:i.url'&gt;&lt;data:i.title/&gt;&lt;/a&gt;&lt;/li&gt;
+    &lt;/b:loop&gt;
+  &lt;/ul&gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;b:widget id='HTML1' locked='false' title='' type='HTML'&gt;
+&lt;b:includable id='main'&gt;
+  &lt;!-- only display title if it's non-empty --&gt;
+  &lt;b:if cond='data:title != &amp;quot;&amp;quot;'&gt;
+    &lt;h2 class='title'&gt;&lt;data:title/&gt;&lt;/h2&gt;
+  &lt;/b:if&gt;
+  &lt;div class='widget-content'&gt;
+    &lt;data:content/&gt;
+  &lt;/div&gt;
+
+  &lt;b:include name='quickedit'/&gt;
+&lt;/b:includable&gt;
+&lt;/b:widget&gt;
+&lt;/b:section&gt;
+  &lt;/div&gt;
+&lt;/body&gt;
+&lt;/html&gt;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/template/default'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/template/default'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_PUBLISHING_MODE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of publishing done for this blog.</title><content type='text'>PUBLISH_MODE_HOSTED</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_PUBLISHING_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_PUBLISHING_MODE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_ADMIN_PERMISSION</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of administrators' emails for the blog.</title><content type='text'>gbraad@gmail.com</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ADMIN_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ADMIN_PERMISSION'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_ADULT_CONTENT</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog contains adult content</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ADULT_CONTENT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ADULT_CONTENT'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_ALTERNATE_JSRENDER_ALLOWED</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether alternate JS renderings are allowed</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ALTERNATE_JSRENDER_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ALTERNATE_JSRENDER_ALLOWED'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_ANALYTICS_ACCOUNT_NUMBER</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog's Google Analytics account number</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ANALYTICS_ACCOUNT_NUMBER'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ANALYTICS_ACCOUNT_NUMBER'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_ARCHIVE_DATE_FORMAT</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the archive index date format</title><content type='text'>9</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ARCHIVE_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ARCHIVE_DATE_FORMAT'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_ARCHIVE_FREQUENCY</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>How frequently this blog should be archived</title><content type='text'>MONTHLY</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ARCHIVE_FREQUENCY'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_ARCHIVE_FREQUENCY'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_AUTHOR_PERMISSION</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of authors' emails who have permission to publish.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_AUTHOR_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_AUTHOR_PERMISSION'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_BACKLINKS_ALLOWED</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comment backlinks on the blog</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_BACKLINKS_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_BACKLINKS_ALLOWED'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_BY_POST_ARCHIVING</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to provide an archive page for each post</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_BY_POST_ARCHIVING'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_BY_POST_ARCHIVING'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_ACCESS</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Who can comment</title><content type='text'>REGISTERED</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_ACCESS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_ACCESS'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_CAPTCHA</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to require commenters to complete a Captcha</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_CAPTCHA'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_CAPTCHA'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_EMAIL</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>List of e-mail addresses to send notifications of new comments to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_EMAIL'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_FEED</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog comments</title><content type='text'>NONE</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_FEED'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_FORM_LOCATION</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment form location</title><content type='text'>FULL_PAGE</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_FORM_LOCATION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_FORM_LOCATION'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_MESSAGE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Blog comment message</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_MESSAGE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_MESSAGE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_MODERATION</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to enable comment moderation</title><content type='text'>ON_OLD_POSTS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_MODERATION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_MODERATION'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_MODERATION_DELAY</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Number of days after which new comments are subject to moderation</title><content type='text'>14</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_MODERATION_DELAY'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_MODERATION_DELAY'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_MODERATION_EMAIL</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Email address to send notifications of new comments needing moderation to</title><content type='text'>me+comment@gbraad.nl</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_MODERATION_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_MODERATION_EMAIL'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENT_PROFILE_IMAGES</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show profile images in comments</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_PROFILE_IMAGES'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENT_PROFILE_IMAGES'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENTS_ALLOWED</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show comments</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENTS_ALLOWED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENTS_ALLOWED'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_COMMENTS_TIME_STAMP_FORMAT</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comment time stamp format number</title><content type='text'>29</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_COMMENTS_TIME_STAMP_FORMAT'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_CONVERT_LINE_BREAKS</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to convert line breaks into &lt;br /&gt; tags in post editor</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_CONVERT_LINE_BREAKS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_CONVERT_LINE_BREAKS'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_CUSTOM_PAGE_NOT_FOUND</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The content served when the requested post or page is not found.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_CUSTOM_PAGE_NOT_FOUND'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_CUSTOM_PAGE_NOT_FOUND'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_CUSTOM_ROBOTS_TXT</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The custom robots.txt content of the blog served to search engines.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_CUSTOM_ROBOTS_TXT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_CUSTOM_ROBOTS_TXT'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_CUSTOM_ROBOTS_TXT_ENABLED</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog serves custom robots.txt content to search engines.</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_CUSTOM_ROBOTS_TXT_ENABLED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_CUSTOM_ROBOTS_TXT_ENABLED'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_DATE_FORMAT</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the date header format</title><content type='text'>26</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_DATE_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_DATE_FORMAT'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_DEFAULT_BACKLINKS_MODE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default backlinks mode for posts</title><content type='text'>DEFAULT_HAVE_BACKLINKS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_DEFAULT_BACKLINKS_MODE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_DEFAULT_COMMENTS_MODE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Default comment mode for posts</title><content type='text'>DEFAULT_HAVE_COMMENTS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_DEFAULT_COMMENTS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_DEFAULT_COMMENTS_MODE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_DESCRIPTION</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>A description of the blog</title><content type='text'>Software/Hardware Engineer and Visuals Artist; Avid user of Unices and Linux; a misfitted geek who develops in .NET on Un*x. SCJP Java, MCP C#. Sysadmin Linux/Un*x, Mac OS X (&amp;amp;Win). Python, C/C++, ARM, DSP, FPGA.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_DESCRIPTION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_DESCRIPTION'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_EMAIL_POST_LINKS</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a link for users to e-mail posts</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_EMAIL_POST_LINKS'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_EMAIL_POST_LINKS'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_FEED_REDIRECT_URL</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>URL to redirect post feed requests to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_FEED_REDIRECT_URL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_FEED_REDIRECT_URL'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_FLOAT_ALIGNMENT</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether float alignment is enabled for the blog</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_FLOAT_ALIGNMENT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_FLOAT_ALIGNMENT'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_LOCALE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Language for this blog</title><content type='text'>nl</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_LOCALE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_LOCALE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_MAIL_PUBLISH</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether Mail-to-Blogger posts should be immediately published</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_MAIL_PUBLISH'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_MAIL_PUBLISH'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_MAIL_TO_BLOGGER</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Secret from which the Mail-to-Blogger email address is derived</title><content type='text'>dotnet</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_MAIL_TO_BLOGGER'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_MAIL_TO_BLOGGER'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_MAX_NUM</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Maximum number of things to show on the main page"</title><content type='text'>7</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_MAX_NUM'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_MAX_NUM'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_MAX_UNIT</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Unit of things to show on the main page</title><content type='text'>POSTS</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_MAX_UNIT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_MAX_UNIT'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_META_DESCRIPTION</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The meta description of the blog served to search engines.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_META_DESCRIPTION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_META_DESCRIPTION'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_META_DESCRIPTION_ENABLED</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog is served with meta descriptions.</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_META_DESCRIPTION_ENABLED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_META_DESCRIPTION_ENABLED'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_NAME</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The name of the blog</title><content type='text'>Gerard Braad about .NET on Un*x/Linux</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_NAME'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_NAME'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_PER_POST_FEED</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for per-post comments</title><content type='text'>NONE</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_PER_POST_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_PER_POST_FEED'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_POST_FEED</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The type of feed to provide for blog posts</title><content type='text'>FULL</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_POST_FEED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_POST_FEED'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_POST_FEED_FOOTER</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Footer to append to the end of each entry in the post feed</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_POST_FEED_FOOTER'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_POST_FEED_FOOTER'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_POST_TEMPLATE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The template for blog posts</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_POST_TEMPLATE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_POST_TEMPLATE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_PROMOTED</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog can be promoted on Blogger</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_PROMOTED'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_PROMOTED'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_QUICK_EDITING</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether Quick Editing is enabled</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_QUICK_EDITING'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_QUICK_EDITING'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_READ_ACCESS_MODE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The access type for the readers of the blog.</title><content type='text'>PRIVATE</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_READ_ACCESS_MODE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_READ_ACCESS_MODE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_READER_PERMISSION</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The list of emails for users who have permission to read the blog.</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_READER_PERMISSION'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_READER_PERMISSION'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_SEARCHABLE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether this blog should be indexed by search engines</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_SEARCHABLE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_SEARCHABLE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_SEND_EMAIL</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Comma separated list of emails to send new blog posts to</title><content type='text'></content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_SEND_EMAIL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_SEND_EMAIL'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_SHOW_TITLE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show the title field</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_SHOW_TITLE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_SHOW_TITLE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_SHOW_URL</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show a related link box in the post composer</title><content type='text'>false</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_SHOW_URL'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_SHOW_URL'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_TIME_STAMP_FORMAT</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The number of the time stamp format</title><content type='text'>27</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_TIME_STAMP_FORMAT'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_TIME_STAMP_FORMAT'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_TIME_ZONE</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>The time zone for this blog</title><content type='text'>Europe/Amsterdam</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_TIME_ZONE'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_TIME_ZONE'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.settings.BLOG_USE_LIGHTBOX</id><published>2007-05-23T21:50:08.145+02:00</published><updated>2012-04-12T23:47:14.016+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#settings'/><title type='text'>Whether to show images in the Lightbox when clicked</title><content type='text'>true</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_USE_LIGHTBOX'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/settings/BLOG_USE_LIGHTBOX'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.post-2017919909426435355</id><published>2009-03-31T17:00:00.000+02:00</published><updated>2009-04-02T19:39:50.623+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='colinux'/><category scheme='http://www.blogger.com/atom/ns#' term='opensuse'/><category scheme='http://www.blogger.com/atom/ns#' term='installation'/><category scheme='http://www.blogger.com/atom/ns#' term='mono'/><title type='text'>Using Mono 2.4 on coLinux to ease .NET development</title><content type='html'>Currently I deal a lot with .NET development in my daily work. Most of the development is done on &lt;span style="font-style:italic;"&gt;Windows&lt;/span&gt;. When you need to develop cross-platform .NET you would like to use &lt;a href="http://mono-project.com/"&gt;Mono&lt;/a&gt;. Mono is binary compatible with .NET and allows .NET applications to run on Linux distributions. If you would develop from Visual Studio you want to easily test the binary directly in a mono session on Linux!&lt;br /&gt;&lt;br /&gt;To test software both platforms in a convenient way mostly virtualization is chosen. Of course you can use VMware or VirtualBox when you use Windows, but you can also use &lt;a href="http://www.colinux.org/"&gt;coLinux&lt;/a&gt;. coLinux is a port of the Linux kernel that allows it to run cooperatively alongside another operating system on a single machine. My choice of distribution to use on top of coLinux is the open version of SUSE, both supported by Novell.&lt;br /&gt;&lt;br /&gt;&lt;span style="font-style:italic;"&gt;This description does expect you to have understanding of a Linux environment and administrative rights on your Windows system.&lt;/span&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-weight:bold;"&gt;Installation (Windows side)&lt;/span&gt;&lt;br /&gt;First of all you would need to coLinux installer. This file is available from the &lt;a href="http://www.colinux.org/"&gt;coLinux website&lt;/a&gt;. The &lt;a href="http://sourceforge.net/project/showfiles.php?group_id=98788"&gt;downloads section&lt;/a&gt; will point you to the latest stable, as of writing v0.7.3. On the website of &lt;a href="http://www.henrynestler.com/"&gt;Henry Nestler&lt;/a&gt; you can also find development and daily builds for 0.8.0. This installation is pretty straightforward, just keep the default settings. When the installer asks you 'Hardware installation' you need to press 'Continue anyways', this will allow the TAP network driver to be installed.&lt;br /&gt;&lt;br /&gt;To use a desktop environment from coLinux you need to install a X server. The more difficult way would be to use Cygwin/X... this way you will have a complete GNU system running on top of Windows to provide a Linux-like experience. The fastest and easy way is to use a tool like &lt;a href="http://www.straightrunning.com/XmingNotes/"&gt;Xming&lt;/a&gt;. The installer you need is the Xming or Xming-portablePuTTY (Mesa is not needed). Also, this installation is quite straightforward. After the installation start the X server from the start menu (Programs → Xming → Xming).&lt;br /&gt;&lt;br /&gt;In the posting '&lt;a href="http://blog.gbraad.nl/2009/03/opensuse-111-on-colinux.html"&gt;openSUSE 11.1 on coLinux&lt;/a&gt;' I described a way to make a base installation of openSUSE for use with the coLinux environment. The file 'colinux-opensuse-111.exe' (113Mb) [&lt;a href="http://delivery.vipeers.com/file_sharing?message_hash=uxpWz6Au7DMjNs8-zlaFnA=="&gt;VIPeers&lt;/a&gt;] [&lt;a href="http://dl.getdropbox.com/u/131903/colinux-opensuse-11.1.exe"&gt;dropbox&lt;/a&gt;] contains all you need to run the openSUSE environment. As you can see from the size, it contains only a base system. After you have extracted the file, you will still need to perform some additional installations to make the Mono development work.&lt;br /&gt;&lt;br /&gt;Before you start the Mono installation inside the coLinux environment, you need to reserve a directory for your development files or some other shared directory. I choose to use '&lt;span style="font-style:italic;"&gt;D:\Development&lt;/span&gt;'. In the &lt;span style="font-style:italic;"&gt;run.txt&lt;/span&gt; file in the openSUSE directory, you can add a line which says:&lt;br /&gt;&lt;code&gt;&lt;br /&gt;cofs1="D:\Development"&lt;br /&gt;&lt;/code&gt;&lt;br /&gt;This will later be mounted inside the Linux environment.&lt;br /&gt;&lt;br /&gt;&lt;span style="font-weight:bold;"&gt;Installation (Linux side)&lt;/span&gt;&lt;br /&gt;Now you can start the environment from the '&lt;span style="font-style:italic;"&gt;runonce.bat&lt;/span&gt;'. This one time start is needed to finalize the installation (describe in the 'openSUSE on coLinux' posting as the post-install). You will see something similar to:&lt;br /&gt;&lt;br /&gt;&lt;img style="width: 400px; height: 226px;" src="http://lh4.ggpht.com/_ZmgfsgbGDLs/ScVNslVwUgI/AAAAAAAAEB4/hVPU4voSaHA/s400/opensuse1.png" alt="openSUSE 11.1 started on coLinux 0.7.3" /&gt;&lt;br /&gt;&lt;br /&gt;Logon using the credentials: 'root' and the password 'password'. Immediately change the password using&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;passwd&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;Enable the network using the command:&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;for i in 0 1&lt;br /&gt;do&lt;br /&gt;cat &gt; /etc/sysconfig/network/ifcfg-eth$i &lt;&lt; END&lt;br /&gt;BOOTPROTO='dhcp'&lt;br /&gt;STARTMODE='auto'&lt;br /&gt;USERCONTROL='no'&lt;br /&gt;END&lt;br /&gt;done&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;Add a mount point to your shared directory&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;mkdir /media/Development&lt;br /&gt;vi /etc/fstab&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;and add the following line to this file&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;cofs1    /media/Development  cofs     defaults        0 0&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;To enable the shared directory you need to mount it&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;mount /media/Development&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;You can now shutdown...&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;shutdown -hn now&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;... the system will halt and closes the console. From now on you are able to start the environment using the normal '&lt;span style="font-style:italic;"&gt;run.bat&lt;/span&gt;'. Do so and log on using your new password.&lt;br /&gt;&lt;br /&gt;Your network should now use &lt;span style="font-style:italic;"&gt;eth0&lt;/span&gt; as a serial line and &lt;span style="font-style:italic;"&gt;eth1&lt;/span&gt; as a bridged network using the device called 'Local Area Connection'. If your Windows network device is called differently, please change it in the '&lt;span style="font-style:italic;"&gt;run.txt&lt;/span&gt;' file. IP addresses are assigned using DHCP. The device &lt;span style="font-style:italic;"&gt;eth0&lt;/span&gt; will probably be assigned the address 10.0.2.15/24. For device &lt;span style="font-style:italic;"&gt;eth1&lt;/span&gt; this will depend on your local network settings. I will just assume that &lt;span style="font-style:italic;"&gt;eth1&lt;/span&gt; is configured and provides the Internet connection.&lt;br /&gt;&lt;br /&gt;To allow packages to be installed you would need to add the standard repositories to this installation.&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black"&gt;&lt;code&gt;&lt;br /&gt;zypper ar http://download.opensuse.org/distribution/11.1/repo/oss/ openSUSE111&lt;br /&gt;zypper ar http://download.opensuse.org/distribution/11.1/repo/non-oss/ openSUSE111_NonOSS &lt;br /&gt;zypper ar http://download.opensuse.org/update/11.1/ openSUSE-11.1-Updates&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;span style="font-style:italic;"&gt;Enabling the User Interface&lt;/span&gt;&lt;br /&gt;You can use a full-blown desktop environment as GNOME, but since coLinux does not provide a framebuffer device it is not advisable at the moment. We will use the Xming as the X server for our desktop. The X protocol is a client/server model for user interfaces. To keep the installation small, we use a very lightweight Desktop Environment on top of X, namely &lt;a href="http://lxde.org/"&gt;LXDE&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;Install the LXDE packages using:&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;OCICLI http://download.opensuse.org/repositories/home:/swyear/openSUSE_11.1/LXDE-desktop.ymp&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;This will start the One-Click-Install. You will need to agree to some questions and lean back... this might take some time.&lt;br /&gt;&lt;br /&gt;If this finished, you can test if the installation finished correctly. You will need to set the &lt;span style="font-style:italic;"&gt;DISPLAY&lt;/span&gt; parameter to specify where the X server is running. Now let's start the appearance settings...&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;export DISPLAY=10.0.2.2:0.0&lt;br /&gt;lxappearance&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;and choose a theme that suits your current Windows theme.&lt;br /&gt;&lt;br /&gt;&lt;img style="width: 400px;" src="http://lh4.ggpht.com/_ZmgfsgbGDLs/ScVNslVwUgI/AAAAAAAAEB4/hVPU4voSaHA/s400/opensuse1.png" alt="LX Appearance" /&gt;&lt;br /&gt;&lt;br /&gt;This means your desktop environment works.&lt;br /&gt;&lt;br /&gt;If you would receive a 'Gtk-WARNING **: cannot open display:' this means your connection might be blocked for some reason. Check your settings or disable a firewall/virus scanner.&lt;br /&gt;&lt;br /&gt;&lt;span style="font-style:italic;"&gt;Mono installation&lt;/span&gt;&lt;br /&gt;Mono will provide a Linux/Unix system with support to run .NET applications. Originally this description was written to use Mono 2.2 which was provided from the openSUSE repository. To install these packages issue a simple&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;zypper in -t pattern devel_mono&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;would be sufficient to install a development environment. To start the &lt;span style="font-style:italic;"&gt;Monodevelop&lt;/span&gt; you can start this using the command:&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;export DISPLAY=10.0.2.2:0.0&lt;br /&gt;monodevelop &amp;&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;&lt;img style="width: 400px;" src="http://lh4.ggpht.com/_ZmgfsgbGDLs/ScZWXVO8WHI/AAAAAAAAECA/tw29uAeVnII/s400/opensuse2.png" alt="Monodevelop" /&gt;&lt;br /&gt;&lt;br /&gt;Since the 30th of March a newer release of Mono (v2.4) is available. To install you will need to specify the mono repository and upgrade the previous installation.&lt;br /&gt;&lt;br /&gt;&lt;div style="background:black;"&gt;&lt;code&gt;&lt;br /&gt;zypper addrepo http://ftp.novell.com/pub/mono/download-stable/openSUSE_11.1 mono-stable&lt;br /&gt;zypper refresh --repo mono-stable&lt;br /&gt;zypper dist-upgrade --repo mono-stable&lt;br /&gt;&lt;/code&gt;&lt;/div&gt;&lt;br /&gt;&lt;br /&gt;You can now start &lt;span style="font-style:italic;"&gt;Monodevelop 2.0&lt;/span&gt; and use managed debugging!&lt;br /&gt;&lt;br /&gt;That's it for now... In later posts I will automate the startup and show how to do development using this environment.&lt;br /&gt;&lt;pre&gt;&lt;br /&gt;Have a lot of fun...&lt;br /&gt;&lt;/pre&gt;&lt;br /&gt;&lt;span style="font-weight:bold;"&gt;Notes&lt;/span&gt;&lt;br /&gt;If you think VMware provides a better solution you can make use of the files that the Mono Project provide in their &lt;a href="http://www.go-mono.com/mono-downloads/download.html"&gt;download section&lt;/a&gt;. Either download the generated VMware image of the LiveCD.&lt;br /&gt;&lt;br /&gt;If you want to use GNOME as your desktop environment you are advised to remove the  &lt;span style="font-style:italic;"&gt;gnome-screensaver&lt;/span&gt; package and it's dependent, since it can cause issues during use. If you want to experiment with the LXDE environment, you are advised to use the &lt;span style="font-style:italic;"&gt;lxpanel&lt;/span&gt; and &lt;span style="font-style:italic;"&gt;pcmanfm&lt;/span&gt;. In a later post these will be explained in more detail.</content><link rel='replies' type='text/html' href='http://www.blogger.com/comment.g?blogID=2279047302869942430&amp;postID=2017919909426435355' title='1 reacties'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/2017919909426435355'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/2017919909426435355'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/2009/03/using-mono-24-on-colinux-to-ease-net.html' title='Using Mono 2.4 on coLinux to ease .NET development'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>gbraad@gmail.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author><media:thumbnail xmlns:media='http://search.yahoo.com/mrss/' url='http://lh4.ggpht.com/_ZmgfsgbGDLs/ScVNslVwUgI/AAAAAAAAEB4/hVPU4voSaHA/s72-c/opensuse1.png' height='72' width='72'/><thr:total>1</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.post-2395148218215869442</id><published>2008-11-23T13:29:00.000+01:00</published><updated>2008-11-23T14:20:28.665+01:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Mono on ARM</title><content type='html'>At the moment I am 'experimenting' with Mono on ARM devices, like the Maemo (Nokia Internet Tablets), BeagleBoard, Linksys NSLU2, etc.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;&lt;img style="margin:0 10px 10px 0;width: 320px; height: 249px;" src="http://3.bp.blogspot.com/_ZmgfsgbGDLs/SSlM9NPL7lI/AAAAAAAADic/AdX7LpjiE9g/s320/banshee-mojo.png" border="0" alt=""id="BLOGGER_PHOTO_ID_5271829453222964818" /&gt;&lt;br /&gt;&lt;br /&gt;Banshee runs from within a Mojo installation (Ubuntu compiled for ARM) on the provided Mono. The screenshot shows a qemu session with XFCE4 and Banshee. Several other binaries do not work well yet... like IronPython, which aborts with an 'ERROR:inssel.c:3687):mono_burg_emit: code should not be reached'. Hmmm... still trying to find out why.&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;The Nokia Internet Tablets recently got a new release of Mono, version 2.0.1, from Everaldo. On the device this release runs IronPython 1.1.2. From within the Scratchbox environment it is @*s... it segfaults/aborts. This is related to the Nokia toolchain. At the moment I am trying to get qemu to emulate the Nokia N810 as described by Marcin. for now I only get to see a white Nokia bootloader screen... Marcin provided me his config.mtd to see if it results from a bad mtd.block, but I personally suspect it to be qemu. The build I made, also had issues with running the Mojo distribution :-/...&lt;br /&gt;&lt;br /&gt;&lt;br /&gt;As you can see, the results are mixed. This is unrelated to Mono. Cross-compiling and emulation environments can always result in unexpected behaviour (as also on actual devices). Mono runs quite well on the N810. This can also be seen in the images posted by Everaldo.&lt;br /&gt;&lt;br /&gt;&lt;a href="http://ecanuto.blogspot.com/2008/11/mono-201-for-nokia-devices.html"&gt;&lt;img src="http://lh5.ggpht.com/_Wu1rKePvjfc/SR0E4nfdYII/AAAAAAAAAB4/LYCCs1XqlYI/s400/maemo-diablo-02.jpg" border="0"&gt;&lt;/a&gt;&lt;br /&gt;&lt;br /&gt;More information will follow...&lt;br /&gt;&lt;br /&gt;&lt;p&gt;Links:&lt;br /&gt;&lt;a href="http://http://www.mono-project.com/Mono:ARM"&gt;Mono:ARM&lt;/a&gt;, &lt;br /&gt;&lt;a href="http://mojo.handhelds.org/"&gt;Mojo Handhelds&lt;/a&gt;,&lt;br /&gt;&lt;a href="http://bellard.org/qemu/"&gt;Qemu, processor emulator&lt;/a&gt;,&lt;br /&gt;&lt;a href="http://ecanuto.blogspot.com/2008/11/mono-201-for-nokia-devices.html"&gt;Mono on Maemo&lt;/a&gt;,&lt;br /&gt;&lt;a href="http://blog.haerwu.biz/2008/09/20/maemo-in-qemu-n8x0-emulation-presentation/"&gt;Maemo on qemu&lt;/a&gt;&lt;/p&gt;</content><link rel='replies' type='text/html' href='http://www.blogger.com/comment.g?blogID=2279047302869942430&amp;postID=2395148218215869442' title='1 reacties'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/2395148218215869442'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/2395148218215869442'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/2008/11/mono-on-arm.html' title='Mono on ARM'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>gbraad@gmail.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author><media:thumbnail xmlns:media='http://search.yahoo.com/mrss/' url='http://3.bp.blogspot.com/_ZmgfsgbGDLs/SSlM9NPL7lI/AAAAAAAADic/AdX7LpjiE9g/s72-c/banshee-mojo.png' height='72' width='72'/><thr:total>1</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.post-5048621701517497232</id><published>2007-07-29T20:36:00.000+02:00</published><updated>2009-03-22T20:26:27.641+01:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><category scheme='http://www.blogger.com/atom/ns#' term='mono'/><title type='text'>Mono and MonoDevelop</title><content type='html'>At the moment I use a VMware virtual machine for .NET development on the Mac. It is a openSuSE 10.2 installation as originally provided by the &lt;a href="http://mono-project.com/"&gt;mono project&lt;/a&gt;. The mono installation is a new compilation from the Olive development branch. As the editor I do use MonoDevelop... although I could have sticked with emacs. At the moment I think the support for .NET on Mac OS X is quite meager. You need to use fink (or macports/darwinports) to recompile GTK and a lot more essentials to get &lt;a href="http://monodevelop.org/"&gt;MonoDevelop&lt;/a&gt; running. It is a Gnome application?! And same argument here, I could have sticked with emacs... but general development towards fellow workers is easier if done in an IDE. Below is a screenshot of an &lt;a href="http://www.sogyo.nl/dddrobot"&gt;unmodified project&lt;/a&gt; from work in MonoDevelop. Most parts compile without any difficulty, while some might still need some minor adjustments.&lt;br /&gt;&lt;br /&gt;&lt;img src="http://lh5.google.com/gbraad/Rqzd5aqj5XI/AAAAAAAAAiA/NDWyxKTbqvw/s400/monodevelop.jpg" style="border: 0pt none ;" /&gt;&lt;br /&gt;&lt;br /&gt;It shows how mature Linux is for .NET development. In some places I even think it is a little ahead of the rest. The Silverlight implementation on Linux, called &lt;a href="http://www.mono-project.com/Moonlight"&gt;Moonlight&lt;/a&gt;, already can run desklets. These are small widgets for the desktop. The code can be found in the Olive trunk. Normally I would have used fedora or ubuntu as my main distro, but &lt;a href="http://groups.google.com/group/mono-olive/browse_thread/thread/a5f4c0e0c2a1411d"&gt;I got it working&lt;/a&gt; :-D. It opens a lot of opportunities for new applications I was not able to make on the Windows platform. There are a lot of application on Gnome which are mono applications. These are Banshee, Tomboy, gtwitter, Landell and a lot more. I would also like to see our internal application for profile editing to be ported to Un*x/Linux... and have it included in &lt;a href="http://www.mono-project.com/Companies_Using_Mono"&gt;this list&lt;/a&gt;.&lt;br /&gt;&lt;br /&gt;A very good example of a true crossplatform utility is &lt;a href="http://www.snorp.net/log/tangerine"&gt;Tangerine&lt;/a&gt;. It is a DAAP server written in Mono which utilizes Avahi to respond to mDNS (or Bonjour) requests. It works on Linux, Windows and Mac OS X. I use it daily for distributing music between my vm's who can not use the shared folders.&lt;br /&gt;&lt;br /&gt;At the moment I am investigating the usage of D-Bus and a similar idea as mopen.exe to connect services to an active domain. Details will follow...</content><link rel='replies' type='text/html' href='http://www.blogger.com/comment.g?blogID=2279047302869942430&amp;postID=5048621701517497232' title='0 reacties'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/5048621701517497232'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/5048621701517497232'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/2007/07/monodevelop.html' title='Mono and MonoDevelop'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>gbraad@gmail.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.post-7853546175923420237</id><published>2007-06-14T20:43:00.001+02:00</published><updated>2007-06-17T14:29:24.709+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Tiger Theme...</title><content type='html'>If you also run VMware with Unity, it might be interesting to use the Tiger theme. Follow the instructions as described&lt;a href="http://www.raymond.cc/blog/archives/2007/06/04/mac-osx-tiger-theme-on-windows/"&gt; here&lt;/a&gt; with &lt;a href="http://www.deviantart.com/deviation/45911588/"&gt;these&lt;/a&gt; files. It makes the integration look a little more seamless :P. For Linux/Gnome you can do the same by following the guide which is available &lt;a href="http://www.taimila.com/ubuntuosx.php"&gt;here&lt;/a&gt;. The guide can also be used for Fedora, which I did... just simply install &lt;a href="http://www.gnome-look.org/content/show.php?content=30859"&gt;this&lt;/a&gt; theme. It might still take time for VMware for support Unity on Linux as host or guest, at least you will be prepared on your Mac :D...</content><link rel='replies' type='text/html' href='http://www.blogger.com/comment.g?blogID=2279047302869942430&amp;postID=7853546175923420237' title='0 reacties'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/7853546175923420237'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/7853546175923420237'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/2007/06/tiger-theme.html' title='Tiger Theme...'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>gbraad@gmail.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author><thr:total>0</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.post-1071224006915177597</id><published>2007-06-10T12:38:00.000+02:00</published><updated>2009-03-22T20:27:23.977+01:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#post'/><title type='text'>Visual Studio on Mac OS X</title><content type='html'>Some of my fellow workers called me 'dotnettende maccer' or 'maccerende dotnetter'... the last means in Dutch something similar to 'complaining dotnet developer'. The reason why? Well, I was not satisfied with the HP notebook that was ordered for me... it was a little too big and heavy. Eventually I got replaced with the MacBook I had wanted. Call me a 'geek with attitude'.&lt;br /&gt;&lt;br /&gt;To prove them right about the second meaning, I would show them .NET development in the more traditional way is possible. In the screenshot below you can see Visual Studio running on Mac OS X. This is done using VMware's Fusion beta 4 using Unity mode, a BootCamp partition with Windows XP Pro SP2 and of course the Intel MacBook itself running Mac OS X 10.4.9.&lt;br /&gt;&lt;br /&gt;&lt;img src="http://lh4.google.com/image/gbraad/RmvUc8pZGII/AAAAAAAAAbY/pea3xEacyXY/s400/VisualStudioOnMac.jpg" alt="Visual Studio on Mac OS X using VMware Fusion's Unity mode" /&gt;&lt;br /&gt;&lt;br /&gt;The new Unity mode of VMware Fusion is similar to Parallel Desktop's coherence mode. It allows VMware to run in the background and still show the application you want in the OS X environment; that is without the taskbar. This functionality is similar to Parallel, but I prefer to use VMware... since all the virtual machines I run are based on VMware as you can see below.&lt;br /&gt;&lt;br /&gt;&lt;img src="http://lh4.google.com/image/gbraad/Rfs9vbgjBfI/AAAAAAAAANg/9HENnjunwtU/s400/VMware.jpg" alt="VMware Server on two Linux servers and VMware Workstation 6 on Windows Vista" /&gt;&lt;br /&gt;&lt;br /&gt;This screenshot was taken on Vista running VMware Workstation 6 and connected to two Linux servers running VMware Server.&lt;br /&gt;&lt;br /&gt;Of course I also installed Mono on OS X. Probably soon I will show some application running on OS X which are .NET applications. Since recently Paint.NET became available as being able to run on Mono (&lt;a href="http://tirania.org/blog/archive/2007/May-15-1.html"&gt;blog post&lt;/a&gt;, &lt;a href="http://code.google.com/p/paint-mono/"&gt;project page&lt;/a&gt;).</content><link rel='replies' type='text/html' href='http://www.blogger.com/comment.g?blogID=2279047302869942430&amp;postID=1071224006915177597' title='1 reacties'/><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/1071224006915177597'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/posts/default/1071224006915177597'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/2007/06/visual-studio-on-mac-os-x.html' title='Visual Studio on Mac OS X'/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>gbraad@gmail.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SpEgh42SDkI/AAAAAAAAGzA/oUTQP02w1Cs/S220/IMG_6523-533-100.jpg'/></author><thr:total>1</thr:total></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.post-6026524903832371175</id><published>2007-07-12T23:38:00.000+02:00</published><updated>2007-07-12T23:38:03.548+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>Hi there,&lt;br&gt;&lt;br&gt;Looks cool! &lt;br&gt;&lt;br&gt;So let me get...</title><content type='html'>Hi there,&lt;BR/&gt;&lt;BR/&gt;Looks cool! &lt;BR/&gt;&lt;BR/&gt;So let me get this straight, the process you went through is:&lt;BR/&gt;&lt;BR/&gt;- buy a Mac Book Pro&lt;BR/&gt;- use BookCamp to install a 2nd partition with XP Pro on it&lt;BR/&gt;- Use VMWare's Fusion to run that partition in a Virtual Machine&lt;BR/&gt;&lt;BR/&gt;Is that right? I didn't think you needed to install another partition with BootCamp?</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/1071224006915177597/comments/default/6026524903832371175'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/1071224006915177597/comments/default/6026524903832371175'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/2007/06/visual-studio-on-mac-os-x.html?showComment=1184276280000#c6026524903832371175' title=''/><author><name>Tobin Harris</name><uri>http://www.blogger.com/profile/04409334806910443258</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='16' height='16' src='http://img2.blogblog.com/img/b16-rounded.gif'/></author><thr:in-reply-to href='http://dotnet.gbraad.nl/2007/06/visual-studio-on-mac-os-x.html' ref='tag:blogger.com,1999:blog-2279047302869942430.post-1071224006915177597' source='http://www.blogger.com/feeds/2279047302869942430/posts/default/1071224006915177597' type='text/html'/><gd:extendedProperty name='blogger.itemClass' value='pid-209069403'/><gd:extendedProperty name='blogger.displayTime' value='12 juli 2007 23:38'/></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.post-4194686025848850666</id><published>2008-11-23T17:11:00.000+01:00</published><updated>2008-11-23T17:11:14.681+01:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>As Everaldo correctly pointed out in an email to m...</title><content type='html'>As Everaldo correctly pointed out in an email to me:&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Could be useful to install devkit with this instructions:&lt;BR/&gt;&lt;BR/&gt;   http://www.mono-project.com/Maemo#Building_Mono_with_Scratchbox&lt;BR/&gt;&lt;BR/&gt;basically you need to do this:&lt;BR/&gt;&lt;BR/&gt;$ wget http://go-mono.com/maemo/scratchbox-devkit-mono-2.0.1-1-i386.tar.gz&lt;BR/&gt;&lt;BR/&gt;$ tar xzf scratchbox-devkit-mono-2.0.1-1-i386.tar.gz -C /&lt;BR/&gt;&lt;BR/&gt; [sbox-DIABLO_HOST: ~] &amp;gt; sb-conf setup DIABLO_ARMEL -f -d perl:debian-etch:maemo3-tools:cputransp:mono&lt;BR/&gt; [sbox-DIABLO_HOST: ~] &amp;gt; sb-conf setup DIABLO_X86 -f -d perl:debian-etch:maemo3-tools:mono&lt;BR/&gt;&lt;BR/&gt;&lt;BR/&gt;Then mono will be available in you ARMEL and x86 targets... dont need to install packages with apt and if you have installed packages with apt I recommend you to remove first.&lt;BR/&gt;&lt;BR/&gt;On beginning of http://www.mono-project.com/Scratchbox you found an explanation why we need to use this devkit:&lt;BR/&gt;&lt;BR/&gt;&amp;quot;Scratchbox uses QEMU (http://fabrice.bellard.free.fr/qemu/) for ARM emulation, the problem is that some ARM syscalls (242, 264, 299) are not yet implemented in QEMU. These missing syscalls can cause problems in MCS, making it impossible to compile assemblies for ARM.&amp;quot;</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/2395148218215869442/comments/default/4194686025848850666'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/2395148218215869442/comments/default/4194686025848850666'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/2008/11/mono-on-arm.html?showComment=1227456660000#c4194686025848850666' title=''/><author><name>gbraad</name><uri>http://www.blogger.com/profile/06702075512708026607</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='32' height='32' src='http://1.bp.blogspot.com/_ZmgfsgbGDLs/SQi_5wR77FI/AAAAAAAADas/6oiFc_i_9jg/s1600-R/5.jpg'/></author><thr:in-reply-to href='http://dotnet.gbraad.nl/2008/11/mono-on-arm.html' ref='tag:blogger.com,1999:blog-2279047302869942430.post-2395148218215869442' source='http://www.blogger.com/feeds/2279047302869942430/posts/default/2395148218215869442' type='text/html'/><gd:extendedProperty name='blogger.itemClass' value='pid-333406285'/><gd:extendedProperty name='blogger.displayTime' value='23 november 2008 17:11'/></entry><entry><id>tag:blogger.com,1999:blog-2279047302869942430.post-4288950051777029285</id><published>2009-03-31T22:42:00.000+02:00</published><updated>2009-03-31T22:42:39.289+02:00</updated><category scheme='http://schemas.google.com/g/2005#kind' term='http://schemas.google.com/blogger/2008/kind#comment'/><title type='text'>I have a lot of respect for what you do. I don't e...</title><content type='html'>I have a lot of respect for what you do. I don't even know how to change one widget which is causing a problem on my blog.</content><link rel='edit' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/2017919909426435355/comments/default/4288950051777029285'/><link rel='self' type='application/atom+xml' href='http://www.blogger.com/feeds/2279047302869942430/2017919909426435355/comments/default/4288950051777029285'/><link rel='alternate' type='text/html' href='http://dotnet.gbraad.nl/2009/03/using-mono-24-on-colinux-to-ease-net.html?showComment=1238532120000#c4288950051777029285' title=''/><author><name>Ian</name><uri>http://www.blogger.com/profile/05167458171459084910</uri><email>noreply@blogger.com</email><gd:image rel='http://schemas.google.com/g/2005#thumbnail' width='24' height='32' src='http://2.bp.blogspot.com/_RrU_4GrUAh8/SZrE2UL8KVI/AAAAAAAAAAM/-rA_akgBFmA/S220/Scott_Ian.jpg'/></author><thr:in-reply-to href='http://dotnet.gbraad.nl/2009/03/using-mono-24-on-colinux-to-ease-net.html' ref='tag:blogger.com,1999:blog-2279047302869942430.post-2017919909426435355' source='http://www.blogger.com/feeds/2279047302869942430/posts/default/2017919909426435355' type='text/html'/><gd:extendedProperty name='blogger.itemClass' value='pid-1413689055'/><gd:extendedProperty name='blogger.displayTime' value='31 maart 2009 22:42'/></entry></feed>

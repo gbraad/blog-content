@@ -1,0 +1,9 @@
+---
+layout: post
+title: "Share your Banshee library on Fedora 12"
+date: 2009-11-23
+comments: false
+---
+
+<div class='post'>
+<div class="separator" style="clear: both; text-align: center;"><br /></div>After reading a shared posting from OMG!Ubuntu! about '<a href="http://www.omgubuntu.co.uk/2009/11/share-banshee-empathy.html">Share your Banshee Library with contacts on Empathy</a>'  I wanted to try this out on Fedora 12. The posting is about an extension for Banshee which allows contacts to share their playlist and music for download or streaming.<br /><br />The build process on Fedora 12 is very simple. As root you need to run the following packages:<br /><br /><div style="-moz-background-clip: border; -moz-background-inline-policy: continuous; -moz-background-origin: padding; background: black none repeat scroll 0% 0%; color: white;"><code>$ yum install git banshee mono-devel gtk-sharp2-devel banshee-devel<br /></code><br /></div><br />As user you can then compile the Banshee extension<br /><br /><div style="-moz-background-clip: border; -moz-background-inline-policy: continuous; -moz-background-origin: padding; background: black none repeat scroll 0% 0%; color: white;"><code>$ git clone git://github.com/nloko/banshee-telepathy-extension.git<br />$ cd banshee-telepathy-extension<br />$ ./autogen.sh --enable-user-extension<br />$ make<br />$ make install<br /></code><br /></div><br />After you start Banshee it will show a Contacts group at the bottom of your Sources overview.</div>

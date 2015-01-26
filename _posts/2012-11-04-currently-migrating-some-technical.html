@@ -1,0 +1,18 @@
+---
+layout: post
+title: "Editing documentation using Jekyll and Gollum"
+date: 2012-11-04
+comments: false
+categories:
+ - ruby
+ - jekyll
+ - consultancy
+ - howto
+ - git
+ - documentation
+ - github
+ - markdown
+---
+
+<div class='post'>
+Currently migrating some technical material and my blog to the static site generator Jekyll. This way I can add articles using a simple text editor to write the markdown (or other supported format) and easily publish it using git. However, I also wanted to have the ability to author pages from a wiki tool like Gollum. So I looked into it and came up with a simple solution: 'generate a list of available pages for the index.html'.<br /><br />An example is published on&nbsp;<a href="http://github.com/gbraad/articles">http://github.com/gbraad/articles</a>. You can still edit pages using&nbsp;<a href="http://github.com/gbraad/articles/wiki/_pages">http://github.com/gbraad/articles/wiki/_pages</a>&nbsp;and the generated pages are published at&nbsp;<a href="http://gbraad.github.com/articles/">http://gbraad.github.com/articles/</a>. The following problems exist: you have to keep the project-wiki in sync with the project repository when using GitHub (not really needed if you use Gollum locally), manual step needed for publishing of the gh-pages branch (not a big deal if you control the post-receive on your own server) and no directory nesting is possible for articles (do not really miss this since I use a repository per document).<br /><br />There is still room for some improvement, but for now it allows me to easily work on teaching material and ePUB documents.</div>
