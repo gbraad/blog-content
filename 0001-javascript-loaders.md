@@ -1,6 +1,6 @@
 ---
-layout: default
-title: JavaScript Loaders
+Title: JavaScript Loaders
+Date: 4-11-2014
 ---
 
 * http://requirejs.org/docs/commonjs.html#autoconversion
