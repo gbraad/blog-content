@@ -1,6 +1,6 @@
 ---
 Title: Trigger PhoneGap Build from GitHub
-Date: 4-11-2014
+Date: 11-4-2014
 ---
 
 You can remotely trigger a build by using the API: https://build.phonegap.com/docs/api
