@@ -34,7 +34,7 @@ $ sudo su -
 ### Setup DNS
 After this, you host machine should be ready to host containers to will make up our environment. before we continue, we need to be sure we have DNS configured that can point to the running containers that host the C9 IDE. I used [CloudFlare](https://www.cloudflare.com) and setup the following wildcard for my environment. 
 
-![](https://github.com/gbraad/assets/blob/gh-pages/images/blog/c9ide-dns.png?raw=true)
+![](https://cdn.gbraad.nl/images/blog/c9ide-dns.png)
 
 With this each hostname, such as `ubuntu.c9ide.spotsnel.net` would point to the same machine that hosts our development containers.
 
@@ -125,6 +125,6 @@ will create two containers, hosted at `ubuntu.c9ide.spotsnel.net` and `quentin.c
 
 Now open your IDE by opening [https://ubuntu.c9ide.spotsnel.net](https://ubuntu.c9ide.spotsnel.net) in your browser. If all goes well, you will be created by a login prompt. The username is `me@gbraad.nl` and the password `verysecrete`.
 
-![](https://github.com/gbraad/assets/blob/gh-pages/images/blog/c9ide-final.png?raw=true)
+![](https://cdn.gbraad.nl/images/blog/c9ide-final.png)
 
 In future articles I will detail more about the composability of infrastructure. if you enjoyed this article, consider tweeting about it. If you have comments, please find me online at [@gbraad](http://twitter.com/gbraad).
