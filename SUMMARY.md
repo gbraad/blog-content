@@ -16,3 +16,4 @@
 
   * [Hello, Internet](0003-hello-internet.md)
   * [Setting up a powerful self-hosted IDE in the cloud](0004-setup-self-hosted-cloud9.md)
+  * [Deployment of Ceph using custom Atomic images](0005-custom-ceph-atomic-deployment.md)
