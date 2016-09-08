@@ -1,6 +1,6 @@
 ---
 Title: Hello, Internet!
-Date: 2016-9-8
+Date: 2016-8-8
 ---
 
 Today I decided to pick up blogging again and asked the question; what to use? I had a simple requirement; 'it has to support Markdown-formatted documents'. The reasoning behind this is simple; I want to be able to use `Pandoc` to generate other kinds of output if needed. Plus GitBook has an online editor which allows me to write the articles as if they are chapters in a book.
