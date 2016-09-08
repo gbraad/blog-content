@@ -1,13 +1,13 @@
 ---
-Title: Setting up a powerful self-hosted IDE in the cloud.
-Date: 9-6-2016
+Title: Setting up a powerful self-hosted IDE in the cloud
+Date: 2016-9-6
 ---
 
 Setting up infrastructure should be as simple as playing with LEGO. With the advent of Docker, IT has underwent a dramatic change. For instance, it became easy to setup throw-away development environments. These could then be used to create clean environments to perform builds in. And eventually, containers are starting to move into the general infrastructure . This is a transaction that is currently still happening, helped by tools as Docker Swarm and Kubernetes. In this short article I will show how these ideas can help in setting up a composable infrastructure, providing you with a powerful IDE in the cloud, full with Let's Encrypt certificate generation.
 
 
 ## Cloud9
-We will be deploying C9, or Cloud9 IDE, which is a full IDE which can be accessed from your browser. For convenience of use, I created a containerized version of this some while back and have ever since been using it. Although,, C9 also has a hosted environment, I grew worried after Amazon acquired the company. Support has since been slower to respond and this made me look into other ways to provide an alternative approach. After some testing with Docker Cloud it seemed like a good idea to deploy a self-hosted alternative.
+We will be deploying C9, or Cloud9 IDE, is a full IDE which can be accessed from your browser. For convenience of use, I created a containerized version of this some while back and have ever since been using it. Although,, C9 also has a hosted environment, I grew worried after Amazon acquired the company. Support has since been slower to respond and this made me look into other ways to provide an alternative approach. After some testing with Docker Cloud it seemed like a good idea to deploy a self-hosted alternative.
 
 But first about one of the main components. The [container](https://hub.docker.com/r/gbraad/c9ide/) I created exposes port 8181, which is an unsecured endpoint. It allows you to simply setup a local instance with:
 ```
