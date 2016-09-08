@@ -4,7 +4,7 @@ pages:
     - mkdir public
     - git clone https://gitlab.com/gbraad/document-generation-assets.git for-generation --depth 1
     - for f in [0-9]*.md; do pandoc -t html5 --template for-generation/templates/article-template.html --standalone $f -o ./public/${f/%.md}.html; done
-    - for f in [0-9]*.md; do pandoc -V geometry:margin=1in $f -o ./public/${f/%.md}.pdf; done
+    - for f in [0-9]*.md; do pandoc -V geometry:margin=1in --latex-engine=xelatex $f -o ./public/${f/%.md}.pdf; done
     - ls ./public/ | ./genindex.sh > ./index.html
     - mv ./index.html ./public
   artifacts:

@@ -3,7 +3,7 @@ Title: non-root user inside a Docker container
 Date: 2016-9-8
 ---
 
-One of the things that you notice when using Docker, is that all command to you run from the `Dockerfile` with `RUN` or `CMD` are performed as the `root` user. This is not only a bad security practice for running internet facing services, it might even prevent certain applications from working properly. So, how do you run commands as a non-root user? For people using Red Hat-based systems, such as Fedora or CentOS I will explain how you can do this.
+One of the things that you notice when using Docker, is that all commands you run from the `Dockerfile` with `RUN` or `CMD` are performed as the `root` user. This is not only a bad security practice for running internet facing services, it might even prevent certain applications from working properly. So, how do you run commands as a non-root user? For people using Red Hat-based systems, such as Fedora or CentOS I will explain how you can do this.
 
 
 ## Let's begin
@@ -26,7 +26,7 @@ RUN adduser user
 Now you can run commands as this user by doing:
 
 ```
-RUN su - user -c "touch mine"
+RUN su - user -c "touch me"
 ```
 
 The container start process can be changed to:
@@ -67,7 +67,7 @@ RUN dnf install -y sudo && \
 
 RUN su - user -c "touch mine"
 
-CMD ["su","-","user","-c","/bin/bash"]
+CMD ["su", "-", "user", "-c", "/bin/bash"]
 ```
 
 
@@ -81,7 +81,7 @@ Step 1 : FROM fedora:24
 Step 2 : RUN dnf install -y sudo &&     adduser user &&     echo "user ALL=(root) NOPASSWD:ALL" > /etc/sudoers.d/user &&     chmod 0440 /etc/sudoers.d/user
  ---> Using cache
  ---> 05c3f3c7e9fc
-Step 3 : RUN su - user -c "touch mine"
+Step 3 : RUN su - user -c "touch me"
  ---> Running in 584ab0ad025b
  ---> 66ea558b9855
 Removing intermediate container 584ab0ad025b
@@ -103,7 +103,7 @@ drwxr-xr-x 3 root root 4096 Sep  8 08:46 ..
 -rw-r--r-- 4 user user   18 May 17 14:22 .bash_logout
 -rw-r--r-- 4 user user  193 May 17 14:22 .bash_profile
 -rw-r--r-- 4 user user  231 May 17 14:22 .bashrc
--rw-rw-r-- 1 user user    0 Sep  8 08:51 mine
+-rw-rw-r-- 1 user user    0 Sep  8 08:51 me
 [user@48add6313ab6 ~]$ pwd
 /home/user
 [user@48add6313ab6 ~]$ 
