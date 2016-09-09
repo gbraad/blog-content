@@ -101,6 +101,8 @@ And then we will define an Atomic host for Ceph-Jewel and specify which addition
 }
 ```
 
+Note: with `include` we base our image off an existing definition. In our case this will simplify the process, but it also means we will end up with an image with unneeded components. For our test this is not an issue.
+
 After this, the defintion for the Ceph-specific Atomic host is finished. Before we can compose the ostree, we have to create and initialize the repository directory:
 
 ```
