@@ -18,4 +18,4 @@
   * [Setting up a powerful self-hosted IDE in the cloud](0004-setup-self-hosted-cloud9.md)
   * [Deployment of Ceph using custom Atomic images](0005-custom-ceph-atomic-deployment.md)
   * [non-root user inside a Docker container](0006-nonroot-container.md)
-
+  * [Highlighting of Code and Text](0007-highlighting-code-text.md)
