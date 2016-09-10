@@ -1,6 +1,8 @@
 ---
 Title: Highlighting of Code and Text
 Date: 2016-09-09
+Category: Misc
+Tags: highlighting, code, language
 ---
 
 Code is read more often than it is written. Nothing is truer than this statement. This means that when writing code it is important to have a good idea of what you are doing. Write clean code, which is simple or easy to reason about. Since if you can't explain it, how could others even understand it well. Syntax highlighting of code can help. With this, certain keywords or structure get emphasized by using a color. I do not think it is an ideal solution, but subconsciously it seems I focus more on the code. Likely, the colors themselves are pleasing to look at.

@@ -1,6 +1,8 @@
 ---
 Title: Setting up a powerful self-hosted IDE in the cloud
 Date: 2016-9-6
+Category: Docker
+Tags: docker, c9ide, fedora
 ---
 
 Setting up infrastructure should be as simple as playing with LEGO. With the advent of Docker, IT has underwent a dramatic change. For instance, it became easy to setup throw-away development environments. These could then be used to create clean environments to perform builds in. And eventually, containers are starting to move into the general infrastructure . This is a transaction that is currently still happening, helped by tools as Docker Swarm and Kubernetes. In this short article I will show how these ideas can help in setting up a composable infrastructure, providing you with a powerful IDE in the cloud, full with Let's Encrypt certificate generation.

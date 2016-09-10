@@ -1,6 +1,8 @@
 ---
 Title: Deployment of Ceph using custom Atomic images
 Date: 9-7-2016
+Category: Atomic
+Tags: centos, ceph, atomic, ansible
 ---
 
 As part of providing a scalable infrastructure, many components in the datacenter are now moving towards software-based solutions, such as SDN (for networking) and SDS (for storage). Ceph one of these projects to provide a scalable, software-based software solution. It is often used in conjuction with OpenStack for storing disk images and block access for volumes. Setting up an environment usually involves installing a base operating system and configuring the machine to join a storage cluster. In this article I will setup a Atomic based image that allows for fast deployment of Ceph cluster. This is not a recommended solution, but an exercise that shows how to cutomize Atomic Host and using Ansible to standup a Ceph cluster.

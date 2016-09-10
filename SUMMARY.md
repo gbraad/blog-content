@@ -19,3 +19,5 @@
   * [Deployment of Ceph using custom Atomic images](0005-custom-ceph-atomic-deployment.md)
   * [non-root user inside a Docker container](0006-nonroot-container.md)
   * [Highlighting of Code and Text](0007-highlighting-code-text.md)
+  * [Building a multi-tier application using OpenStack (PackStack)](0008-multitier-setup-openstack.md)
+

@@ -8,8 +8,7 @@ Tags: openstack, packstack, neutron, rdo
 ---
 
 This is a publication of an article/training class I gave related to setting up
-an environment using OpenStack, to host a multi-tier applicatiom. The original
-publication can be found at: [OpenStack hands-on-labs](https://gitlab.com/gbraad/openstack-handsonlabs0
+an environment using OpenStack, to host a multi-tier applicatiom.
 
 
 ## Introduction
@@ -1100,6 +1099,19 @@ $ for i in $(seq 1 4) ; do wget -O - http://172.24.4.229/ ; done
 
 Note: the first request might take longer to handle. This is because of the
 timeout before it notices the host is not responding.
+
+
+## Conclusion
+As described in this article, it is easy to set up an environment with OpenStack
+in which you can securely host website, and deny access to your database servers.
+
+In future articles I will talk about High Availability and automation of setting
+up an environment; for instance with HAProxy, GlusterFS and OpenStack Heat.
+
+If you have any suggestion, please discuss below or send me an email.
+
+NOte: the original publication can be found at: [OpenStack hands-on-labs](https://gitlab.com/gbraad/openstack-handsonlabs)
+
 
 
 ----

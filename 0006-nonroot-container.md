@@ -1,6 +1,8 @@
 ---
 Title: non-root user inside a Docker container
 Date: 2016-9-8
+Category: Docker
+Tags: docker, fedora
 ---
 
 One of the things that you notice when using Docker, is that all commands you run from the `Dockerfile` with `RUN` or `CMD` are performed as the `root` user. This is not only a bad security practice for running internet facing services, it might even prevent certain applications from working properly. So, how do you run commands as a non-root user? For people using Red Hat-based systems, such as Fedora or CentOS I will explain how you can do this.
