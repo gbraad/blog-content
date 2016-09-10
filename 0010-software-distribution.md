@@ -20,7 +20,7 @@ In short it will talk about the following topics:
 
 
 ## Presentation
-<iframe src="http://gbraad.gitlab.io/software-distribution-for-a-new-era/#/software-distribution-for-a-new-era-1" width="1024" height="768">
+<iframe src="http://gbraad.gitlab.io/software-distribution-for-a-new-era/slides.html" width="1024" height="768">
   <p>Your browser does not support iframes.</p>
 </iframe>
 
