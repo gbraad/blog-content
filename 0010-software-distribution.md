@@ -3,13 +3,21 @@ Title: Software Distribution for a new era
 Date: 2016-7-30
 Modified: 2016-9-10
 Category: Atomic
-Tags: flatpak, docker, ostree, atomic
+Tags: flatpak, docker, ostree, atomic, fedora, centos
 ---
 
 
 In this presentation I will introduce Software Distribution for a new era. In
 short it will explain the negatives of using packages, how 'containers' improved
 on this, but now how to make this available for use on servers and desktops. 
+
+In short it will talk about the following topics:
+
+  * container and Docker
+  * FlatPak
+  * OSTree
+  * Project Atomic (Fedora, CentOS)
+
 
 ## Presentation
 <iframe src="http://gbraad.gitlab.io/software-distribution-for-a-new-era/#/software-distribution-for-a-new-era-1" width="1024" height="768">
