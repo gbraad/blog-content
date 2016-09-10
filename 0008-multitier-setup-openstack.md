@@ -1110,10 +1110,4 @@ up an environment; for instance with HAProxy, GlusterFS and OpenStack Heat.
 
 If you have any suggestion, please discuss below or send me an email.
 
-NOte: the original publication can be found at: [OpenStack hands-on-labs](https://gitlab.com/gbraad/openstack-handsonlabs)
-
-
-
-----
-
-This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-sa/4.0/).
+Note: the original publication can be found at: [OpenStack hands-on-labs](https://gitlab.com/gbraad/openstack-handsonlabs)
