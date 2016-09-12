@@ -1,5 +1,5 @@
 ---
-Title: High Available storage using GlusterFS
+Title: Highly Available storage using GlusterFS
 Date: 2016-9-12
 Category: High Availability
 Tags: gluster, high availability, web, storage
