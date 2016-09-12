@@ -4,7 +4,7 @@ Date: 2016-3-5
 Modified: 2016-9-10
 Authors: Gerard Braad
 Category: OpenStack
-Tags: openstack, packstack, neutron, rdo
+Tags: openstack, packstack, neutron, rdo, high availability, web
 ---
 
 This is a publication of an article/training class I gave related to setting up

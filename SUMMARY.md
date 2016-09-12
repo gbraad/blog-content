@@ -20,4 +20,4 @@
   * [non-root user inside a Docker container](0006-nonroot-container.md)
   * [Highlighting of Code and Text](0007-highlighting-code-text.md)
   * [Building a multi-tier application using OpenStack (PackStack)](0008-multitier-setup-openstack.md)
-
+  * [Highly Available storage using GlusterFS](0012-ha-storage-using-gluster.md)
