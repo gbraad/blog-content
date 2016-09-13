@@ -34,9 +34,15 @@ By writing in Markdown I would be able to write the following
     : [me@gbraad.nl][personal email]
 ```
 
-This would be both humanly readable, as well as parsed by something like the Webinterface of GitHub.
+This would be both humanly readable, as well as parsed by something like the Webinterface of GitHub into a decent representation. And when using [Markdown Preview](https://github.com/revolunet/sublimetext-markdown-preview) for Sublime Text, this became a pleasure to edit.
 
-[Pandoc](http://pandoc.org/) is like a Swiss knife for handling documents. It can convert between different formats and allows you to specify a template for specific formats, such as HTML.
+Now for introducing [Pandoc](http://pandoc.org/). This tool is like a Swiss knife for handling documents. It can convert between different formats and allows you to specify a template for specific formats, such as HTML. This tool allows me to use:
+
+```
+$ pandoc -o resume.html resume.md
+```
+
+
 
 
 ## Links
