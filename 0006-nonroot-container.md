@@ -111,4 +111,29 @@ drwxr-xr-x 3 root root 4096 Sep  8 08:46 ..
 [user@48add6313ab6 ~]$ 
 ```
 
+
+## Base images
+If you are setting up base images for re-use, it can be handy to use the `USER` keyword. This will run all the following commqnds as a particalur. Lets say, you want to use a service, which is Node.JS based, you can create the following `Dockerfile`
+
+```
+FROM centos:7
+MAINTAINER Gerard Braad <me@gbraad.nl>
+
+# Run update and install dependencies
+RUN yum update -y && yum install -y nodejs npm
+
+# Add the user UID:1000, GID:1000, home at /app
+RUN groupadd -r app -g 1000 && useradd -u 1000 -r -g app -m -d /app -s /sbin/nologin -c "App user" app && \
+    chmod 755 /app
+
+# Set the working directory to app home directory
+WORKDIR /app
+
+# Specify the user to execute all commands below
+USER app
+```
+
+You can then use this container as a base for NodeJS based applications. You copy the application to `/app` and when commands are run, they will use the user named `user`.
+
+
 I hope this has been of some help to you. You can [follow me](https://twitter.com/gbraad) on Twitter or leave a comment below.

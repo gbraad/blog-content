@@ -222,7 +222,7 @@ $ systemctl start httpd
 ```
 
 If you would now open the web facing IP address, you should see the message:
-`Hello, World!'.
+`Hello, World!`.
 
 Note: if you have issues opening the page, or the default Fedora test page gets
 returned, you might have SELinux enabled. In this case, you need to turn on the
@@ -262,8 +262,10 @@ client to read these files. More advanced are available and are described in the
 ## Next step
 Now that we have implemented replicated storage for our webservers, we need to
 provide a HA solution to deal with the traffic on the webfacing IP addresses.
-In an OpenStack environment you could use Neutron to setup a loadbalancer for
-the two servers. How to set this up in described in the [following article](./building-a-multi-tier-application-using-openstack-packstack.html).
-However, you can also do so with HAProxy, which will be the topic of a future article.
+In an OpenStack environment you could use Neutron to setup a loadbalancer and 
+health monitor for the two servers. How to set this up in described in the
+[following article](./building-a-multi-tier-application-using-openstack-packstack.html).
+However, you can also do so with HAProxy and a failover mechanism, which will be
+the topic of a future article.
 
 If you have questions please let me know on Twitter at [@gbraad](http://twitter.com/gbraad) or by email.
