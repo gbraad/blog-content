@@ -2,7 +2,7 @@
 Title: JavaScript Loaders
 Date: 2014-11-4
 Category: JavaScript
-Tags: javascriot
+Tags: javascript
 ---
 
 Overview of JavaScript loaders

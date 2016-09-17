@@ -1,7 +1,7 @@
 ---
 Title: non-root user inside a Docker container
 Date: 2016-9-8
-Category: Docker
+Category: Containers
 Tags: docker, fedora
 ---
 

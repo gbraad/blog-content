@@ -1,7 +1,7 @@
 ---
 Title: Setting up a powerful self-hosted IDE in the cloud
 Date: 2016-9-6
-Category: Docker
+Category: Containers
 Tags: docker, c9ide, fedora
 ---
 

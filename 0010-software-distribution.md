@@ -2,7 +2,7 @@
 Title: Software Distribution for a new era
 Date: 2016-7-30
 Modified: 2016-9-10
-Category: Atomic
+Category: Containers
 Tags: flatpak, docker, ostree, atomic, fedora, centos
 ---
 

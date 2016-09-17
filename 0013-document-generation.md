@@ -1,7 +1,7 @@
 ---
 Title: Document generation using Markdown and Pandoc
 Date: 2016-9-13
-Category: Misc
+Category: CI / CD
 Tags: markdown, documentation, pandoc, docker
 ---
 
