@@ -21,3 +21,5 @@
   * [Highlighting of Code and Text](0007-highlighting-code-text.md)
   * [Building a multi-tier application using OpenStack (PackStack)](0008-multitier-setup-openstack.md)
   * [Highly Available storage using GlusterFS](0012-ha-storage-using-gluster.md)
+  * [Document generation using Markdown and Pandoc](0013-document-generation.md)
+ 
