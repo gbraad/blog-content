@@ -22,4 +22,6 @@
   * [Building a multi-tier application using OpenStack (PackStack)](0008-multitier-setup-openstack.md)
   * [Highly Available storage using GlusterFS](0012-ha-storage-using-gluster.md)
   * [Document generation using Markdown and Pandoc](0013-document-generation.md)
+  * [Mentors and recommended books](0015-mentor-recommended-books.md)
+  * [Object Design](0016-object-design.md)
  
