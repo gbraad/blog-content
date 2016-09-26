@@ -24,4 +24,4 @@
   * [Document generation using Markdown and Pandoc](0013-document-generation.md)
   * [Mentors and recommended books](0015-mentor-recommended-books.md)
   * [Object Design](0016-object-design.md)
- 
+  * [Deploying Kubernetes using Ansible](0017-kubernetes-ansible.md)
