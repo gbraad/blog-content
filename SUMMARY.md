@@ -25,3 +25,4 @@
   * [Mentors and recommended books](0015-mentor-recommended-books.md)
   * [Object Design](0016-object-design.md)
   * [Deploying Kubernetes using Ansible](0017-kubernetes-ansible.md)
+  * [Deploying OpenShift](0018-openshift-cluster-up.md)
