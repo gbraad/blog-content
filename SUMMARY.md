@@ -26,4 +26,6 @@
   * [Object Design](0016-object-design.md)
   * [Deploying Kubernetes using Ansible](0017-kubernetes-ansible.md)
   * [Deploying OpenShift](0018-openshift-cluster-up.md)
-  * [Setup Docker storage to use LVM thin pool](0019-setup-ocker-storage.md)
+  * [Setup Docker storage to use LVM thin pool](0019-setup-docker-storage.md)
+  * [Run an example application on OpenShift](0020-openshift-example.md)
+  * [Giving to your favourite content creators](0021-give-to-content-creators.md)
