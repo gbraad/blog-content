@@ -126,14 +126,14 @@ As part of the playbook, first we will configure the master node. For this, the 
   * `flannel`
   * `etcd`
 
-[Source](https://github.com/gbraad/ansible-kubernetes-master)
+[Source](https://github.com/gbraad/ansible-role-kubernetes-master)
 
 
 #### Configure Kubernetes
 After this step Kubernetes will be configured on this hosts. Tasks are described in the file `tasks/configure_k8s.yml`, [source](https://github.com/gbraad/ansible-role-kubernetes-master/blob/master/tasks/configure_k8s.yml).
 
 
-[Role](https://github.com/gbraad/ansible-role-kubernetes-master)
+[Role](https://galaxy.ansible.com/gbraad/kubernetes-master)
 
 
 ##### Congfigure Kubernetes: etcd
@@ -198,7 +198,7 @@ For the configuration of a Kubernetes node we use the role `gbraad.kubernetes-no
   * flannel
   * kubernetes specific settings
 
-[Source](https://github.com/gbraad/ansible-kubernetes-node)
+[Source](https://github.com/gbraad/ansible-role-kubernetes-node), [Role](https://galaxy.ansible.com/gbraad/kubernetes-node/)
 
 
 #### Configure SELinux
