@@ -81,6 +81,10 @@ $ usermod -a -G docker fedora
 $ chgrp docker /var/run/docker.sock
 ```
 
+Edit: I recently created an [Ansible playbook](https://github.com/gbraad/ansible-playbooks/blob/master/playbooks/enable-ansible-user-for-docker.yml)
+to perform these steps, as I had to do this on several Atomic hosts. I uses the
+current Ansible user and adds it to a group, and changes the socket permissions.
+
 After this you can start docker and move on the actual installation of OpenShift.
 
 ```
