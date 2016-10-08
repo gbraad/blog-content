@@ -30,3 +30,4 @@
   * [Run an example application on OpenShift](0020-openshift-example.md)
   * [Giving to your favourite content creators](0021-give-to-content-creators.md)
   * [Dear recruiter](0022-dear-recruiter.md)
+  * [Replace scripts with Ansible: package installation](0023-ansible-to-replace-scripts-packages.md)
