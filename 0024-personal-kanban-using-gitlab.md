@@ -6,8 +6,8 @@ Tags: continuous improvement, management, knowledge, kanban, gitlab
 ---
 
 Working on personal and work-related tasks can be overwhelming, especially when
-you loose sight of what actually needs to be done. What makes it more difficult
-is that we are constantly interrupted. I have tried many different things, and
+you lose sight of what actually needs to be done. What makes it more difficult
+is that you are constantly interrupted. I have tried many different things, and
 apps, but nothing really worked. Do not try to make your process of working to
 fit the tool, but make sure you have a tool that fits the way you work.
 
@@ -16,7 +16,7 @@ fit the tool, but make sure you have a tool that fits the way you work.
 Kanban (or 看板) originated as a scheduling system to improving manufacturing
 efficiency. The word literally means signboard in Japanese, and in Chinese it
 can be read as 'Look board'. It emphasizes on visualization of tasks that need
-to be done, are being worked on, or have finished.
+to be done, are being worked on, and have finished.
 
 In software development you often see people use Trello or other kanban-like
 boards to visualize work that is on their 'backlog', 'doing', 'done'. Although
@@ -24,9 +24,9 @@ these tools work quite well, it did not fit my workflow or where I do most of
 my work.
 
 ## GitLab issues
-Quite recently, GitLab released a version of their sourcecode management tool,
+Quite recently, GitLab released a version of their sourcecode management tool
 that allows to visualize issues on a board. And I started to evaluate it, as
-GitLab is much part of my workflow in general. I host many of my private
+GitLab is part of my workflow in general. I host many of my private
 repositories there for backup purposes, use it to publish my resume with the
 CI runners, etc. And I can tell you, that the issue boards was exactly what I
 was looking for.
@@ -35,7 +35,7 @@ Below is a screenshot of what it looks like:
 ![](//cdn.gbraad.nl/images/blog/kanban-gitlab.jpg)
 
 Note: the image shown here is from an early iteration and still has too
-many items in 'doing'. This actually made me realize where my time went.
+many items in 'doing'. This actually made me realize where my time was spent.
 
 
 ### How to set-up
@@ -54,13 +54,13 @@ such as 'blog' and 'urgent'. When you drag, it will assign the label
 to the issue according to the name of the swimlane.
 
 ### Offline use?
-There is however a small issue with the setup. It only allows me to work
+There is, however, a small issue with the setup. It only allows me to work
 online. In the end I noticed this is actually not a big problem.
 
 ## Single-tasking
-Kanban helps you to visualize your tasks at hand, but it is still
-discipline that actually makes it work. Therefore, you need to understand
-that 'multi-tasking' does not exist! I recently read 'Singletasking: Get More
+Kanban helps you to visualize your tasks at hand, but it still requires 
+discipline to actually make it work. Therefore, you need to understand that
+'multi-tasking' does not exist! I recently read 'Singletasking: Get More
 Done-One Thing at a Time', and it help me a lot to realize that I was
 going the right direction with my personal kanban. However, I was still
 trying to do too many things at once. Mostly due to interruptions. This
@@ -133,7 +133,7 @@ a great way to organize thoughts.
 
 
 ## More information
-I suggest you to read more about about personal kanban.
+I suggest to read more about personal kanban.
 
   * [Personal Kanban 101](http://www.personalkanban.com/pk/personal-kanban-101/)
   * Knowledge-base: [Personal kanban](https://gitlab.com/gbraad/knowledge-base/blob/master/books/personal-kanban.md)
