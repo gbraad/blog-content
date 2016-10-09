@@ -2,7 +2,7 @@
 Title: Run an example application on OpenShift
 Date: 2016-09-29
 Category: Containers
-Tags: containers, openshift, example, ruby, docker
+Tags: containers, openshift, example, ruby, docker, devops
 ---
 
 In a [previous article][article deployment] I have written

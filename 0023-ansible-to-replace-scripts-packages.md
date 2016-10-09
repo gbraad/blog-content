@@ -1,13 +1,13 @@
 ---
 Title: Replace scripts with Ansible: package installation
 Date: 2016-10-03
-Category: Misc
-Tags: deployment, configuration, ansible
+Category: DevOps
+Tags: deployment, configuration, ansible, devops
 ---
 
 Installing and configuring software on one machine, for instance your own
 developer's environment, is an 'easy' task. But how about your team? Or
-production? Everything is documented and you probably install some of the
+production? Everything is documented and you only probably install some of the
 components manually, or better, you automate this using a set of shell scripts.
 The environment is now reproducible. Everything is fine.
 
