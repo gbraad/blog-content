@@ -31,3 +31,4 @@
   * [Giving to your favourite content creators](0021-give-to-content-creators.md)
   * [Dear recruiter](0022-dear-recruiter.md)
   * [Replace scripts with Ansible: package installation](0023-ansible-to-replace-scripts-packages.md)
+  * [Task management and Personal Kanban: how I use GitLab Issues](0024-personal-kanban-using-gitlab.md)
