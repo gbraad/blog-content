@@ -23,5 +23,5 @@ Beijing GNOME User Group.
 ## Feedback
 If you have any suggestion, please discuss below or send me an email.
 
-Note: the original presentation can be found at: [Software Distribution for a new era](https://gitlab.com/gbraad/presentation-bjgug-flatpak).
+Note: the original presentation can be found at: [GitLab: BJGUG Flatpak](https://gitlab.com/gbraad/presentation-bjgug-flatpak).
 This is based on an earlier presentation about [Software Dsitribution for a new era](/blog/software-distribution-for-a-new-era.html)
