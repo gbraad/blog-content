@@ -1,7 +1,7 @@
 ---
 Title: Flatpak; the road to CI/CD for desktop applications?
 Date: 2016-10-22
-Category: CI/CD
+Category: CI / CD
 Tags: flatpak, ostree, gnome
 ---
 
