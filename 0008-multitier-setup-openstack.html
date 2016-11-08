@@ -1,0 +1,1231 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Building a multi-tier application using OpenStack (PackStack) · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0012-ha-storage-using-gluster.html" />
+    
+    
+    <link rel="prev" href="0007-highlighting-code-text.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2014</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="0001-javascript-loaders.html">
+            
+                <a href="0001-javascript-loaders.html">
+            
+                    
+                    JavaScript Loaders
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="0002-trigger-phonegap-build-from-github.html">
+            
+                <a href="0002-trigger-phonegap-build-from-github.html">
+            
+                    
+                    Trigger PhoneGap builds from GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2016</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="0003-hello-internet.html">
+            
+                <a href="0003-hello-internet.html">
+            
+                    
+                    Hello, Internet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="0004-setup-self-hosted-cloud9.html">
+            
+                <a href="0004-setup-self-hosted-cloud9.html">
+            
+                    
+                    Setting up a powerful self-hosted IDE in the cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="0005-custom-ceph-atomic-deployment.html">
+            
+                <a href="0005-custom-ceph-atomic-deployment.html">
+            
+                    
+                    Deployment of Ceph using custom Atomic images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="0006-nonroot-container.html">
+            
+                <a href="0006-nonroot-container.html">
+            
+                    
+                    non-root user inside a Docker container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="0007-highlighting-code-text.html">
+            
+                <a href="0007-highlighting-code-text.html">
+            
+                    
+                    Highlighting of Code and Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.6" data-path="0008-multitier-setup-openstack.html">
+            
+                <a href="0008-multitier-setup-openstack.html">
+            
+                    
+                    Building a multi-tier application using OpenStack (PackStack)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="0012-ha-storage-using-gluster.html">
+            
+                <a href="0012-ha-storage-using-gluster.html">
+            
+                    
+                    Highly Available storage using GlusterFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="0013-document-generation.html">
+            
+                <a href="0013-document-generation.html">
+            
+                    
+                    Document generation using Markdown and Pandoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="0015-mentor-recommended-books.html">
+            
+                <a href="0015-mentor-recommended-books.html">
+            
+                    
+                    Mentors and recommended books
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="0016-object-design.html">
+            
+                <a href="0016-object-design.html">
+            
+                    
+                    Object Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="0017-kubernetes-ansible.html">
+            
+                <a href="0017-kubernetes-ansible.html">
+            
+                    
+                    Deploying Kubernetes using Ansible
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="0018-openshift-cluster-up.html">
+            
+                <a href="0018-openshift-cluster-up.html">
+            
+                    
+                    Deploying OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="0019-setup-docker-storage.html">
+            
+                <a href="0019-setup-docker-storage.html">
+            
+                    
+                    Setup Docker storage to use LVM thin pool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="0020-openshift-example.html">
+            
+                <a href="0020-openshift-example.html">
+            
+                    
+                    Run an example application on OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="0021-give-to-content-creators.html">
+            
+                <a href="0021-give-to-content-creators.html">
+            
+                    
+                    Giving to your favourite content creators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="0022-dear-recruiter.html">
+            
+                <a href="0022-dear-recruiter.html">
+            
+                    
+                    Dear recruiter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="0023-ansible-to-replace-scripts-packages.md">
+            
+                <span>
+            
+                    
+                    Replace scripts with Ansible: package installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="0024-personal-kanban-using-gitlab.md">
+            
+                <span>
+            
+                    
+                    Task management and Personal Kanban: how I use GitLab Issues
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Building a multi-tier application using OpenStack (PackStack)</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>This is a publication of an article/training class I gave related to setting up
+an environment using OpenStack, to host a multi-tier applicatiom.</p><h2 id="introduction">Introduction</h2><p>In this hands-on-labs you will learn how to set-up an OpenStack environment to
+host a multi-tier application; front-end, back-end and the related network
+settings to prevent access to back-end servers, etc.</p><p>To setup the environment quickly, we will be using PackStack. PackStack is an
+installation utility to quickly deploy an OpenStack cloud. In our case we will
+use the all-in-one solutiion which allows a single node environment to
+test deploying our multi-tier application.</p><h2 id="setup-packstack-environment">Setup packstack environment</h2><p>Use a RHEL or CentOS 7 installation.</p><pre><code>$ systemctl disable NetworkManager
+$ systemctl enable network
+$ systemctl stop NetworkManager.service
+$ systemctl start network.service</code></pre>
+<pre><code>$ yum install -y https://www.rdoproject.org/repos/rdo-release.rpm
+$ sudo yum update -y
+$ sudo yum install -y openstack-packstack
+$ packstack --allinone --os-neutron-lbaas-install=y</code></pre>
+<h2 id="check-environment">Check environment</h2><p>In order to start using <em>OpenStack</em>, you&#x2019;ll need to authenticate as a tenant. To
+do this, run the following command in order to put the demo user&#x2019;s credentials
+in your environment.</p><pre><code>$ source ~/keystonerc_admin</code></pre>
+<p>The installation automatically creates two networks for you <em>&#x2018;private&#x2019;</em> and
+<em>&#x2018;public&#x2019;</em>. The <em>&#x2018;public&#x2019;</em> network we&#x2019;ll use to allocate floating ips out of
+later. Running <code>openstack network list</code> will show this.</p><pre><code>$ openstack network list</code></pre>
+<pre><code>+--------------------------------------+---------+--------------------------------------+
+| ID                                   | Name    | Subnets                              |
++--------------------------------------+---------+--------------------------------------+
+| 84aff6b0-2291-41b5-9871-d3d24906e358 | private | 92432fb8-8c29-4abe-98d8-de8bf161a18b |
+| 427becab-54af-4b43-a5d2-e292b13b6a86 | public  | 78eff45a-25f2-4904-bab8-a8795d9a7f9b |
++--------------------------------------+---------+--------------------------------------+</code></pre>
+<h2 id="setup-security-groups">Setup security groups</h2><p>First we&#x2019;ll create the three security groups we&#x2019;ll need to contain the members:
+web, database and ssh.</p><pre><code>$ openstack security group create web</code></pre>
+<pre><code>+-------------+--------------------------------------+
+| Field       | Value                                |
++-------------+--------------------------------------+
+| description | web                                  |
+| id          | a98fcd2f-a828-4a88-92aa-36e3c1223a92 |
+| name        | web                                  |
+| rules       | []                                   |
+| tenant_id   | 3d44af649a1c42fcaa102ed11e3f010f     |
++-------------+--------------------------------------+</code></pre>
+<pre><code>$ openstack security group create database</code></pre>
+<pre><code>+-------------+--------------------------------------+
+| Field       | Value                                |
++-------------+--------------------------------------+
+| description | database                             |
+| id          | cf6c0380-e255-4ba8-9258-bb8e9c062fa7 |
+| name        | database                             |
+| rules       | []                                   |
+| tenant_id   | 3d44af649a1c42fcaa102ed11e3f010f     |
++-------------+--------------------------------------+</code></pre>
+<pre><code>$ openstack security group create ssh</code></pre>
+<pre><code>+-------------+--------------------------------------+
+| Field       | Value                                |
++-------------+--------------------------------------+
+| description | ssh                                  |
+| id          | 141ed0d0-c004-457d-8efa-45e0fd2dc986 |
+| name        | ssh                                  |
+| rules       | []                                   |
+| tenant_id   | 3d44af649a1c42fcaa102ed11e3f010f     |
++-------------+--------------------------------------+</code></pre>
+<pre><code>$ openstack security group list</code></pre>
+<pre><code>+--------------------------------------+----------+------------------------+
+| ID                                   | Name     | Description            |
++--------------------------------------+----------+------------------------+
+| cf6c0380-e255-4ba8-9258-bb8e9c062fa7 | database | database               |
+| 379b58b2-7ca3-431e-ae1f-cd6a627a9b30 | default  | Default security group |
+| 141ed0d0-c004-457d-8efa-45e0fd2dc986 | ssh      | ssh                    |
+| a98fcd2f-a828-4a88-92aa-36e3c1223a92 | web      | web                    |
++--------------------------------------+----------+------------------------+</code></pre>
+<p>Now we&#x2019;ll add rules into these security groups for their desired functionality.</p><p>Allow all HTTP traffic on port 80 to the <code>web</code> security group:</p><pre><code>$ neutron security-group-rule-create --direction ingress --protocol TCP \ 
+&gt; --port-range-min 80 --port-range-max 80 web</code></pre>
+<pre><code>Created a new security_group_rule:
++-------------------+--------------------------------------+
+| Field             | Value                                |
++-------------------+--------------------------------------+
+| direction         | ingress                              |
+| ethertype         | IPv4                                 |
+| id                | b293d93a-30c2-4854-a890-5ce65639f870 |
+| port_range_max    | 80                                   |
+| port_range_min    | 80                                   |
+| protocol          | tcp                                  |
+| remote_group_id   |                                      |
+| remote_ip_prefix  |                                      |
+| security_group_id | a98fcd2f-a828-4a88-92aa-36e3c1223a92 |
+| tenant_id         | 3d44af649a1c42fcaa102ed11e3f010f     |
++-------------------+--------------------------------------+</code></pre>
+<p>Allow database servers to be accessed from the web servers:</p><pre><code>$ neutron security-group-rule-create --direction ingress --protocol TCP \
+&gt; --port-range-min 3306 --port-range-max 3306 --remote-group-id web database</code></pre>
+<pre><code>Created a new security_group_rule:
++-------------------+--------------------------------------+
+| Field             | Value                                |
++-------------------+--------------------------------------+
+| direction         | ingress                              |
+| ethertype         | IPv4                                 |
+| id                | dfc77fb6-48a0-41ca-9230-50c2cda27c63 |
+| port_range_max    | 3306                                 |
+| port_range_min    | 3306                                 |
+| protocol          | tcp                                  |
+| remote_group_id   | a98fcd2f-a828-4a88-92aa-36e3c1223a92 |
+| remote_ip_prefix  |                                      |
+| security_group_id | cf6c0380-e255-4ba8-9258-bb8e9c062fa7 |
+| tenant_id         | 3d44af649a1c42fcaa102ed11e3f010f     |
++-------------------+--------------------------------------+</code></pre>
+<p>Allow the jump host to <code>ssh</code> into both the database servers and webservers</p><pre><code>$ neutron security-group-rule-create --direction ingress --protocol TCP \ 
+&gt; --port-range-min 22 --port-range-max 22 --remote-group-id ssh database</code></pre>
+<pre><code>Created a new security_group_rule:
++-------------------+--------------------------------------+
+| Field             | Value                                |
++-------------------+--------------------------------------+
+| direction         | ingress                              |
+| ethertype         | IPv4                                 |
+| id                | 0c686a2c-304f-42be-9936-cdce46963d46 |
+| port_range_max    | 22                                   |
+| port_range_min    | 22                                   |
+| protocol          | tcp                                  |
+| remote_group_id   | 141ed0d0-c004-457d-8efa-45e0fd2dc986 |
+| remote_ip_prefix  |                                      |
+| security_group_id | cf6c0380-e255-4ba8-9258-bb8e9c062fa7 |
+| tenant_id         | 3d44af649a1c42fcaa102ed11e3f010f     |
++-------------------+--------------------------------------+</code></pre>
+<pre><code>$ neutron security-group-rule-create --direction ingress --protocol TCP \
+&gt; --port-range-min 22 --port-range-max 22 --remote-group-id ssh web</code></pre>
+<pre><code>Created a new security_group_rule:
++-------------------+--------------------------------------+
+| Field             | Value                                |
++-------------------+--------------------------------------+
+| direction         | ingress                              |
+| ethertype         | IPv4                                 |
+| id                | 919a6ede-8dfd-4184-bf2a-f07c0527d5bf |
+| port_range_max    | 22                                   |
+| port_range_min    | 22                                   |
+| protocol          | tcp                                  |
+| remote_group_id   | 141ed0d0-c004-457d-8efa-45e0fd2dc986 |
+| remote_ip_prefix  |                                      |
+| security_group_id | a98fcd2f-a828-4a88-92aa-36e3c1223a92 |
+| tenant_id         | 3d44af649a1c42fcaa102ed11e3f010f     |
++-------------------+--------------------------------------+</code></pre>
+<p>Allow the outside world to be able to <code>ssh</code> into the jump host on port 22:</p><pre><code>$ neutron security-group-rule-create --direction ingress --protocol tcp \
+&gt; --port-range-min 22 --port-range-max 22 ssh</code></pre>
+<pre><code>Created a new security_group_rule:
++-------------------+--------------------------------------+
+| Field             | Value                                |
++-------------------+--------------------------------------+
+| direction         | ingress                              |
+| ethertype         | IPv4                                 |
+| id                | fb8dcbe6-e553-4a92-aed4-aca7f086dca4 |
+| port_range_max    | 22                                   |
+| port_range_min    | 22                                   |
+| protocol          | tcp                                  |
+| remote_group_id   |                                      |
+| remote_ip_prefix  |                                      |
+| security_group_id | 141ed0d0-c004-457d-8efa-45e0fd2dc986 |
+| tenant_id         | 3d44af649a1c42fcaa102ed11e3f010f     |
++-------------------+--------------------------------------+</code></pre>
+<h2 id="setup-virtual-machines">Setup virtual machines</h2><p>Now we can boot some virtual machines that will make use of these security
+groups. Run <code>openstack net work list</code> to obtain the private network <code>uuid</code> that
+we are going to be using:</p><pre><code>$ openstack network list</code></pre>
+<pre><code>+--------------------------------------+---------+--------------------------------------+
+| ID                                   | Name    | Subnets                              |
++--------------------------------------+---------+--------------------------------------+
+| 427becab-54af-4b43-a5d2-e292b13b6a86 | public  | 78eff45a-25f2-4904-bab8-a8795d9a7f9b |
+| 84aff6b0-2291-41b5-9871-d3d24906e358 | private | 92432fb8-8c29-4abe-98d8-de8bf161a18b |
++--------------------------------------+---------+--------------------------------------+</code></pre>
+<p>Then, we&#x2019;ll run <code>openstack image list</code> to determine the images available to boot
+our instances with. Since we&#x2019;re using <em>packstack</em>, the script automatically
+uploaded an image to <em>glance</em> for us to use.</p><pre><code>$ openstack image list</code></pre>
+<pre><code>+--------------------------------------+--------+
+| ID                                   | Name   |
++--------------------------------------+--------+
+| eea0e326-8e2e-41db-80a0-1138a4bdd5a6 | cirros |
++--------------------------------------+--------+</code></pre>
+<h4 id="overview">Overview</h4><p>In the next steps we will boot four instances:</p><ul><li>2 web servers
+</li>
+<li>1 database server
+</li>
+<li>1 ssh jump host
+</li></ul>
+<p>We will be creating instances using the smallest flavor available.</p><pre><code>$ openstack flavor list</code></pre>
+<pre><code>+----+-----------+-------+------+-----------+-------+-----------+
+| ID | Name      |   RAM | Disk | Ephemeral | VCPUs | Is Public |
++----+-----------+-------+------+-----------+-------+-----------+
+| 1  | m1.tiny   |   512 |    1 |         0 |     1 | True      |
+| 2  | m1.small  |  2048 |   20 |         0 |     1 | True      |
+| 3  | m1.medium |  4096 |   40 |         0 |     2 | True      |
+| 4  | m1.large  |  8192 |   80 |         0 |     4 | True      |
+| 5  | m1.xlarge | 16384 |  160 |         0 |     8 | True      |
++----+-----------+-------+------+-----------+-------+-----------+</code></pre>
+<p>So we will be using flavor 1, which means instances are created with 512MB of
+memory and a disk of 1G.</p><p>Note:</p><p>We also have to make sure that each instances has an IP address on the private
+network. For this we are including the <code>--nic net-id=</code> option specifying the
+network ID of the private network.</p><h3 id="setup-web-servers">Setup web servers</h3><p>Boot two instances named <code>web_server1</code> and <code>web_server2</code> on the private network
+using the <code>cirros</code> image and part of the web security group:</p><pre><code>$ nova boot --image cirros --nic net-id=84aff6b0-2291-41b5-9871-d3d24906e358 \
+&gt; --security_groups web --flavor 1 web_server1</code></pre>
+<pre><code>+--------------------------------------+-----------------------------------------------+
+| Property                             | Value                                         |
++--------------------------------------+-----------------------------------------------+
+| OS-DCF:diskConfig                    | MANUAL                                        |
+| OS-EXT-AZ:availability_zone          |                                               |
+| OS-EXT-SRV-ATTR:host                 | -                                             |
+| OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                             |
+| OS-EXT-SRV-ATTR:instance_name        | instance-00000001                             |
+| OS-EXT-STS:power_state               | 0                                             |
+| OS-EXT-STS:task_state                | scheduling                                    |
+| OS-EXT-STS:vm_state                  | building                                      |
+| OS-SRV-USG:launched_at               | -                                             |
+| OS-SRV-USG:terminated_at             | -                                             |
+| accessIPv4                           |                                               |
+| accessIPv6                           |                                               |
+| adminPass                            | rijM8RvVKXhd                                  |
+| config_drive                         |                                               |
+| created                              | 2016-02-25T08:21:23Z                          |
+| flavor                               | m1.tiny (1)                                   |
+| hostId                               |                                               |
+| id                                   | be6ec624-07cd-45c1-8260-211f1f2fd786          |
+| image                                | cirros (eea0e326-8e2e-41db-80a0-1138a4bdd5a6) |
+| key_name                             | -                                             |
+| metadata                             | {}                                            |
+| name                                 | web_server1                                   |
+| os-extended-volumes:volumes_attached | []                                            |
+| progress                             | 0                                             |
+| security_groups                      | web                                           |
+| status                               | BUILD                                         |
+| tenant_id                            | 3d44af649a1c42fcaa102ed11e3f010f              |
+| updated                              | 2016-02-25T08:21:24Z                          |
+| user_id                              | a72ce317d35c47e8b8274995d0a2af92              |
++--------------------------------------+-----------------------------------------------+</code></pre>
+<pre><code>$ nova boot --image cirros --nic net-id=84aff6b0-2291-41b5-9871-d3d24906e358 \ 
+&gt; --security_groups web --flavor 1 web_server2</code></pre>
+<pre><code>+--------------------------------------+-----------------------------------------------+
+| Property                             | Value                                         |
++--------------------------------------+-----------------------------------------------+
+| OS-DCF:diskConfig                    | MANUAL                                        |
+| OS-EXT-AZ:availability_zone          |                                               |
+| OS-EXT-SRV-ATTR:host                 | -                                             |
+| OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                             |
+| OS-EXT-SRV-ATTR:instance_name        | instance-00000002                             |
+| OS-EXT-STS:power_state               | 0                                             |
+| OS-EXT-STS:task_state                | scheduling                                    |
+| OS-EXT-STS:vm_state                  | building                                      |
+| OS-SRV-USG:launched_at               | -                                             |
+| OS-SRV-USG:terminated_at             | -                                             |
+| accessIPv4                           |                                               |
+| accessIPv6                           |                                               |
+| adminPass                            | vyT4575gsqth                                  |
+| config_drive                         |                                               |
+| created                              | 2016-02-25T08:22:53Z                          |
+| flavor                               | m1.tiny (1)                                   |
+| hostId                               |                                               |
+| id                                   | 146056ad-e8dc-4ad3-8765-97b753f3d040          |
+| image                                | cirros (eea0e326-8e2e-41db-80a0-1138a4bdd5a6) |
+| key_name                             | -                                             |
+| metadata                             | {}                                            |
+| name                                 | web_server2                                   |
+| os-extended-volumes:volumes_attached | []                                            |
+| progress                             | 0                                             |
+| security_groups                      | web                                           |
+| status                               | BUILD                                         |
+| tenant_id                            | 3d44af649a1c42fcaa102ed11e3f010f              |
+| updated                              | 2016-02-25T08:22:53Z                          |
+| user_id                              | a72ce317d35c47e8b8274995d0a2af92              |
++--------------------------------------+-----------------------------------------------+</code></pre>
+<h3 id="setup-database-server">Setup database server</h3><p>Boot database server</p><pre><code>$ nova boot --image cirros --nic net-id=84aff6b0-2291-41b5-9871-d3d24906e358 \
+&gt; --security_groups database --flavor 1 database_server</code></pre>
+<pre><code>+--------------------------------------+-----------------------------------------------+
+| Property                             | Value                                         |
++--------------------------------------+-----------------------------------------------+
+| OS-DCF:diskConfig                    | MANUAL                                        |
+| OS-EXT-AZ:availability_zone          |                                               |
+| OS-EXT-SRV-ATTR:host                 | -                                             |
+| OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                             |
+| OS-EXT-SRV-ATTR:instance_name        | instance-00000003                             |
+| OS-EXT-STS:power_state               | 0                                             |
+| OS-EXT-STS:task_state                | scheduling                                    |
+| OS-EXT-STS:vm_state                  | building                                      |
+| OS-SRV-USG:launched_at               | -                                             |
+| OS-SRV-USG:terminated_at             | -                                             |
+| accessIPv4                           |                                               |
+| accessIPv6                           |                                               |
+| adminPass                            | 9GJgxdvz3eFQ                                  |
+| config_drive                         |                                               |
+| created                              | 2016-02-25T08:23:22Z                          |
+| flavor                               | m1.tiny (1)                                   |
+| hostId                               |                                               |
+| id                                   | d66ced0e-3aaf-4c14-8921-229ac6307ecd          |
+| image                                | cirros (eea0e326-8e2e-41db-80a0-1138a4bdd5a6) |
+| key_name                             | -                                             |
+| metadata                             | {}                                            |
+| name                                 | database_server                               |
+| os-extended-volumes:volumes_attached | []                                            |
+| progress                             | 0                                             |
+| security_groups                      | database                                      |
+| status                               | BUILD                                         |
+| tenant_id                            | 3d44af649a1c42fcaa102ed11e3f010f              |
+| updated                              | 2016-02-25T08:23:22Z                          |
+| user_id                              | a72ce317d35c47e8b8274995d0a2af92              |
++--------------------------------------+-----------------------------------------------+</code></pre>
+<h3 id="setup-jumphost-server">Setup jumphost server</h3><p>Boot ssh jump host</p><pre><code>$ nova boot --image cirros --nic net-id=84aff6b0-2291-41b5-9871-d3d24906e358 \
+&gt; --security_groups ssh --flavor 1 jumphost</code></pre>
+<pre><code>+--------------------------------------+-----------------------------------------------+
+| Property                             | Value                                         |
++--------------------------------------+-----------------------------------------------+
+| OS-DCF:diskConfig                    | MANUAL                                        |
+| OS-EXT-AZ:availability_zone          |                                               |
+| OS-EXT-SRV-ATTR:host                 | -                                             |
+| OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                             |
+| OS-EXT-SRV-ATTR:instance_name        | instance-00000004                             |
+| OS-EXT-STS:power_state               | 0                                             |
+| OS-EXT-STS:task_state                | scheduling                                    |
+| OS-EXT-STS:vm_state                  | building                                      |
+| OS-SRV-USG:launched_at               | -                                             |
+| OS-SRV-USG:terminated_at             | -                                             |
+| accessIPv4                           |                                               |
+| accessIPv6                           |                                               |
+| adminPass                            | jwbUXkmfEK7Y                                  |
+| config_drive                         |                                               |
+| created                              | 2016-02-25T08:23:54Z                          |
+| flavor                               | m1.tiny (1)                                   |
+| hostId                               |                                               |
+| id                                   | e540896e-e148-414a-9588-3b83d3f2b059          |
+| image                                | cirros (eea0e326-8e2e-41db-80a0-1138a4bdd5a6) |
+| key_name                             | -                                             |
+| metadata                             | {}                                            |
+| name                                 | jumphost                                      |
+| os-extended-volumes:volumes_attached | []                                            |
+| progress                             | 0                                             |
+| security_groups                      | ssh                                           |
+| status                               | BUILD                                         |
+| tenant_id                            | 3d44af649a1c42fcaa102ed11e3f010f              |
+| updated                              | 2016-02-25T08:23:54Z                          |
+| user_id                              | a72ce317d35c47e8b8274995d0a2af92              |
++--------------------------------------+-----------------------------------------------+</code></pre>
+<h3 id="client">Client</h3><p>We will also create a client instance that we will use to access the web servers
+from.</p><p>Note: Since we did not specify a security group this instance will be part of a
+<code>default</code> security group which allows the instance to make outgoing connections
+to anyone but only accept incoming connections from members of this same
+security group.</p><pre><code>$ nova boot --image cirros --nic net-id=84aff6b0-2291-41b5-9871-d3d24906e358 \
+&gt; --flavor 1 client</code></pre>
+<pre><code>+--------------------------------------+-----------------------------------------------+
+| Property                             | Value                                         |
++--------------------------------------+-----------------------------------------------+
+| OS-DCF:diskConfig                    | MANUAL                                        |
+| OS-EXT-AZ:availability_zone          |                                               |
+| OS-EXT-SRV-ATTR:host                 | -                                             |
+| OS-EXT-SRV-ATTR:hypervisor_hostname  | -                                             |
+| OS-EXT-SRV-ATTR:instance_name        | instance-00000005                             |
+| OS-EXT-STS:power_state               | 0                                             |
+| OS-EXT-STS:task_state                | scheduling                                    |
+| OS-EXT-STS:vm_state                  | building                                      |
+| OS-SRV-USG:launched_at               | -                                             |
+| OS-SRV-USG:terminated_at             | -                                             |
+| accessIPv4                           |                                               |
+| accessIPv6                           |                                               |
+| adminPass                            | c63QG7iE3PrY                                  |
+| config_drive                         |                                               |
+| created                              | 2016-02-25T08:24:27Z                          |
+| flavor                               | m1.tiny (1)                                   |
+| hostId                               |                                               |
+| id                                   | 8e0179a3-6bf8-4c07-8035-f8916ca3183d          |
+| image                                | cirros (eea0e326-8e2e-41db-80a0-1138a4bdd5a6) |
+| key_name                             | -                                             |
+| metadata                             | {}                                            |
+| name                                 | client                                        |
+| os-extended-volumes:volumes_attached | []                                            |
+| progress                             | 0                                             |
+| security_groups                      | default                                       |
+| status                               | BUILD                                         |
+| tenant_id                            | 3d44af649a1c42fcaa102ed11e3f010f              |
+| updated                              | 2016-02-25T08:24:27Z                          |
+| user_id                              | a72ce317d35c47e8b8274995d0a2af92              |
++--------------------------------------+-----------------------------------------------+</code></pre>
+<h3 id="check-virtual-machines">Check virtual machines</h3><p>Running <code>openstack server list</code> will display the status of the instances. After
+a few seconds all of the instances should go to an ACTIVE status.</p><pre><code>$ openstack server list</code></pre>
+<pre><code>+--------------------------------------+-----------------+--------+------------------+
+| ID                                   | Name            | Status | Networks         |
++--------------------------------------+-----------------+--------+------------------+
+| 8e0179a3-6bf8-4c07-8035-f8916ca3183d | client          | ACTIVE | private=10.0.0.7 |
+| e540896e-e148-414a-9588-3b83d3f2b059 | jumphost        | ACTIVE | private=10.0.0.6 |
+| d66ced0e-3aaf-4c14-8921-229ac6307ecd | database_server | ACTIVE | private=10.0.0.5 |
+| 146056ad-e8dc-4ad3-8765-97b753f3d040 | web_server2     | ACTIVE | private=10.0.0.4 |
+| be6ec624-07cd-45c1-8260-211f1f2fd786 | web_server1     | ACTIVE | private=10.0.0.3 |
++--------------------------------------+-----------------+--------+------------------+</code></pre>
+<h3 id="setup-public-ip-address-for-ssh">Setup public IP address for SSH</h3><p>To make the jumphost publicly accessible on the internet we&#x2019;ll need to assign a
+floating IP to it. To do this first create a floating IP via:</p><pre><code>$ neutron floatingip-create public</code></pre>
+<pre><code>Created a new floatingip:
++---------------------+--------------------------------------+
+| Field               | Value                                |
++---------------------+--------------------------------------+
+| fixed_ip_address    |                                      |
+| floating_ip_address | 172.24.4.228                         |
+| floating_network_id | 427becab-54af-4b43-a5d2-e292b13b6a86 |
+| id                  | ce6efd31-97e9-428b-a3ac-b5a14e77a305 |
+| port_id             |                                      |
+| router_id           |                                      |
+| status              | DOWN                                 |
+| tenant_id           | 3d44af649a1c42fcaa102ed11e3f010f     |
++---------------------+--------------------------------------+</code></pre>
+<p>Next, we need to determine the port id of the jumpbox:</p><pre><code>$ neutron port-list</code></pre>
+<pre><code>+--------------------------------------+------+-------------------+-------------------------------------------------------------------------------------+
+| id                                   | name | mac_address       | fixed_ips                                                                           |
++--------------------------------------+------+-------------------+-------------------------------------------------------------------------------------+
+| 551cf7bc-802f-4b02-bd3e-c44473ffb1ff |      | fa:16:3e:48:a4:d1 | {&quot;subnet_id&quot;: &quot;78eff45a-25f2-4904-bab8-a8795d9a7f9b&quot;, &quot;ip_address&quot;: &quot;172.24.4.226&quot;} |
+| 5d98aa79-8bc0-4512-a128-078281aae2bc |      | fa:16:3e:0d:4b:55 | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.6&quot;}     |
+| 6aab05f6-9176-48b4-9b0f-113593945593 |      | fa:16:3e:2d:b6:a4 | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.1&quot;}     |
+| 8941a204-08e7-4547-b720-f9840358929b |      | fa:16:3e:5b:a3:c7 | {&quot;subnet_id&quot;: &quot;78eff45a-25f2-4904-bab8-a8795d9a7f9b&quot;, &quot;ip_address&quot;: &quot;172.24.4.228&quot;} |
+| 9bd695dc-4e6c-40c5-952d-44269711bd6c |      | fa:16:3e:9e:36:8f | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.3&quot;}     |
+| afd18b4f-c19f-4c03-a049-fe8aeae7da49 |      | fa:16:3e:ac:94:5e | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.5&quot;}     |
+| e63d8edb-f10c-4776-a10e-cba9ec3f3d56 |      | fa:16:3e:d4:9c:57 | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.4&quot;}     |
+| f0d35941-989c-4f2b-b187-872445b0b653 |      | fa:16:3e:0c:7f:d5 | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.7&quot;}     |
+| f9e097b4-4227-49ee-9442-643c4186e587 |      | fa:16:3e:a5:36:2c | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.2&quot;}     |
++--------------------------------------+------+-------------------+-------------------------------------------------------------------------------------+</code></pre>
+<p>and find the <em>id</em> that matches the IP address of the jumphost (10.0.0.6) and
+associate it via:</p><pre><code># neutron floatingip-associate [floating_ip id] [port-list id]
+$ neutron floatingip-associate ce6efd31-97e9-428b-a3ac-b5a14e77a305 \
+&gt; 5d98aa79-8bc0-4512-a128-078281aae2bc</code></pre>
+<pre><code>Associated floating IP ce6efd31-97e9-428b-a3ac-b5a14e77a305</code></pre>
+<pre><code>$ neutron floatingip-list</code></pre>
+<pre><code>+--------------------------------------+------------------+---------------------+--------------------------------------+
+| id                                   | fixed_ip_address | floating_ip_address | port_id                              |
++--------------------------------------+------------------+---------------------+--------------------------------------+
+| ce6efd31-97e9-428b-a3ac-b5a14e77a305 | 10.0.0.6         | 172.24.4.228        | 5d98aa79-8bc0-4512-a128-078281aae2bc |
++--------------------------------------+------------------+---------------------+--------------------------------------+</code></pre>
+<h3 id="verify-ssh-connectivity">Verify SSH connectivity</h3><p>Now you should be able to ssh to the jumbox via with password <code>cubswin:)</code> :</p><pre><code>$ ssh cirros@172.24.4.228</code></pre>
+<pre><code>The authenticity of host &apos;172.24.4.3 (172.24.4.3)&apos; can&apos;t be established.
+RSA key fingerprint is 8b:90:ae:9c:eb:be:83:ae:3c:33:fe:84:7a:88:12:d1.
+Are you sure you want to continue connecting (yes/no)? yes
+Warning: Permanently added &apos;172.24.4.3&apos; (RSA) to the list of known hosts.
+cirros@172.24.4.3&apos;s password:
+$</code></pre>
+<p>After logging into the jumpbox you&#x2019;ll be able to ssh into your <em>webserver1</em>,
+<em>webserver2</em>, and <em>database server</em> via:</p><pre><code>$ ssh 10.0.0.3</code></pre>
+<pre><code>Host &apos;10.0.0.3&apos; is not in the trusted hosts file.
+(fingerprint md5 e7:c3:d2:93:0b:eb:65:6d:e6:01:2e:b3:e6:72:fd:c0)
+Do you want to continue connecting? (y/n) y
+cirros@10.0.0.3&apos;s password:
+$ exit</code></pre>
+<pre><code>$ ssh 10.0.0.4</code></pre>
+<pre><code>...</code></pre>
+<pre><code>$ ssh 10.0.0.5</code></pre>
+<pre><code>...</code></pre>
+<p>None of those instances will be able to ssh to each other. The point of this
+instance is so that you do not need to have all of your other instances publicly
+addressable and directly accessible via the internet.</p><h3 id="simulate-web-server">Simulate web server</h3><p>Now let&#x2019;s log in to <code>web_server1</code> and <code>web_server2</code> (via ssh or via horizon) and
+setup a simple web server to handle requests and reply with who they are:</p><pre><code># On web_server 1 (10.0.0.3)
+$ while true; do echo -e &apos;HTTP/1.0 200 OK\r\n\r\n&apos;`hostname` | sudo nc -l -p 80 ; done &amp;
+$ exit
+
+# on web_server 2 (10.0.0.4)
+$ while true; do echo -e &apos;HTTP/1.0 200 OK\r\n\r\n&apos;`hostname` | sudo nc -l -p 80 ; done &amp;
+$ exit</code></pre>
+<h3 id="simulate-http-request">Simulate HTTP request</h3><p>Now, log in to your <em>client</em> virtual machine (from the web console). From there
+if you run:</p><pre><code>$ wget -O - http://10.0.0.3/</code></pre>
+<pre><code>Connecting to 10.0.0.3 (10.0.0.3:80)
+web-server1
+               100% |************************************| 12 0:00:00 ETA</code></pre>
+<pre><code>$ wget -O - http://10.0.0.4/</code></pre>
+<pre><code>Connecting to 10.0.0.4 (10.0.0.4:80)
+web-server2
+               100% |************************************| 12 0:00:00 ETA</code></pre>
+<p>This demonstrates that our simple web server is working on our two web server
+instances.</p><h3 id="optional-check">Optional check</h3><p>We can demonstrate that the web security group is working correctly by killing
+our simple web server and changing the port number. (Note: to kill the web
+server you may need to hold control + c for a second in order for it to break
+out of the while loop before another instance of nc is created.)</p><pre><code># On web_server 1 
+$ while true; do echo -e &apos;HTTP/1.0 200 OK\r\n\r\n&apos;`hostname` | sudo nc -l -p 81 ; done &amp;</code></pre>
+<p>Now on the client run:</p><pre><code>$ wget -O - http://10.0.0.3:81</code></pre>
+<pre><code>Connecting to 10.0.0.3 (10.0.0.3:81)
+wget: can&apos;t connect to remote host (10.0.0.3): Connection timed out</code></pre>
+<p>As you can see the request is never answered as expected because our web
+security group does not allow port 81 ingress. Now let&#x2019;s set the web server to
+run on port 80 again.</p><h3 id="provision-loadbalancer">Provision loadbalancer</h3><p>At this point were going to provision loadbalancer via neutron in order to load
+balance requests between our two web server instances.</p><pre><code>$ neutron subnet-list</code></pre>
+<pre><code>+--------------------------------------+----------------+-----------------+--------------------------------------------------+
+| id                                   | name           | cidr            | allocation_pools                                 |
++--------------------------------------+----------------+-----------------+--------------------------------------------------+
+| 78eff45a-25f2-4904-bab8-a8795d9a7f9b | public_subnet  | 172.24.4.224/28 | {&quot;start&quot;: &quot;172.24.4.226&quot;, &quot;end&quot;: &quot;172.24.4.238&quot;} |
+| 92432fb8-8c29-4abe-98d8-de8bf161a18b | private_subnet | 10.0.0.0/24     | {&quot;start&quot;: &quot;10.0.0.2&quot;, &quot;end&quot;: &quot;10.0.0.254&quot;}       |
++--------------------------------------+----------------+-----------------+--------------------------------------------------+</code></pre>
+<p>Create a loadbalancer pool:</p><pre><code>$ neutron lb-pool-create --name http-pool --lb-method ROUND_ROBIN \
+&gt; --protocol HTTP --subnet-id 92432fb8-8c29-4abe-98d8-de8bf161a18b</code></pre>
+<pre><code>Created a new pool:
++------------------------+--------------------------------------+
+| Field                  | Value                                |
++------------------------+--------------------------------------+
+| admin_state_up         | True                                 |
+| description            |                                      |
+| health_monitors        |                                      |
+| health_monitors_status |                                      |
+| id                     | 51ca1962-a24a-4f43-920f-162a03a45c51 |
+| lb_method              | ROUND_ROBIN                          |
+| members                |                                      |
+| name                   | http-pool                            |
+| protocol               | HTTP                                 |
+| provider               | haproxy                              |
+| status                 | PENDING_CREATE                       |
+| status_description     |                                      |
+| subnet_id              | 92432fb8-8c29-4abe-98d8-de8bf161a18b |
+| tenant_id              | 3d44af649a1c42fcaa102ed11e3f010f     |
+| vip_id                 |                                      |
++------------------------+--------------------------------------+</code></pre>
+<p>You can verify the creation of the <em>http-pool</em> with the <code>neutron lb-pool-list</code>
+and <code>neutron lb-pool-show http-pool</code> command.</p><pre><code>$ neutron lb-pool-list</code></pre>
+<pre><code>+--------------------------------------+-----------+----------+-------------+----------+----------------+--------+
+| id                                   | name      | provider | lb_method   | protocol | admin_state_up | status |
++--------------------------------------+-----------+----------+-------------+----------+----------------+--------+
+| 51ca1962-a24a-4f43-920f-162a03a45c51 | http-pool | haproxy  | ROUND_ROBIN | HTTP     | True           | ACTIVE |
++--------------------------------------+-----------+----------+-------------+----------+----------------+--------+</code></pre>
+<pre><code>$ neutron lb-pool-show http-pool</code></pre>
+<pre><code>+------------------------+--------------------------------------+
+| Field                  | Value                                |
++------------------------+--------------------------------------+
+| admin_state_up         | True                                 |
+| description            |                                      |
+| health_monitors        |                                      |
+| health_monitors_status |                                      |
+| id                     | 51ca1962-a24a-4f43-920f-162a03a45c51 |
+| lb_method              | ROUND_ROBIN                          |
+| members                |                                      |
+| name                   | http-pool                            |
+| protocol               | HTTP                                 |
+| provider               | haproxy                              |
+| status                 | ACTIVE                               |
+| status_description     |                                      |
+| subnet_id              | 92432fb8-8c29-4abe-98d8-de8bf161a18b |
+| tenant_id              | 3d44af649a1c42fcaa102ed11e3f010f     |
+| vip_id                 |                                      |
++------------------------+--------------------------------------+</code></pre>
+<p>Now, let&#x2019;s create a health monitor, which checks to make sure our instances are
+still running and associate that with the pool:</p><pre><code>$ neutron lbaas-healthmonitor-create --delay 3 --type HTTP --max-retries 3 \
+&gt; --timeout 3 --pool webserver-pool</code></pre>
+<h3 id="adding-loadbalancer-members">Adding loadbalancer members</h3><pre><code>$ neutron lb-member-create --address 10.0.0.3 --protocol-port 80 http-pool</code></pre>
+<pre><code>Created a new member:
++--------------------+--------------------------------------+
+| Field              | Value                                |
++--------------------+--------------------------------------+
+| address            | 10.0.0.3                             |
+| admin_state_up     | True                                 |
+| id                 | 36b01f84-a273-417f-9588-15cceea18868 |
+| pool_id            | 51ca1962-a24a-4f43-920f-162a03a45c51 |
+| protocol_port      | 80                                   |
+| status             | PENDING_CREATE                       |
+| status_description |                                      |
+| tenant_id          | 3d44af649a1c42fcaa102ed11e3f010f     |
+| weight             | 1                                    |
++--------------------+--------------------------------------+</code></pre>
+<pre><code>$ neutron lb-member-create --address 10.0.0.4 --protocol-port 80 http-pool</code></pre>
+<pre><code>Created a new member:
++--------------------+--------------------------------------+
+| Field              | Value                                |
++--------------------+--------------------------------------+
+| address            | 10.0.0.4                             |
+| admin_state_up     | True                                 |
+| id                 | 5d68b992-d09f-408b-8049-353e702cc990 |
+| pool_id            | 51ca1962-a24a-4f43-920f-162a03a45c51 |
+| protocol_port      | 80                                   |
+| status             | PENDING_CREATE                       |
+| status_description |                                      |
+| tenant_id          | 3d44af649a1c42fcaa102ed11e3f010f     |
+| weight             | 1                                    |
++--------------------+--------------------------------------+</code></pre>
+<p>After this you can verify the nodes have been added to the loadbalancer pool.</p><pre><code>$ neutron lb-member-list</code></pre>
+<pre><code>+--------------------------------------+----------+---------------+--------+----------------+--------+
+| id                                   | address  | protocol_port | weight | admin_state_up | status |
++--------------------------------------+----------+---------------+--------+----------------+--------+
+| 36b01f84-a273-417f-9588-15cceea18868 | 10.0.0.3 |            80 |      1 | True           | ACTIVE |
+| 5d68b992-d09f-408b-8049-353e702cc990 | 10.0.0.4 |            80 |      1 | True           | ACTIVE |
++--------------------------------------+----------+---------------+--------+----------------+--------+</code></pre>
+<h3 id="add-healthmonitor">Add healthmonitor</h3><p>We need to create a health monitor, which will check our instances to make sure they are still running</p><pre><code>$ neutron lb-healthmonitor-create --delay 3 --type HTTP --max-retries 3 \
+&gt; --timeout 3</code></pre>
+<pre><code>Created a new health_monitor:
++----------------+--------------------------------------+
+| Field          | Value                                |
++----------------+--------------------------------------+
+| admin_state_up | True                                 |
+| delay          | 3                                    |
+| expected_codes | 200                                  |
+| http_method    | GET                                  |
+| id             | 05cbf7f9-d01b-483b-934e-8955b14a1653 |
+| max_retries    | 3                                    |
+| pools          |                                      |
+| tenant_id      | 3d44af649a1c42fcaa102ed11e3f010f     |
+| timeout        | 3                                    |
+| type           | HTTP                                 |
+| url_path       | /                                    |
++----------------+--------------------------------------+</code></pre>
+<p>Now we have to associate the health monitor to the previously created
+loadbalancer pool.</p><pre><code>$ neutron lb-healthmonitor-associate 05cbf7f9-d01b-483b-934e-8955b14a1653 http-pool</code></pre>
+<pre><code>Associated health monitor 05cbf7f9-d01b-483b-934e-8955b14a1653</code></pre>
+<p>To make the loadbalancer and associated health monitor available, we need to
+assign it a Virual IP. The address will be allocated from the private subnet.
+This address will redirect the request to either instance within the pool to
+handle the request.</p><pre><code>$ neutron lb-vip-create --name webserver-vip --protocol-port 80 \
+&gt; --protocol HTTP --subnet-id 92432fb8-8c29-4abe-98d8-de8bf161a18b http-pool</code></pre>
+<pre><code>Created a new vip:
++---------------------+--------------------------------------+
+| Field               | Value                                |
++---------------------+--------------------------------------+
+| address             | 10.0.0.8                             |
+| admin_state_up      | True                                 |
+| connection_limit    | -1                                   |
+| description         |                                      |
+| id                  | b9ca33b0-b09c-4e7d-8ab7-77fe5207add6 |
+| name                | webserver-vip                        |
+| pool_id             | 51ca1962-a24a-4f43-920f-162a03a45c51 |
+| port_id             | ecbadc53-5266-4146-bbb3-d1b6d383be10 |
+| protocol            | HTTP                                 |
+| protocol_port       | 80                                   |
+| session_persistence |                                      |
+| status              | PENDING_CREATE                       |
+| status_description  |                                      |
+| subnet_id           | 92432fb8-8c29-4abe-98d8-de8bf161a18b |
+| tenant_id           | 3d44af649a1c42fcaa102ed11e3f010f     |
++---------------------+--------------------------------------+</code></pre>
+<h3 id="verify-loadbalancer">Verify loadbalancer</h3><p>Finally, let&#x2019;s test out the loadbalancer. From the client instance we should be
+able to run wget at 10.0.0.8 and see that it loadbalancers our requests.</p><pre><code>$ for i in $(seq 1 4) ; do wget -O - http://10.0.0.8/ ; done</code></pre>
+<pre><code>Connecting to 10.0.0.8 (10.0.0.8:80)
+web-server1
+-                    100% |************************************| 12 0:00:00 ETA
+Connecting to 10.0.0.8 (10.0.0.8:80)
+web-server2
+-                    100% |************************************| 12 0:00:00 ETA
+Connecting to 10.0.0.8 (10.0.0.8:80)
+web-server1
+-                    100% |************************************| 12 0:00:00 ETA
+Connecting to 10.0.0.8 (10.0.0.8:80)
+web-server2
+-                    100% |************************************| 12 0:00:00 ETA</code></pre>
+<p>From the output above you can see that the the requests are being handled by
+<code>web_server1</code> then <code>web_server2</code> in an alternating fashion according to the
+round robin method.</p><h3 id="setup-public-ip-address-for-web-traffic">Setup public IP address for web traffic</h3><p>Now to make our VIP publicly accessible via the internet we need to create
+another floating IP:</p><pre><code>$ neutron floatingip-create public</code></pre>
+<pre><code>Created a new floatingip:
++---------------------+--------------------------------------+
+| Field               | Value                                |
++---------------------+--------------------------------------+
+| fixed_ip_address    |                                      |
+| floating_ip_address | 172.24.4.229                         |
+| floating_network_id | 427becab-54af-4b43-a5d2-e292b13b6a86 |
+| id                  | 3c15f8a4-bdc6-4154-8bfa-e8b0674079ca |
+| port_id             |                                      |
+| router_id           |                                      |
+| status              | DOWN                                 |
+| tenant_id           | 3d44af649a1c42fcaa102ed11e3f010f     |
++---------------------+--------------------------------------+</code></pre>
+<p>Determine the port_id for the Virtual IP we created earlier:</p><pre><code>$ neutron port-list</code></pre>
+<pre><code>+--------------------------------------+------------------------------------------+-------------------+-------------------------------------------------------------------------------------+
+| id                                   | name                                     | mac_address       | fixed_ips                                                                           |
++--------------------------------------+------------------------------------------+-------------------+-------------------------------------------------------------------------------------+
+| 54b17392-dce7-4d6a-8cce-153fccb5d441 |                                          | fa:16:3e:f0:c7:cf | {&quot;subnet_id&quot;: &quot;78eff45a-25f2-4904-bab8-a8795d9a7f9b&quot;, &quot;ip_address&quot;: &quot;172.24.4.229&quot;} |
+| 551cf7bc-802f-4b02-bd3e-c44473ffb1ff |                                          | fa:16:3e:48:a4:d1 | {&quot;subnet_id&quot;: &quot;78eff45a-25f2-4904-bab8-a8795d9a7f9b&quot;, &quot;ip_address&quot;: &quot;172.24.4.226&quot;} |
+| 5d98aa79-8bc0-4512-a128-078281aae2bc |                                          | fa:16:3e:0d:4b:55 | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.6&quot;}     |
+| 6aab05f6-9176-48b4-9b0f-113593945593 |                                          | fa:16:3e:2d:b6:a4 | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.1&quot;}     |
+| 8941a204-08e7-4547-b720-f9840358929b |                                          | fa:16:3e:5b:a3:c7 | {&quot;subnet_id&quot;: &quot;78eff45a-25f2-4904-bab8-a8795d9a7f9b&quot;, &quot;ip_address&quot;: &quot;172.24.4.228&quot;} |
+| 9bd695dc-4e6c-40c5-952d-44269711bd6c |                                          | fa:16:3e:9e:36:8f | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.3&quot;}     |
+| afd18b4f-c19f-4c03-a049-fe8aeae7da49 |                                          | fa:16:3e:ac:94:5e | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.5&quot;}     |
+| e63d8edb-f10c-4776-a10e-cba9ec3f3d56 |                                          | fa:16:3e:d4:9c:57 | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.4&quot;}     |
+| ecbadc53-5266-4146-bbb3-d1b6d383be10 | vip-b9ca33b0-b09c-4e7d-8ab7-77fe5207add6 | fa:16:3e:41:1a:eb | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.8&quot;}     |
+| f0d35941-989c-4f2b-b187-872445b0b653 |                                          | fa:16:3e:0c:7f:d5 | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.7&quot;}     |
+| f9e097b4-4227-49ee-9442-643c4186e587 |                                          | fa:16:3e:a5:36:2c | {&quot;subnet_id&quot;: &quot;92432fb8-8c29-4abe-98d8-de8bf161a18b&quot;, &quot;ip_address&quot;: &quot;10.0.0.2&quot;}     |
++--------------------------------------+------------------------------------------+-------------------+-------------------------------------------------------------------------------------+</code></pre>
+<p>Associate VIP port with floating IP:</p><pre><code>$ neutron floatingip-associate 3c15f8a4-bdc6-4154-8bfa-e8b0674079ca \
+&gt; ecbadc53-5266-4146-bbb3-d1b6d383be10</code></pre>
+<pre><code>Associated floating IP 3c15f8a4-bdc6-4154-8bfa-e8b0674079ca</code></pre>
+<p>At this point the Virtual IP is a member of the <em>default</em> security group which
+does not allow ingress traffic unless you are also part of a security group
+which allows incoming traffic. We need to update the VIP to be a member of the
+<em>web</em> security group so that requests from the internet are allowed to pass
+(not just from our client instance).</p><p>Get the web security group uuid:</p><pre><code>$ neutron security-group-list</code></pre>
+<pre><code>+--------------------------------------+----------+--------------------------------------------------------------------------------+
+| id                                   | name     | security_group_rules                                                           |
++--------------------------------------+----------+--------------------------------------------------------------------------------+
+| 141ed0d0-c004-457d-8efa-45e0fd2dc986 | ssh      | egress, IPv4                                                                   |
+|                                      |          | egress, IPv6                                                                   |
+|                                      |          | ingress, IPv4, 22/tcp                                                          |
+| 379b58b2-7ca3-431e-ae1f-cd6a627a9b30 | default  | egress, IPv4                                                                   |
+|                                      |          | egress, IPv6                                                                   |
+|                                      |          | ingress, IPv4, remote_group_id: 379b58b2-7ca3-431e-ae1f-cd6a627a9b30           |
+|                                      |          | ingress, IPv6, remote_group_id: 379b58b2-7ca3-431e-ae1f-cd6a627a9b30           |
+| 5e0d0d57-2df6-4fbc-ad18-5908aacdf799 | default  | egress, IPv4                                                                   |
+|                                      |          | egress, IPv6                                                                   |
+|                                      |          | ingress, IPv4, remote_group_id: 5e0d0d57-2df6-4fbc-ad18-5908aacdf799           |
+|                                      |          | ingress, IPv6, remote_group_id: 5e0d0d57-2df6-4fbc-ad18-5908aacdf799           |
+| a98fcd2f-a828-4a88-92aa-36e3c1223a92 | web      | egress, IPv4                                                                   |
+|                                      |          | egress, IPv6                                                                   |
+|                                      |          | ingress, IPv4, 22/tcp, remote_group_id: 141ed0d0-c004-457d-8efa-45e0fd2dc986   |
+|                                      |          | ingress, IPv4, 80/tcp                                                          |
+| b2c914cb-3bc1-4ee6-9f30-66c459af5f4c | default  | egress, IPv4                                                                   |
+|                                      |          | egress, IPv6                                                                   |
+|                                      |          | ingress, IPv4, remote_group_id: b2c914cb-3bc1-4ee6-9f30-66c459af5f4c           |
+|                                      |          | ingress, IPv6, remote_group_id: b2c914cb-3bc1-4ee6-9f30-66c459af5f4c           |
+| cf6c0380-e255-4ba8-9258-bb8e9c062fa7 | database | egress, IPv4                                                                   |
+|                                      |          | egress, IPv6                                                                   |
+|                                      |          | ingress, IPv4, 22/tcp, remote_group_id: 141ed0d0-c004-457d-8efa-45e0fd2dc986   |
+|                                      |          | ingress, IPv4, 3306/tcp, remote_group_id: a98fcd2f-a828-4a88-92aa-36e3c1223a92 |
++--------------------------------------+----------+--------------------------------------------------------------------------------+</code></pre>
+<p>Update VIP port to be a member of the <em>web</em> security group:</p><pre><code>$ neutron port-update ecbadc53-5266-4146-bbb3-d1b6d383be10 --security_groups \
+&gt; list=true a98fcd2f-a828-4a88-92aa-36e3c1223a92</code></pre>
+<pre><code>Updated port: ecbadc53-5266-4146-bbb3-d1b6d383be10</code></pre>
+<h3 id="verify-loadbalancer">Verify loadbalancer</h3><p>At this point your VIP is publicly addressable:</p><pre><code>$ for i in $(seq 1 4) ; do wget -O - http://172.24.4.229/ ; done</code></pre>
+<pre><code>Connecting to 172.24.4.229 (172.24.4.229:80)
+web-server1
+-                    100% |************************************| 12 0:00:00 ETA
+Connecting to 172.24.4.229 (172.24.4.229:80)
+web-server2
+-                    100% |************************************| 12 0:00:00 ETA
+Connecting to 172.24.4.229 (172.24.4.229:80)
+web-server1
+-                    100% |************************************| 12 0:00:00 ETA
+Connecting to 172.24.4.229 (172.24.4.229:80)
+web-server2
+-                    100% |************************************| 12 0:00:00 ETA</code></pre>
+<p>To demonstration high availability, we&#x2019;ll go and delete our <code>web_server1</code>
+instance to simulate a failure.</p><pre><code>$ openstack server delete web_server1</code></pre>
+<p>After the health monitor detects the host is not responding it will stop sending
+requests to <code>web_server1</code>. Now <code>web_server2</code> is handling all the requests.</p><pre><code>$ for i in $(seq 1 4) ; do wget -O - http://172.24.4.229/ ; done</code></pre>
+<pre><code>Connecting to 172.24.4.229 (172.24.4.229:80)
+web-server2
+-                    100% |************************************| 12 0:00:00 ETA
+Connecting to 172.24.4.229 (172.24.4.229:80)
+web-server2
+-                    100% |************************************| 12 0:00:00 ETA
+Connecting to 172.24.4.229 (172.24.4.229:80)
+web-server2
+-                    100% |************************************| 12 0:00:00 ETA
+Connecting to 172.24.4.229 (172.24.4.229:80)
+web-server2
+-                    100% |************************************| 12 0:00:00 ETA</code></pre>
+<p>Note: the first request might take longer to handle. This is because of the
+timeout before it notices the host is not responding.</p><h2 id="conclusion">Conclusion</h2><p>As described in this article, it is easy to set up an environment with OpenStack
+in which you can securely host website, and deny access to your database servers.</p><p>In future articles I will talk about High Availability and automation of setting
+up an environment; for instance with HAProxy, GlusterFS and OpenStack Heat.</p><p>If you have any suggestion, please discuss below or send me an email.</p><p>Note: the original publication can be found at: <a href="https://gitlab.com/gbraad/openstack-handsonlabs" target="_blank">OpenStack hands-on-labs</a></p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0007-highlighting-code-text.html" class="navigation navigation-prev " aria-label="Previous page: Highlighting of Code and Text">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0012-ha-storage-using-gluster.html" class="navigation navigation-next " aria-label="Next page: Highly Available storage using GlusterFS">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"Title":"Building a multi-tier application using OpenStack (PackStack)","Date":"2016-3-5","Modified":"2016-9-10","Authors":"Gerard Braad","Category":"OpenStack","Tags":"openstack, packstack, neutron, rdo, high availability, web","title":"Building a multi-tier application using OpenStack (PackStack)","level":"3.6","depth":1,"next":{"title":"Highly Available storage using GlusterFS","level":"3.7","depth":1,"path":"0012-ha-storage-using-gluster.md","ref":"0012-ha-storage-using-gluster.md","articles":[]},"previous":{"title":"Highlighting of Code and Text","level":"3.5","depth":1,"path":"0007-highlighting-code-text.md","ref":"0007-highlighting-code-text.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"0008-multitier-setup-openstack.md","mtime":"2016-11-08T07:03:09.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-11-08T07:03:13.428Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

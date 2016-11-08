@@ -1,0 +1,669 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Run an example application on OpenShift · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0021-give-to-content-creators.html" />
+    
+    
+    <link rel="prev" href="0019-setup-docker-storage.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2014</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="0001-javascript-loaders.html">
+            
+                <a href="0001-javascript-loaders.html">
+            
+                    
+                    JavaScript Loaders
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="0002-trigger-phonegap-build-from-github.html">
+            
+                <a href="0002-trigger-phonegap-build-from-github.html">
+            
+                    
+                    Trigger PhoneGap builds from GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2016</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="0003-hello-internet.html">
+            
+                <a href="0003-hello-internet.html">
+            
+                    
+                    Hello, Internet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="0004-setup-self-hosted-cloud9.html">
+            
+                <a href="0004-setup-self-hosted-cloud9.html">
+            
+                    
+                    Setting up a powerful self-hosted IDE in the cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="0005-custom-ceph-atomic-deployment.html">
+            
+                <a href="0005-custom-ceph-atomic-deployment.html">
+            
+                    
+                    Deployment of Ceph using custom Atomic images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="0006-nonroot-container.html">
+            
+                <a href="0006-nonroot-container.html">
+            
+                    
+                    non-root user inside a Docker container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="0007-highlighting-code-text.html">
+            
+                <a href="0007-highlighting-code-text.html">
+            
+                    
+                    Highlighting of Code and Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="0008-multitier-setup-openstack.html">
+            
+                <a href="0008-multitier-setup-openstack.html">
+            
+                    
+                    Building a multi-tier application using OpenStack (PackStack)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="0012-ha-storage-using-gluster.html">
+            
+                <a href="0012-ha-storage-using-gluster.html">
+            
+                    
+                    Highly Available storage using GlusterFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="0013-document-generation.html">
+            
+                <a href="0013-document-generation.html">
+            
+                    
+                    Document generation using Markdown and Pandoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="0015-mentor-recommended-books.html">
+            
+                <a href="0015-mentor-recommended-books.html">
+            
+                    
+                    Mentors and recommended books
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="0016-object-design.html">
+            
+                <a href="0016-object-design.html">
+            
+                    
+                    Object Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="0017-kubernetes-ansible.html">
+            
+                <a href="0017-kubernetes-ansible.html">
+            
+                    
+                    Deploying Kubernetes using Ansible
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="0018-openshift-cluster-up.html">
+            
+                <a href="0018-openshift-cluster-up.html">
+            
+                    
+                    Deploying OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="0019-setup-docker-storage.html">
+            
+                <a href="0019-setup-docker-storage.html">
+            
+                    
+                    Setup Docker storage to use LVM thin pool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.14" data-path="0020-openshift-example.html">
+            
+                <a href="0020-openshift-example.html">
+            
+                    
+                    Run an example application on OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="0021-give-to-content-creators.html">
+            
+                <a href="0021-give-to-content-creators.html">
+            
+                    
+                    Giving to your favourite content creators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="0022-dear-recruiter.html">
+            
+                <a href="0022-dear-recruiter.html">
+            
+                    
+                    Dear recruiter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="0023-ansible-to-replace-scripts-packages.md">
+            
+                <span>
+            
+                    
+                    Replace scripts with Ansible: package installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="0024-personal-kanban-using-gitlab.md">
+            
+                <span>
+            
+                    
+                    Task management and Personal Kanban: how I use GitLab Issues
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Run an example application on OpenShift</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>In a <a title="Deploy an OpenShift test cluster" href="deploy-an-openshift-test-cluster.html">previous article</a> I have written
+on how easy it is to stand up a test environment of OpenShift. In this article
+I will describe an example application from the sourcecode to the created image
+and how this gets deployed. The steps are explained using manual steps, and how
+OpenShift does it all automated. You will notice, at no point do you have to
+write a <code>Dockerfile</code>.</p><h2 id="preparation">Preparation</h2><p>For this article it is not necessary to have a working test environment, however
+it does make things clearer. I would suggest you to use OpenShift Origin v1.3 on
+CentOS 7. Although my previous article showed how to get it up and running on
+Fedora 24, I experienced an issue with deployment not succeeding<a title="Deployment of ruby-ex times out" href="https://lists.openshift.redhat.com/openshift-archives/users/2016-September/msg00198.html" target="_blank">*</a>.
+The steps in the deployment article can be performed by replacing <code>dnf</code> with
+<code>yum</code>.</p><h2 id="description-of-the-example">Description of the example</h2><p>The OpenShift project publishes several test applications on GitHub, of which
+one is a very simple Ruby applica8080. Please, have a look at: <a title="Ruby example" href="https://github.com/openshift/ruby-ex" target="_blank">http://github.com/openshift/ruby-ex</a></p><p>You will see it consists of four files:</p><ul><li><code>Gemfile</code>
+</li>
+<li><code>Gemfile.local</code>
+</li>
+<li><code>config.ru</code>
+</li>
+<li><code>README.md</code>
+</li></ul>
+<p>The application itself is only described in <code>config.ru</code> and the needed dependencies
+are in <code>Gemfile</code>.</p><h3 id="dependencies">Dependencies</h3><p>To make the application work, we first need:</p><pre><code>$ gem install bundler</code></pre>
+<p>This will install <code>bundler</code> that can install dependencies as described in the
+<code>Gemfile</code>. This file describes:</p><pre><code>source &apos;https://rubygems.org&apos;
+gem &apos;rack&apos;
+gem &apos;puma&apos;</code></pre>
+<p>The first line says <code>source</code> which points to a gem repository, and each line
+starting wih <code>gem</code> are bundled packages containing libraries for use in your
+project. To install all of the required gems (dependencies) from the specified
+sources:</p><pre><code>$ bundle install</code></pre>
+<p>The file <code>Gemfile.lock</code> is a snapshot of the Gemfile and is used internally.</p><h3 id="configru">config.ru</h3><p>The application is specified in the file called <code>config.ru</code>. If you open the
+file you will see it contains route mappings, lines starting  with <code>map</code>, for
+three urls:</p><ul><li><code>/health</code>
+</li>
+<li><code>/lobster</code>
+</li>
+<li><code>/</code>
+</li></ul>
+<h4 id="health"><code>/health</code></h4><p>This is a commonly used to provide a simple health-check for applications that
+are automatically deployed. It allows to quickly test if the application got
+deployed. In projects I worked on, we also did quick dependency checks, such as
+a configuration file exists, or another needed endpoint is available. In this
+application it will respond with a HTTP status code 200 and returns <code>1</code> as
+value.</p><h4 id="lobster"><code>/lobster</code></h4><p>This is a test provided by rack. It shows an ASCII-art lobster. By adding a
+variable to the URL querystring <code>?flip=left</code> the direction can be changed.</p><h4 id=""><code>/</code></h4><p>This is the mapping to a bare route. It shows a greeting message on how to use
+the application using OpenShift to trigger automated builds.</p><h3 id="rackup">Rackup</h3><p>Rack is an interface for using Ruby and Ruby frameworks with webservers. It
+provides an application called <code>rackup</code> to start the application:</p><pre><code>$ bundle exec rackup -p 8080 config.ru</code></pre>
+<p>Using this command the webserver will bind to port 8080, according to the
+description in the <code>config.ru</code> file. To see what the mappings do, open:</p><ul><li><a title="Example health-check" href="http://localhost:8080/health" target="_blank">http://localhost:8080/health</a>
+</li>
+<li><a title="Example lobster" href="http://localhost:8080/lobster" target="_blank">http://localhost:8080/lobster</a>
+</li>
+<li><a title="Example bare" href="http://localhost:8080/" target="_blank">http://localhost:8080/</a>
+</li></ul>
+<h2 id="use-the-example-with-openshift">Use the example with OpenShift</h2><p>Deploying an application on OpenShift from source is very simple. A single
+command can do this. First have a look</p><pre><code>$ oc new-app openshift/ruby-20-centos7~https://github.com/[username]/ruby-ex</code></pre>
+<p>But before we do, I will explain what this command does. Oversimplified
+OpenShift does two things:</p><ol><li>Build
+</li>
+<li>Deploy
+</li></ol>
+<p>Note: If you want to perform the command, go ahead. Please fork the repository
+and change the <code>[username]</code> in this command.</p><h3 id="build-source-to-image">Build: source to image</h3><p>OpenShift runs container images which are in the Docker format. It will run
+the <code>CMD</code> instruction for this. So, how does OpenShift know what to run?
+Convention. Most frameworks have a standard way of doing things, and this is
+as you noticed also the case with the Ruby example. The creation of the image
+happens with a tool called source-to-image (S2I).</p><p><a title="Source-to-image" href="https://github.com/openshift/source-to-image/" target="_blank">Source-to-Image (S2I)</a> is a toolkit and workflow for building
+reproducible Docker images from source code. It uses a base image, and will
+layer the application on top, configures the runn command, which then results in
+a containter image for use.</p><pre><code>$ s2i build https://github.com/[username]/ruby-ex openshift/ruby-20-centos7 ruby-ex</code></pre>
+<h4 id="base-image">base image</h4><p>The base image here is <a title="Ruby base image" href="https://hub.docker.com/r/openshift/ruby-20-centos7" target="_blank">openshift/ruby-20-centos7</a>. The source
+of this image can be found at the following GitHub repository: <a title="Ruby base image source" href="https://github.com/sclorg/s2i-ruby-container/" target="_blank">s2i-ruby-container</a></p><p>If you look at the <code>Dockerfile</code> <a title="Ruby base Dockerfile" href="https://github.com/sclorg/s2i-ruby-container/blob/master/2.0/Dockerfile" target="_blank">source</a>, you will see
+<a title="Software Collections" href="https://www.softwarecollections.org/en/" target="_blank">Software Collections</a> is used to install a specific Ruby version.
+In this case version 2.0. Software collections solves one of the biggest
+complaints of using CentOS (or RHEL) as a basis as part of your delivery. It
+allows you to use multiple versions of software on the same system, without
+affecting system-wide installed packages.</p><p>The image also describes a label <code>io.openshift.expose-services=&quot;8080:http&quot;</code>
+which inidcate that the application on port 8080 will be exposed as HTTP
+traffic. This also means the container does not need root privileges as the port
+assignment is above 1024. The application itself will be installed into the
+folder: <code>/opt/app-root/src</code>.</p><p>Running this container can be done with:</p><pre><code>$ docker run -p 8080:8080 ruby-ex</code></pre>
+<pre><code>[1] Puma starting in cluster mode...
+[1] * Version 3.4.0 (ruby 2.0.0-p645), codename: Owl Bowl Brawl
+[1] * Min threads: 0, max threads: 16
+[1] * Environment: production
+[1] * Process workers: 1
+[1] * Phased restart available
+[1] * Listening on tcp://0.0.0.0:8080
+[1] Use Ctrl-C to stop
+[1] - Worker 0 (pid: 32) booted, phase: 0</code></pre>
+<p>Open the links as previously stated will yield the same results.</p><pre><code>$ curl http://localhost:8080/health</code></pre>
+<p>The build process can be as simple as a copy for static content, to compiling
+Java or C/C++ code.  For the purpose of this article I will not explain more
+about the S2I process, but this will certainly be explained in future articles.</p><h2 id="new-application">New application</h2><p>If we now look at the previous command again:</p><pre><code>$ oc new-app openshift/ruby-20-centos7~https://github.com/[username]/ruby-ex</code></pre>
+<p>you can clear see the structure. The first element <code>openshift/ruby-20-centos7</code>
+describes the S2I container image for Ruby as hosted at the Docker hub. The
+second part is the source code path pointing to a git repository.</p><p>Please try the command now... OpenShift will create containers for each of the
+stages used: <code>build</code>, <code>deploy</code> and the final running container. You can check
+the containers using the command:</p><pre><code>$ oc get pod</code></pre>
+<pre><code>NAME               READY     STATUS         RESTARTS   AGE
+ruby-ex-1-build    0/1       Completed      0          1m</code></pre>
+<h3 id="build-stage">Build stage</h3><p>If you create this new application, a new container named <code>ruby-ex-1-build</code>.
+What happened is that the Source-to-image container got pulled which uses the 
+base image and layers the source code on top.</p><p>To see what happened, as with the previous command, you can see the build
+configuration:</p><pre><code>$ oc logs bc/ruby-ex</code></pre>
+<pre><code>Cloning &quot;https://github.com/gbraad/ruby-ex&quot; ...
+        Commit: f63d076b602441ebd65fd0749c5c58ea4bafaf90 (Merge pull request #2 from mfojtik/add-puma)
+        Author: Michal Fojtik &lt;mi@mifo.sk&gt;
+        Date:   Thu Jun 30 10:47:53 2016 +0200
+---&gt; Installing application source ...
+---&gt; Building your Ruby application from source ...
+---&gt; Running &apos;bundle install --deployment&apos; ...
+Fetching gem metadata from https://rubygems.org/...............
+Installing puma (3.4.0)
+Installing rack (1.6.4)
+Using bundler (1.3.5)
+Cannot write a changed lockfile while frozen.
+Your bundle is complete!
+It was installed into ./bundle
+---&gt; Cleaning up unused ruby gems ...
+Pushing image 172.30.108.129:5000/myproject/ruby-ex:latest ...
+Pushed 0/10 layers, 10% complete
+Pushed 1/10 layers, 34% complete
+Pushed 2/10 layers, 49% complete
+Pushed 3/10 layers, 50% complete
+Pushed 4/10 layers, 50% complete
+Pushed 5/10 layers, 50% complete
+Pushed 6/10 layers, 61% complete
+Pushed 7/10 layers, 71% complete
+Pushed 8/10 layers, 88% complete
+Pushed 9/10 layers, 99% complete
+Pushed 10/10 layers, 100% complete
+Push successful</code></pre>
+<p>The difference is that the resulting image will be placed in the <code>myproject</code>
+namespace, and pushed to the local repository.</p><h3 id="deployment-stage">Deployment stage</h3><p>After the image has been composed, OpenShift will run the container image on the
+scheduled node. What happens here can be checked with:</p><pre><code>$ oc get pod                                                                                                                                                          </code></pre>
+<pre><code>NAME              READY     STATUS      RESTARTS   AGE
+ruby-ex-1-an801   1/1       Running     0          26s
+ruby-ex-1-build   0/1       Completed   0          1m</code></pre>
+<p>This means that the build succeeded, the image got deployed and now runs in the
+a container identified with <code>ruby-ex-1-an801</code>. Note: The container
+<code>ruby-ex-1-deploy</code> is not shown here as only the logs are of importance.</p><p>The deployment configuration logs can be shown with:</p><pre><code>$ oc logs dc/ruby-ex</code></pre>
+<pre><code>[1] Puma starting in cluster mode...
+[1] * Version 3.4.0 (ruby 2.0.0-p645), codename: Owl Bowl Brawl
+[1] * Min threads: 0, max threads: 16
+[1] * Environment: production
+[1] * Process workers: 2
+[1] * Phased restart available
+[1] * Listening on tcp://0.0.0.0:8080
+[1] Use Ctrl-C to stop
+[1] - Worker 0 (pid: 32) booted, phase: 0
+[1] - Worker 1 (pid: 35) booted, phase: 0</code></pre>
+<h3 id="events">Events</h3><p>To see the flow of execution, you can have a look at:</p><pre><code>$ oc get events</code></pre>
+<p>This can be helpful if an error occured.</p><h3 id="verify">Verify</h3><p>Now that the application has been deployed on OpenShift, we need to look up the 
+IP address that has been assigned. For this we use:</p><pre><code>$ oc get svc</code></pre>
+<pre><code>NAME      CLUSTER-IP      EXTERNAL-IP   PORT(S)    AGE
+ruby-ex   172.30.91.160   &lt;none&gt;        8080/TCP   21h</code></pre>
+<p>Now we can open the application as <code>http://172.30.91.160:8080/</code></p><h2 id="conclusion">Conclusion</h2><p>OpenShift allows you to run prebuilt images or applications based on source.
+The Source-to-image tooling makes it possible to create reproducible images for
+deployment of applications based on source. This tool itself is very helpful
+and is certainly something I will be using, even outside the use of OpenShift.
+There is no need to create or modify a <code>Dockerfile</code>, which means that the
+developer can focus on the development process.</p><p>If you want to know more about the automated builds, please have a look at the
+README of the <a title="Ruby example" href="https://github.com/openshift/ruby-ex" target="_blank">Ruby example</a>. In future articles more 
+detailed descriptions about these topics will certainly be given. I hope this
+has been helpful. Please consider leaving feedback or tweet this article.</p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0019-setup-docker-storage.html" class="navigation navigation-prev " aria-label="Previous page: Setup Docker storage to use LVM thin pool">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0021-give-to-content-creators.html" class="navigation navigation-next " aria-label="Next page: Giving to your favourite content creators">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"Title":"Run an example application on OpenShift","Date":"2016-09-29T00:00:00.000Z","Category":"Containers","Tags":"containers, openshift, example, ruby, docker, devops","title":"Run an example application on OpenShift","level":"3.14","depth":1,"next":{"title":"Giving to your favourite content creators","level":"3.15","depth":1,"path":"0021-give-to-content-creators.md","ref":"0021-give-to-content-creators.md","articles":[]},"previous":{"title":"Setup Docker storage to use LVM thin pool","level":"3.13","depth":1,"path":"0019-setup-docker-storage.md","ref":"0019-setup-docker-storage.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"0020-openshift-example.md","mtime":"2016-11-08T07:03:09.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-11-08T07:03:13.428Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

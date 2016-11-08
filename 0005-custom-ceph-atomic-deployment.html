@@ -1,0 +1,596 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Deployment of Ceph using custom Atomic images · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0006-nonroot-container.html" />
+    
+    
+    <link rel="prev" href="0004-setup-self-hosted-cloud9.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2014</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="0001-javascript-loaders.html">
+            
+                <a href="0001-javascript-loaders.html">
+            
+                    
+                    JavaScript Loaders
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="0002-trigger-phonegap-build-from-github.html">
+            
+                <a href="0002-trigger-phonegap-build-from-github.html">
+            
+                    
+                    Trigger PhoneGap builds from GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2016</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="0003-hello-internet.html">
+            
+                <a href="0003-hello-internet.html">
+            
+                    
+                    Hello, Internet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="0004-setup-self-hosted-cloud9.html">
+            
+                <a href="0004-setup-self-hosted-cloud9.html">
+            
+                    
+                    Setting up a powerful self-hosted IDE in the cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.3" data-path="0005-custom-ceph-atomic-deployment.html">
+            
+                <a href="0005-custom-ceph-atomic-deployment.html">
+            
+                    
+                    Deployment of Ceph using custom Atomic images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="0006-nonroot-container.html">
+            
+                <a href="0006-nonroot-container.html">
+            
+                    
+                    non-root user inside a Docker container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="0007-highlighting-code-text.html">
+            
+                <a href="0007-highlighting-code-text.html">
+            
+                    
+                    Highlighting of Code and Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="0008-multitier-setup-openstack.html">
+            
+                <a href="0008-multitier-setup-openstack.html">
+            
+                    
+                    Building a multi-tier application using OpenStack (PackStack)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="0012-ha-storage-using-gluster.html">
+            
+                <a href="0012-ha-storage-using-gluster.html">
+            
+                    
+                    Highly Available storage using GlusterFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="0013-document-generation.html">
+            
+                <a href="0013-document-generation.html">
+            
+                    
+                    Document generation using Markdown and Pandoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="0015-mentor-recommended-books.html">
+            
+                <a href="0015-mentor-recommended-books.html">
+            
+                    
+                    Mentors and recommended books
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="0016-object-design.html">
+            
+                <a href="0016-object-design.html">
+            
+                    
+                    Object Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="0017-kubernetes-ansible.html">
+            
+                <a href="0017-kubernetes-ansible.html">
+            
+                    
+                    Deploying Kubernetes using Ansible
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="0018-openshift-cluster-up.html">
+            
+                <a href="0018-openshift-cluster-up.html">
+            
+                    
+                    Deploying OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="0019-setup-docker-storage.html">
+            
+                <a href="0019-setup-docker-storage.html">
+            
+                    
+                    Setup Docker storage to use LVM thin pool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="0020-openshift-example.html">
+            
+                <a href="0020-openshift-example.html">
+            
+                    
+                    Run an example application on OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="0021-give-to-content-creators.html">
+            
+                <a href="0021-give-to-content-creators.html">
+            
+                    
+                    Giving to your favourite content creators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="0022-dear-recruiter.html">
+            
+                <a href="0022-dear-recruiter.html">
+            
+                    
+                    Dear recruiter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="0023-ansible-to-replace-scripts-packages.md">
+            
+                <span>
+            
+                    
+                    Replace scripts with Ansible: package installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="0024-personal-kanban-using-gitlab.md">
+            
+                <span>
+            
+                    
+                    Task management and Personal Kanban: how I use GitLab Issues
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Deployment of Ceph using custom Atomic images</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>As part of providing a scalable infrastructure, many components in the datacenter are now moving towards software-based solutions, such as SDN (for networking) and SDS (for storage). Ceph one of these projects to provide a scalable, software-based software solution. It is often used in conjuction with OpenStack for storing disk images and block access for volumes. Setting up an environment usually involves installing a base operating system and configuring the machine to join a storage cluster. In this article I will setup a Atomic based image that allows for fast deployment of Ceph cluster. This is not a recommended solution, but an exercise that shows how to cutomize Atomic Host and using Ansible to standup a Ceph cluster.</p><h2 id="components">Components</h2><p><a href="http://www.projectatomic.io/" target="_blank">Atomic</a><a href="https://gitlab.com/gbraad/knowledge-base/blob/master/technology/atomic.md" target="_blank">*</a> Host is a new generation of Operating Systems that used to create an immutable infrastructure to deploy and scale containerized applications. For this, it uses a technology called <a href="https://ostree.readthedocs.io/en/latest/" target="_blank">OSTree</a><a href="https://gitlab.com/gbraad/knowledge-base/blob/master/technology/ostree.md" target="_blank">*</a> which is a git-like model for dealing with filesystem trees. It allows different filesystems to exist alongside of each other. If a filesystem is not booting properly, it is possible to move back to the previous state.</p><p><a href="http://ceph.com/" target="_blank">Ceph</a><a href="https://gitlab.com/gbraad/knowledge-base/blob/master/technology/ceph.md" target="_blank">*</a> is a distributed storage solution which provides Object Storage, Block Storage and FIlesystem access. Ceph comes with several software components which provides a role in the cluster, such as a monitor or storage daemon.</p><p><a href="https://www.ansible.com/" target="_blank">Ansible</a><a href="https://gitlab.com/gbraad/knowledge-base/blob/master/technology/ansible.md" target="_blank">*</a> is a configuration and system management tool which for example can do multi-node deployment of software or execution of commands</p><p>Although Atomic Hosts are primarily used to deploy Docker and Kubernetes environments, or even containerized versions of the Ceph daemons, I will show how it is possible to use ostree to deploy the Ceph software on nodes, with minimal effort. Ansible is used to send commands to these nodes and finalize the configuration.</p><h2 id="preparation">Preparation</h2><p>For this setup we will use about 7 machines. To simplify testing, I have performed these actions on an OpenStack environment, such as <a href="https://www.dreamhost.com/cloud/computing/" target="_blank">DreamCompute</a>.</p><ul><li>1 controller and compose node, running Fedora 24 with IP address 10.3.0.2
+</li>
+<li>3 Ceph monitors, running CentOS Atomic with IP addresses 10.3.0.3-5
+</li>
+<li>3 Ceph storage nodes, running CentOS Atomic with IP addresses 10.3.0.6-8 and attached storage volume at <code>/dev/vdb</code>.
+</li></ul>
+<p>To deploy you can start with setting up the Fedora node.</p><h3 id="install-controller">Install controller</h3><p>To deploy our environment we setup a controller node which can access the other nodes in the network using SSH. In our case we will use Fedora 24.  After installing the operating system, perform the following commands:</p><pre><code>$ dnf update -y
+$ dnf install -y  ansible rpm-ostree git python
+$ ssh-keygen
+$ cat ~/.ssh/id_rsa.pub</code></pre>
+<p>The last two commands generate an SSH authentication key and will show the result on the command line.</p><h3 id="atomic-nodes">Atomic nodes</h3><p>The installation media for Atomic can be found at the main project page. It comes in two different distribution types, CentOS or Fedora. For this article I used CentOS, and downloaded it from the following location:</p><pre><code>$ wget http://http://cloud.centos.org/centos/7/atomic/images/CentOS-Atomic-Host-7-GenericCloud.qcow2</code></pre>
+<p>and uploaded it to my OpenStack environment with:</p><pre><code>$ openstack image create &quot;CentOS7 Atomic&quot; --progress --file CentOS-Atomic-Host-7-GenericCloud.qcow2 --disk-format qcow2 --container-format bare --property os_distro=centos</code></pre>
+<p>After this, I created six identical machines, with provisioning a predefined SSH key with cloud-init which we made on the controller node. If you are not using OpenStack, you have to use a cloud-init configdrive to configure the node with the SSH key. This process is described <a href="http://www.projectatomic.io/docs/quickstart/" target="_blank">here</a>.</p><p>The storage nodes need to have to configured with a dedicated volume for use with the <code>osd</code> storage daemon of Ceph. By creating a volume and attaching them to the node, these will be identified as <code>/dev/vdb</code>. There is no need to prepapre a filesystem on them. This will be handles by the deployment scripts.</p><p>Note: if you want to upload disk images to DreamCompute or other Ceph-backed OpenStack image services, you have to convert the disk image to raw format first. An example of this can be found in <a href="https://gitlab.com/gbraad/knowledge-base/blob/master/technology/openstack/client.md#examples" target="_blank">an example</a> for use of the OpenStack client.</p><h2 id="compose-tree">Compose tree</h2><p>On the controller node we will create an ostree that will be used to setup the Ceph software on the Atomic host nodes. This process involves creating a definition for a filesystem tree that uses the base defintion of CentOS Atomic with the additional packages from the CentOS-specific Ceph packages.</p><h3 id="atomic-definition">Atomic definition</h3><p>We will clone the git repositiory containing the base definition:</p><pre><code>$ mkdir -p /workspace
+$ cd /workspace
+$ git clone https://github.com/CentOS/sig-atomic-buildscripts.git \
+    -b downstream \
+    --depth 1 \
+    ceph-atomic</code></pre>
+<p>Inside this folder you can add a RPM repository file where the Ceph packages are located:</p><p><code>ceph-atomic/centos-ceph-jewel.repo</code></p><pre><code>[centos-ceph-jewel]
+name=CentOS-7 - Ceph Jewel
+baseurl=http://buildlogs.centos.org/centos/7/storage/x86_64/ceph-jewel/
+gpgcheck=0</code></pre>
+<p>And then we will define an Atomic host for Ceph-Jewel and specify which additional repositories and packages are used:</p><p><code>ceph-atomic/ceph-atomic-host.json</code></p><pre><code>{
+    &quot;include&quot;: &quot;centos-atomic-host.json&quot;,
+    &quot;ref&quot;: &quot;centos-atomic-host/7/x86_64/ceph-jewel&quot;,
+    &quot;automatic_version_prefix&quot;: &quot;2016.0&quot;,
+    &quot;repos&quot;: [&quot;centos-ceph-jewel&quot;, &quot;epel&quot;],
+    &quot;packages&quot;: [
+        &quot;ceph&quot;,
+        &quot;ntp&quot;,
+        &quot;ntpdate&quot;,
+        &quot;hdparm&quot;,
+        &quot;autogen-libopts&quot;
+    ]
+}</code></pre>
+<p>Note: with <code>include</code> we base our image off an existing definition. In our case this will simplify the process, but it also means we will end up with an image with unneeded components. For our test this is not an issue.</p><p>After this, the defintion for the Ceph-specific Atomic host is finished. Before we can compose the ostree, we have to create and initialize the repository directory:</p><pre><code>$ mkdir -p /srv/repo
+$ ostree --repo=/srv/repo init --mode=archive-z2</code></pre>
+<p>When you perform the following command:</p><pre><code>$ rpm-ostree compose tree \
+    --repo=/srv/repo \
+    ./ceph-atomic/ceph-atomic-host.json</code></pre>
+<p>packages will be fetched and committed to an ostree in <code>/srv/repo</code>. After this, you will have a filesystem tree which can be served from a webserver, to be used by Atomic hosts.</p><pre><code>$ cd /srv/repo
+$ python -m SimpleHTTPServer</code></pre>
+<p>This will serve the content from <code>/srv/repo</code> on the endpoint <code>http://10.3.0.2:8000/</code>.</p><h2 id="deployment">Deployment</h2><p>To get the Atomic hosts to use the tree, the following commands will have to be used to provision the Ceph-based filesystem tree:</p><pre><code>$ sudo su -
+$ setenforce 0
+$ ostree remote add --set=gpg-verify=false atomic-ceph http://10.3.0.2:8000/
+$ rpm-ostree rebase atomic-ceph:centos-atomic-host/7/x86_64/ceph-jewel
+$ systemctl reboot</code></pre>
+<p>This is however very cumbersome as we have to do this on six nodes. To optimize this process, we will use Ansible.</p><p>Note: <code>setenforce 0</code> is used to prevent issue with SELinux label during the rebase action.</p><h3 id="ostree-provisioning-using-ansible">OSTree provisioning using Ansible</h3><p>Create a file called <code>hosts</code> in your home directory with the following content:</p><p><code>~/hosts</code></p><pre><code>[mons]
+atomic-01 ansible_ssh_host=10.3.0.3
+atomic-02 ansible_ssh_host=10.3.0.4
+atomic-03 ansible_ssh_host=10.3.0.5
+
+[osds]
+atomic-04 ansible_ssh_host=10.3.0.6
+atomic-05 ansible_ssh_host=10.3.0.7
+atomic-06 ansible_ssh_host=10.3.0.8</code></pre>
+<p>To test if the nodes are reachable, use the following command:</p><pre><code>$ ansible -i hosts all -u centos -s -m ping</code></pre>
+<p>If no error occurs, you are all set.</p><p>Using Ansible and the hosts file we can perform these commands on all the nodes.</p><pre><code>$ ansible -i hosts all -u centos -s -m shell -a &quot;setenforce 0&quot;
+$ ansible -i hosts all -u centos -s -m shell -a &quot;ostree remote add --set=gpg-verify=false atomic-ceph http://10.3.0.2:8000/&quot;
+$ ansible -i hosts all -u centos -s -m shell -a &quot;rpm-ostree rebase atomic-ceph:centos-atomic-host/7/x86_64/ceph-jewel&quot;
+$ ansible -i hosts all -u centos -s -m shell -a &quot;systemctl disable docker&quot;
+$ ansible -i hosts all -u centos -s -m shell -a &quot;systemctl reboot&quot;</code></pre>
+<p>The last command will throw errors, but this is expected as the connection to the node is dropped. To check if the nodes are up again, you can perform the previous ping test again.</p><p>Note: since we based on the original CentOS Atomic host image, it will have Docker installed. For this article we do not use it, so it is best to disable it.</p><h2 id="deployment-using-ceph-ansible">Deployment using <code>ceph-ansible</code></h2><p>If the previous step succeeded you would have six atomic hosts that are ready to be configured to form a small Ceph cluster; 3 nodes will serve the role of monitor, while the other nodes will be storage nodes with an attached volume at <code>/dev/vdb</code>. For the deployment we will use <code>ceph-ansible</code>. This is a collection of playbooks to help with common scenarios for a Ceph storage cluster.</p><p>From your home folder perform the following command:</p><pre><code>$ git clone https://github.com/ceph/ceph-ansible.git --depth 1</code></pre>
+<p>This will clone the latest version of the playbooks. But before we can use them, we will need to configure it for our setup. But before we do, we initialize it with the base configuration. Take note that we will re-use our previosuly used <code>~/hosts</code> file for Ansible.</p><pre><code>$ cd ceph-ansible
+$ cp site.yml.sample site.yml
+$ cp group_vars/all.sample group_vars/all
+$ cp group_vars/mons.sample group_vars/mons
+$ cp group_vars/osds.sample group_vars/osds
+$ ln -s ~/hosts hosts</code></pre>
+<p>We will now customize the configuration by changing the following files and add the shows content to the top of the file:</p><p><code>group_vars/all</code></p><pre><code>cluster_network: 10.3.0.0/24
+generate_fsid: &apos;true&apos;
+ceph_origin: distro
+monitor_interface: eth0
+public_network: 10.3.0.0/24
+journal_size: 5120
+group_vars/mons
+cephx: false</code></pre>
+<p><code>group_vars/mons</code></p><pre><code>cephx: false</code></pre>
+<p><code>group_vars/osds</code></p><pre><code>journal_collocation: true
+cephx: false
+devices:
+   - /dev/vdb</code></pre>
+<p>After these changes are made, you have setup to use Ceph packages as provided by the distribution, and to deploy as a storage cluster on 10.3.0.0/24.</p><p>To deploy the storage cluster, all we need to do now is to run the playbook named <code>site.yml</code> and skipping the tags named <code>with_pkg</code> and <code>package-install</code>.</p><pre><code>$ ansible-playbook -i hosts site.yml --skip-tags with_pkg,package-install</code></pre>
+<p>After this finishes a storage cluster should be available.</p><h2 id="conclusion">Conclusion</h2><p>This article showed how it is possible to customize an Atomic host image for a specific use-case and use this for deployment of a simple Ceph cluster. Using ostree it is possible to move between different trees, allowing a collection of packages to be upgraded in an atomic fashion. And when there is a failure for some reason, it is possible to rollback to the previous tree and allow the node to function in the former state.</p><p>This is part of the setup I usefor automated builds of Ceph packages and deployment tests. If you have questions about specific parts, please let me know on Twitter at <a href="https://twitter.com/gbraad" target="_blank">@gbraad</a> or by email. Input is appreciated as this can help with writing of future articles.</p><h2 id="links">Links</h2><p>Some information that can help with customizing your own images:</p><ul><li><a href="https://github.com/jasonbrooks/byo-atomic" target="_blank">Build your own Atomic</a>, and my <a href="http://gitlab.com/gbraad/byo-atomic" target="_blank">automated build</a>
+</li>
+<li><a href="https://gitlab.com/gbraad/ceph-atomic/" target="_blank">Tree definition</a>
+</li>
+<li><a href="https://gbraad.gitlab.io/byo-atomic-ceph/" target="_blank">Remote location</a>
+</li>
+<li><a href="https://gitlab.com/gbraad/byo-atomic-ceph/builds" target="_blank">Automated build</a>
+</li></ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0004-setup-self-hosted-cloud9.html" class="navigation navigation-prev " aria-label="Previous page: Setting up a powerful self-hosted IDE in the cloud">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0006-nonroot-container.html" class="navigation navigation-next " aria-label="Next page: non-root user inside a Docker container">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"Title":"Deployment of Ceph using custom Atomic images","Date":"9-7-2016","Category":"Containers","Tags":"centos, ceph, atomic, ansible, ostree, storage","title":"Deployment of Ceph using custom Atomic images","level":"3.3","depth":1,"next":{"title":"non-root user inside a Docker container","level":"3.4","depth":1,"path":"0006-nonroot-container.md","ref":"0006-nonroot-container.md","articles":[]},"previous":{"title":"Setting up a powerful self-hosted IDE in the cloud","level":"3.2","depth":1,"path":"0004-setup-self-hosted-cloud9.md","ref":"0004-setup-self-hosted-cloud9.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"0005-custom-ceph-atomic-deployment.md","mtime":"2016-11-08T07:03:09.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-11-08T07:03:13.428Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

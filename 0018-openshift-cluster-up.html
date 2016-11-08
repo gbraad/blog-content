@@ -1,0 +1,630 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Deploying OpenShift · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0019-setup-docker-storage.html" />
+    
+    
+    <link rel="prev" href="0017-kubernetes-ansible.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2014</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="0001-javascript-loaders.html">
+            
+                <a href="0001-javascript-loaders.html">
+            
+                    
+                    JavaScript Loaders
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="0002-trigger-phonegap-build-from-github.html">
+            
+                <a href="0002-trigger-phonegap-build-from-github.html">
+            
+                    
+                    Trigger PhoneGap builds from GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2016</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="0003-hello-internet.html">
+            
+                <a href="0003-hello-internet.html">
+            
+                    
+                    Hello, Internet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="0004-setup-self-hosted-cloud9.html">
+            
+                <a href="0004-setup-self-hosted-cloud9.html">
+            
+                    
+                    Setting up a powerful self-hosted IDE in the cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="0005-custom-ceph-atomic-deployment.html">
+            
+                <a href="0005-custom-ceph-atomic-deployment.html">
+            
+                    
+                    Deployment of Ceph using custom Atomic images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="0006-nonroot-container.html">
+            
+                <a href="0006-nonroot-container.html">
+            
+                    
+                    non-root user inside a Docker container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="0007-highlighting-code-text.html">
+            
+                <a href="0007-highlighting-code-text.html">
+            
+                    
+                    Highlighting of Code and Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="0008-multitier-setup-openstack.html">
+            
+                <a href="0008-multitier-setup-openstack.html">
+            
+                    
+                    Building a multi-tier application using OpenStack (PackStack)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="0012-ha-storage-using-gluster.html">
+            
+                <a href="0012-ha-storage-using-gluster.html">
+            
+                    
+                    Highly Available storage using GlusterFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="0013-document-generation.html">
+            
+                <a href="0013-document-generation.html">
+            
+                    
+                    Document generation using Markdown and Pandoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="0015-mentor-recommended-books.html">
+            
+                <a href="0015-mentor-recommended-books.html">
+            
+                    
+                    Mentors and recommended books
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="0016-object-design.html">
+            
+                <a href="0016-object-design.html">
+            
+                    
+                    Object Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="0017-kubernetes-ansible.html">
+            
+                <a href="0017-kubernetes-ansible.html">
+            
+                    
+                    Deploying Kubernetes using Ansible
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.12" data-path="0018-openshift-cluster-up.html">
+            
+                <a href="0018-openshift-cluster-up.html">
+            
+                    
+                    Deploying OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="0019-setup-docker-storage.html">
+            
+                <a href="0019-setup-docker-storage.html">
+            
+                    
+                    Setup Docker storage to use LVM thin pool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="0020-openshift-example.html">
+            
+                <a href="0020-openshift-example.html">
+            
+                    
+                    Run an example application on OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="0021-give-to-content-creators.html">
+            
+                <a href="0021-give-to-content-creators.html">
+            
+                    
+                    Giving to your favourite content creators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="0022-dear-recruiter.html">
+            
+                <a href="0022-dear-recruiter.html">
+            
+                    
+                    Dear recruiter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="0023-ansible-to-replace-scripts-packages.md">
+            
+                <span>
+            
+                    
+                    Replace scripts with Ansible: package installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="0024-personal-kanban-using-gitlab.md">
+            
+                <span>
+            
+                    
+                    Task management and Personal Kanban: how I use GitLab Issues
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Deploying OpenShift</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>In my previous article I described how I used an Ansible playbook and a few roles
+to stand-up a Kubernetes test environment. In that article I mentioned that to
+deploy a production-ready environment some work more was required. Luckily, it
+is now very easy to stand up a production and enterprise-ready container
+platform for hosting applications, called <a href="https://www.openshift.com" target="_blank">OpenShift</a>.
+Through the years OpenShift has undergone a lot of changes, and the latest
+version Origin v1.3 is very different from the original version. OpenShift sets
+up a complete Kubernetes environment and with a set of tools it can take care of
+the whole application lifecycle, from source to deployment. In this article I
+will give an introduction to setting up a test environment for a developer.</p><h2 id="setup-machine">Setup machine</h2><p>I will setup the environment on a standard Fedora 24 installation. You can use a
+cloud image as all the needed packages will be specified. After installing the
+machine, you login as a standard user, which can do a password-less sudo.</p><pre><code>$ ssh fedora@89.42.141.96
+$ sudo su -
+#</code></pre>
+<h3 id="install-docker-and-client">Install docker and client</h3><p>From here all the commands will be run as root, unless otherwise specified.</p><pre><code>$ dnf install -y docker curl</code></pre>
+<p>This will install the basic packages we need to setup the test cluster. Now from
+a browser you open the following page: <a href="https://github.com/openshift/origin/releases/tag/v1.3.0" target="_blank">https://github.com/openshift/origin/releases/tag/v1.3.0</a>.
+This shows the current deliverables for the OpenShift Origin v1.3 release. You
+need to download the file called like <code>openshift-origin-client-tools-v1.3.0-[...]-linux-64bit.tar.gz</code></p><pre><code>$ curl -sSL https://github.com/openshift/origin/releases/download/v1.3.0/openshift-origin-client-tools-v1.3.0-3ab7af3d097b57f933eccef684a714f2368804e7-linux-64bit.tar.gz -o oc-client.tar.gz
+$ tar -zxvf oc-client.tar.gz
+$ mkdir -p /opt/openshift/client
+$ cp ./openshift-origin-client-tools-v1.3.0-3ab7af3d097b57f933eccef684a714f2368804e7-linux-64bit/oc /opt/openshift/client/oc
+</code></pre>
+<p>Note: I do not install the binary in <code>/usr/bin</code> or <code>/usr/sbin</code> to prevent a
+conflict with a packaged version, but also because this makes it easier for me
+to work on a different version of the application. E.g. the current packaged
+version is v1.2 and does not provide the command we will be using in the next
+step.</p><h3 id="configure-docker">Configure docker</h3><p>To allow OpenShift to pull and locally cache images, it will deploy a local
+docker registry. But before docker would be able to use this, we need to
+specify an insecure registry in the configuration. For this you need to add
+<code>--insecure-registry 172.30.0.0/16</code> to <code>/etc/sysconfig/docker</code>.</p><pre><code>$ vi /etc/sysconfig/docker</code></pre>
+<pre><code>OPTIONS=&apos;--selinux-enabled --log-driver=journald --insecure-registry 172.30.0.0/16&apos;</code></pre>
+<p>After this we will setup to allow the standard user to communicate with the
+docker daemon over the docker socket. This is not a necessary step, and does not
+make the system more secure. It does make it easier not having to move between
+user and using sudo all the time.</p><pre><code>$ groupadd docker
+$ usermod -a -G docker fedora
+$ chgrp docker /var/run/docker.sock</code></pre>
+<p>Edit: I recently created an <a href="https://github.com/gbraad/ansible-playbooks/blob/master/playbooks/enable-ansible-user-for-docker.yml" target="_blank">Ansible playbook</a>
+to perform these steps, as I had to do this on several Atomic hosts. I uses the
+current Ansible user and adds it to a group, and changes the socket permissions.</p><p>After this you can start docker and move on the actual installation of OpenShift.</p><pre><code>$ systemctl enable docker
+$ systemctl start docker</code></pre>
+<p>Note: we will be running this environment with devicemapper as Storage Driver.
+This is not an ideal situation. If you do further tests, consider changing the
+storage with <code>docker-storage-setup</code> to use a dedicated volume.</p><h2 id="running-openshift">Running OpenShift</h2><p>Since version 1.3 of OpenShift, the client provides a <code>cluster up</code> commands
+which stands up a very simple all-in-one cluster, with a configured registry,
+router, image streams, and default templates.</p><p>As the fedora user, you can check if you can access docker</p><pre><code>$ docker ps</code></pre>
+<pre><code>CONTAINER ID    IMAGE   COMMAND     CREATED     STATUS      PORTS   NAMES</code></pre>
+<p>No containers should be returned. This mean you can communicate with the docker
+daemon. Now you are ready to start the test cluster.</p><h3 id="cluster-up"><code>cluster up</code></h3><pre><code>$ export PATH=$PATH:/opt/openshift/client/
+$ ./oc cluster up
+-- Checking OpenShift client ... OK
+-- Checking Docker client ... OK
+-- Checking Docker version ... OK
+-- Checking for existing OpenShift container ... OK
+-- Checking for openshift/origin:v1.3.0 image ... OK
+-- Checking Docker daemon configuration ... OK
+-- Checking for available ports ... OK
+-- Checking type of volume mount ... 
+   Using nsenter mounter for OpenShift volumes
+-- Creating host directories ... OK
+-- Finding server IP ... 
+   Using 10.5.0.27 as the server IP
+-- Starting OpenShift container ... 
+   Creating initial OpenShift configuration
+   Starting OpenShift using container &apos;origin&apos;
+   Waiting for API server to start listening
+   OpenShift server started
+-- Installing registry ... OK
+-- Installing router ... OK
+-- Importing image streams ... OK
+-- Importing templates ... OK
+-- Login to server ... OK
+-- Creating initial project &quot;myproject&quot; ... OK
+-- Server Information ... 
+   OpenShift server started.
+   The server is accessible via web console at:
+       https://10.5.0.27:8443
+
+   You are logged in as:
+       User:     developer
+       Password: developer
+
+   To login as administrator:
+       oc login -u system:admin</code></pre>
+<p>And that was it! Now you are running an OpenShift environment. You can check
+this as follows:</p><pre><code>$ docker ps</code></pre>
+<pre><code>CONTAINER ID        IMAGE                                     COMMAND                  CREATED             STATUS              PORTS               NAMES
+cebba70022a6        openshift/origin-haproxy-router:v1.3.0    &quot;/usr/bin/openshift-r&quot;   16 seconds ago      Up 15 seconds                           k8s_router.9426645a_router-1-o3454_default_ba2e0814-8483-11e6-924a-fa163e29da46_e9a13a8d
+32aa5e84a04d        openshift/origin-docker-registry:v1.3.0   &quot;/bin/sh -c &apos;DOCKER_R&quot;   17 seconds ago      Up 15 seconds                           k8s_registry.f0a205a4_docker-registry-1-v57os_default_b9fc0130-8483-11e6-924a-fa163e29da46_24863324
+03ee38d125cb        openshift/origin-pod:v1.3.0               &quot;/pod&quot;                   18 seconds ago      Up 16 seconds                           k8s_POD.4a82dc9f_router-1-o3454_default_ba2e0814-8483-11e6-924a-fa163e29da46_ea6d1d08
+44d6f8d2d9d6        openshift/origin-pod:v1.3.0               &quot;/pod&quot;                   18 seconds ago      Up 16 seconds                           k8s_POD.9fa2fe82_docker-registry-1-v57os_default_b9fc0130-8483-11e6-924a-fa163e29da46_76754271
+60e7cc5f4e5d        openshift/origin-deployer:v1.3.0          &quot;/usr/bin/openshift-d&quot;   21 seconds ago      Up 19 seconds                           k8s_deployment.59c7ba3f_router-1-deploy_default_b3660c7b-8483-11e6-924a-fa163e29da46_8e02f47a
+f1fe993ddcac        openshift/origin-pod:v1.3.0               &quot;/pod&quot;                   22 seconds ago      Up 20 seconds                           k8s_POD.4a82dc9f_router-1-deploy_default_b3660c7b-8483-11e6-924a-fa163e29da46_9a38fe5e
+72068a244ac8        openshift/origin:v1.3.0                   &quot;/usr/bin/openshift s&quot;   49 seconds ago      Up 48 seconds                           origin</code></pre>
+<h3 id="client-connection">Client connection</h3><p>After running the command <code>oc cluster up</code> you will be automatically logged in.
+For this it writes the login configuration in <code>~/.kube/</code>. If you want to change
+you can login using:</p><pre><code>$ oc login</code></pre>
+<p>The standard user provided is <code>developer</code>.</p><h3 id="verify">Verify</h3><p>Now we need to verify if we can deploy a simple application. However, without
+changes, OpenShift will not run containers with a root-user process. For example
+an nginx container would fail with a <code>permission denied</code> error.</p><p>Instead, we will for now run a simple Hello container:</p><pre><code>$ oc run hello-openshift --image=docker.io/openshift/hello-openshift:latest --port=8080 --expose</code></pre>
+<pre><code>service &quot;hello-openshift&quot; created
+deploymentconfig &quot;hello-openshift&quot; created</code></pre>
+<p>This would create the container and schedule it. You can check the progress with:</p><pre><code>$ oc get pod</code></pre>
+<pre><code>NAME                        READY     STATUS    RESTARTS   AGE
+hello-openshift-1-xi7f0     1/1       Running   0          9m</code></pre>
+<p>You will also see a <code>-deploy</code> container. This is not needed for our verification.</p><p>To check the application, we need to get the IP address that has been assigned
+to the Pod. You can do this as follows:</p><pre><code>$ oc get pod hello-openshift-1-xi7f0 -o yaml | grep podIP</code></pre>
+<pre><code>  podIP: 172.17.0.7</code></pre>
+<p>All you have to do now is open the endpoint:</p><pre><code>$ curl 172.17.0.7:8080</code></pre>
+<pre><code>Hello OpenShift!</code></pre>
+<p>And that is it, you have a working OpenShift test cluster.</p><h3 id="teardown">Teardown</h3><p>If you are down with this, you simply do a:</p><pre><code>$ oc cluster down</code></pre>
+<p>and all the containers used in the deployment will be torn down.</p><h2 id="conclusion">Conclusion</h2><p>Using OpenShift&apos;s <code>cluster up</code> command you can easily setup an environment for
+developers to run and test their applications. The current of OpenShift
+provided with Fedora 24 does not offer this command, as the packaged version is
+v1.2. However, this change is in Rawhide and is therefore expected to be
+released as part of Fedora 25.</p><p>In future articles I will detail more about how to create applications for the
+OpenShift container platform, and how to check and maintain the life cycle of
+the deployed application. For now, take a look at the other source of
+information below.</p><h2 id="more-information">More information</h2><ul><li>OpenShift <a href="https://www.openshift.com/" target="_blank">Homepage</a>
+</li>
+<li><a href="https://github.com/openshift/origin" target="_blank">OpenShift Origin</a> at GitHub
+</li>
+<li>Knowledge-base article about <a href="https://gitlab.com/gbraad/knowledge-base/blob/master/technology/openshift.md" target="_blank">OpenShift</a>
+</li></ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0017-kubernetes-ansible.html" class="navigation navigation-prev " aria-label="Previous page: Deploying Kubernetes using Ansible">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0019-setup-docker-storage.html" class="navigation navigation-next " aria-label="Next page: Setup Docker storage to use LVM thin pool">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"Title":"Deploy an OpenShift test cluster","Date":"2016-09-27T00:00:00.000Z","Category":"Containers","Tags":"openshift, kubernetes, containers, docker","title":"Deploying OpenShift","level":"3.12","depth":1,"next":{"title":"Setup Docker storage to use LVM thin pool","level":"3.13","depth":1,"path":"0019-setup-docker-storage.md","ref":"0019-setup-docker-storage.md","articles":[]},"previous":{"title":"Deploying Kubernetes using Ansible","level":"3.11","depth":1,"path":"0017-kubernetes-ansible.md","ref":"0017-kubernetes-ansible.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"0018-openshift-cluster-up.md","mtime":"2016-11-08T07:03:09.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-11-08T07:03:13.428Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

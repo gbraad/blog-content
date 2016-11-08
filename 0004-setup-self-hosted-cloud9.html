@@ -1,0 +1,556 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Setting up a powerful self-hosted IDE in the cloud · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0005-custom-ceph-atomic-deployment.html" />
+    
+    
+    <link rel="prev" href="0003-hello-internet.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2014</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="0001-javascript-loaders.html">
+            
+                <a href="0001-javascript-loaders.html">
+            
+                    
+                    JavaScript Loaders
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="0002-trigger-phonegap-build-from-github.html">
+            
+                <a href="0002-trigger-phonegap-build-from-github.html">
+            
+                    
+                    Trigger PhoneGap builds from GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2016</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="0003-hello-internet.html">
+            
+                <a href="0003-hello-internet.html">
+            
+                    
+                    Hello, Internet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.2" data-path="0004-setup-self-hosted-cloud9.html">
+            
+                <a href="0004-setup-self-hosted-cloud9.html">
+            
+                    
+                    Setting up a powerful self-hosted IDE in the cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="0005-custom-ceph-atomic-deployment.html">
+            
+                <a href="0005-custom-ceph-atomic-deployment.html">
+            
+                    
+                    Deployment of Ceph using custom Atomic images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="0006-nonroot-container.html">
+            
+                <a href="0006-nonroot-container.html">
+            
+                    
+                    non-root user inside a Docker container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="0007-highlighting-code-text.html">
+            
+                <a href="0007-highlighting-code-text.html">
+            
+                    
+                    Highlighting of Code and Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="0008-multitier-setup-openstack.html">
+            
+                <a href="0008-multitier-setup-openstack.html">
+            
+                    
+                    Building a multi-tier application using OpenStack (PackStack)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="0012-ha-storage-using-gluster.html">
+            
+                <a href="0012-ha-storage-using-gluster.html">
+            
+                    
+                    Highly Available storage using GlusterFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="0013-document-generation.html">
+            
+                <a href="0013-document-generation.html">
+            
+                    
+                    Document generation using Markdown and Pandoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="0015-mentor-recommended-books.html">
+            
+                <a href="0015-mentor-recommended-books.html">
+            
+                    
+                    Mentors and recommended books
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="0016-object-design.html">
+            
+                <a href="0016-object-design.html">
+            
+                    
+                    Object Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.11" data-path="0017-kubernetes-ansible.html">
+            
+                <a href="0017-kubernetes-ansible.html">
+            
+                    
+                    Deploying Kubernetes using Ansible
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="0018-openshift-cluster-up.html">
+            
+                <a href="0018-openshift-cluster-up.html">
+            
+                    
+                    Deploying OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="0019-setup-docker-storage.html">
+            
+                <a href="0019-setup-docker-storage.html">
+            
+                    
+                    Setup Docker storage to use LVM thin pool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="0020-openshift-example.html">
+            
+                <a href="0020-openshift-example.html">
+            
+                    
+                    Run an example application on OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="0021-give-to-content-creators.html">
+            
+                <a href="0021-give-to-content-creators.html">
+            
+                    
+                    Giving to your favourite content creators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="0022-dear-recruiter.html">
+            
+                <a href="0022-dear-recruiter.html">
+            
+                    
+                    Dear recruiter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="0023-ansible-to-replace-scripts-packages.md">
+            
+                <span>
+            
+                    
+                    Replace scripts with Ansible: package installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="0024-personal-kanban-using-gitlab.md">
+            
+                <span>
+            
+                    
+                    Task management and Personal Kanban: how I use GitLab Issues
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Setting up a powerful self-hosted IDE in the cloud</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>Setting up infrastructure should be as simple as playing with LEGO. With the advent of Docker, IT has underwent a dramatic change. For instance, it became easy to setup throw-away development environments. These could then be used to create clean environments to perform builds in. And eventually, containers are starting to move into the general infrastructure . This is a transaction that is currently still happening, helped by tools as Docker Swarm and Kubernetes. In this short article I will show how these ideas can help in setting up a composable infrastructure, providing you with a powerful IDE in the cloud, full with Let&apos;s Encrypt certificate generation.</p><h2 id="cloud9">Cloud9</h2><p>We will be deploying C9, or Cloud9 IDE, is a full IDE which can be accessed from your browser. For convenience of use, I created a containerized version of this some while back and have ever since been using it. Although,, C9 also has a hosted environment, I grew worried after Amazon acquired the company. Support has since been slower to respond and this made me look into other ways to provide an alternative approach. After some testing with Docker Cloud it seemed like a good idea to deploy a self-hosted alternative.</p><p>But first about one of the main components. The <a href="https://hub.docker.com/r/gbraad/c9ide/" target="_blank">container</a> I created exposes port 8181, which is an unsecured endpoint. It allows you to simply setup a local instance with:</p><pre><code>$ alias c9ide=&apos;docker run -it --rm -v $PWD:/workspace gbraad/c9ide:u1604&apos;
+$ cd ~/Projects/gauth
+$ c9ide</code></pre>
+<p>This would however work for a local environment and does not provide a secure solution. More was needed... such as secure solution and preferably automated. For this Nginx and Let&apos;s Encrypt is used.  More information about Cloud9 can be found in my Knowledge Base <a href="https://github.com/gbraad/knowledge-base/blob/master/technology/c9ide.md" target="_blank">article</a><a href="https://gitlab.com/gbraad/knowledge-base/blob/master/technology/c9ide.md" target="_blank">*</a>.</p><h2 id="preparation">Preparation</h2><p>To deploy the environment I used <a href="http://fedoraproject.org" target="_blank">Fedora</a> 24. Most cloud providers provide this as an image. In my case, <a href="https://www.citycloud.com" target="_blank">CityCloud</a> provided the latest version after placing a simple request. You can consider any size, but the more storage and memory, the better the performance will be. I set up a 4G and 2 cores instance, with 50G of storage. After logging in, perform the following commands</p><pre><code>$ sudo su -
+$ dnf update -y
+$ dnf install -y docker
+$ setenforce 0
+$ sed &apos;s/SELINUX=targeted/SELINUX=permisssive/g&apos; /etc/selinux/config
+$ systemctl enable docker
+$ systemctl start docker</code></pre>
+<p>Note: SELinux is disabled because we will have a volume attached to the IDE container where the workspace will be located. We can however fix this, but this is something for a future blog post.</p><h3 id="setup-dns">Setup DNS</h3><p>After this, you host machine should be ready to host containers to will make up our environment. before we continue, we need to be sure we have DNS configured that can point to the running containers that host the C9 IDE. I used <a href="https://www.cloudflare.com" target="_blank">CloudFlare</a> and setup the following wildcard for my environment.</p><p><img src="https://cdn.gbraad.nl/images/blog/c9ide-dns.png"></p><p>With this each hostname, such as <code>ubuntu.c9ide.spotsnel.net</code> would point to the same machine that hosts our development containers.</p><h3 id="deploy-nginx">Deploy Nginx</h3><p>To allow a hostname to be resolved to a &apos;local&apos; end-point a reverse proxy is needed. Jason Wilder created a container for this purpose called <code>nginx-proxy</code>. It needs access to the <code>docker.sock</code> to be notified of changes and it will accordingly create an endpoint in the hosted Nginx. For more information about this, please read <a href="https://hub.docker.com/r/jwilder/nginx-proxy/" target="_blank">nginx-proxy</a>&apos;s description on Docker hub.</p><pre><code># docker run -d -p 80:80 -p 443:443 \
+   --name nginx-proxy \
+   -v /path/to/certs:/etc/nginx/certs:ro \
+   -v /etc/nginx/vhost.d \
+   -v /usr/share/nginx/html \
+   -v /var/run/docker.sock:/tmp/docker.sock:ro \
+   jwilder/nginx-proxy</code></pre>
+<p>Opening any address pointing to this host would know result in a 503 error. This means that Nginx is listening and can not forward the request. We will deal with this later.</p><h2 id="deploy-lets-encrypt-companion">Deploy Let&apos;s Encrypt companion</h2><p>Setting up a secure connection involves certificates which can be quite a hassle to obtain, and if trust of security is concerned, even very expensive. Luckily, initiatives exist that believe security should be available to all and <a href="https://letsencrypt.org" target="_blank">Let&apos;s Encrypt</a> provides a fully automated solution. Using the <code>letsencrypt-nginx-proxy-companion</code> container created by Yves Blusseau, it is possible allow the proxy container to be provisioned with the needed certificates. More information about <a href="https://hub.docker.com/r/jrcs/letsencrypt-nginx-proxy-companion/" target="_blank">this container</a> can be found at Docker hub.</p><pre><code># docker run -d \
+   --name nginx-proxy-letsencrypt \
+   -v /path/to/certs:/etc/nginx/certs:rw \
+   --volumes-from nginx-proxy \
+   -v /var/run/docker.sock:/var/run/docker.sock:ro \
+   jrcs/letsencrypt-nginx-proxy-companion</code></pre>
+<p>Unfortunately we do not have a way to really test this. But if the container starts correctly and does not terminate, it is likely working correctly, waiting for notifications of newly created containers.</p><h2 id="explanation">Explanation</h2><p>Containers that provide metadata in the form of environment variables, indicate to these service containers what the endpoint will be.</p><p>The <code>nginx-proxy</code> service uses <code>VIRTUAL_HOST</code> to know what the hostname endpoint will be. While the Let&apos;s Encrypt companion service uses <code>LETSENCRYPT_HOST</code> for this. In the rest of this article the endpoints will be the same. With <code>LETSENCRYPT_EMAIL</code> we indicate to who the certificate will be addressed.</p><h2 id="c9-ide">C9 IDE</h2><p>The container hosting C9 is available in different flavors. I have created them based on CentOS 7, Fedora 24 and Ubuntu Xenail (16.04). To prepare, it is a good idea to pull the images locally:</p><pre><code># docker pull gbraad/c9ide:c7
+# docker pull gbraad/c9ide:f24
+# docker pull gbraad/c9ide:u1604</code></pre>
+<p>To setup the containers as endpoints, I created the following helper script. It will deal with setting up the host and email for login to the container.</p><p><code>./create.sh [name] [host] [email] [password] [flavor] [volume]</code></p><pre><code>#!/bin/sh -x
+set -e
+
+NAME=${1:-&quot;test&quot;}
+HOST=${2:-${NAME}&quot;.local&quot;}
+USER=${3:-&quot;nobody@local&quot;}
+PASS=${4:-&quot;secrete&quot;}
+FLAVOR=${5:-&quot;u1604&quot;}  # c7, f24, u1604
+VOLUME=${6:-&quot;/workspaces/c9ide-&quot;${NAME}}
+
+mkdir -p ${VOLUME}
+docker run -d \
+   --name ${NAME} \
+   -v ${VOLUME}:/workspace:rw \
+   -e &quot;VIRTUAL_HOST=${HOST}&quot; \
+   -e &quot;LETSENCRYPT_HOST=${HOST}&quot; \
+   -e &quot;LETSENCRYPT_EMAIL=${USER}&quot; \
+   -e &quot;USERNAME=${USER}&quot; \
+   -e &quot;PASSWORD=${PASS}&quot; \
+   gbraad/c9ide:${FLAVOR}</code></pre>
+<p>The <code>USERNAME</code> and <code>PASSWORD</code> are used to perform basic authentication.  As you can see, the email address used for the certificates is also used for the username for login. This can of course customized.
+ After this,</p><pre><code># chmod +x create.sh
+# mkdir /workspaces
+# ./create.sh ubuntu ubuntu.c9ide.spotsnel.net me@gbraad.nl verysecrete
+# ./create.sh centos quentin.c9ide.spotsnel.net me@quentinyong.nl verysecrete c7</code></pre>
+<p>will create two containers, hosted at <code>ubuntu.c9ide.spotsnel.net</code> and <code>quentin.c9ide.spotsnel.net</code>. Notice that I used <code>/workspaces</code> to provide the storage location for all the host containers. Make sure this is hosted on a separate mountpoint for instance.</p><p>Now open your IDE by opening <a href="https://ubuntu.c9ide.spotsnel.net" target="_blank">https://ubuntu.c9ide.spotsnel.net</a> in your browser. If all goes well, you will be created by a login prompt. The username is <code>me@gbraad.nl</code> and the password <code>verysecrete</code>.</p><p><img src="https://cdn.gbraad.nl/images/blog/c9ide-final.png"></p><p>In future articles I will detail more about the composability of infrastructure. if you enjoyed this article, consider tweeting about it. If you have comments, please find me online at <a href="http://twitter.com/gbraad" target="_blank">@gbraad</a>.</p>
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0003-hello-internet.html" class="navigation navigation-prev " aria-label="Previous page: Hello, Internet">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0005-custom-ceph-atomic-deployment.html" class="navigation navigation-next " aria-label="Next page: Deployment of Ceph using custom Atomic images">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"Title":"Setting up a powerful self-hosted IDE in the cloud","Date":"2016-9-6","Category":"Containers","Tags":"docker, c9ide, fedora","title":"Setting up a powerful self-hosted IDE in the cloud","level":"3.2","depth":1,"next":{"title":"Deployment of Ceph using custom Atomic images","level":"3.3","depth":1,"path":"0005-custom-ceph-atomic-deployment.md","ref":"0005-custom-ceph-atomic-deployment.md","articles":[]},"previous":{"title":"Hello, Internet","level":"3.1","depth":1,"path":"0003-hello-internet.md","ref":"0003-hello-internet.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"0004-setup-self-hosted-cloud9.md","mtime":"2016-11-08T07:03:09.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-11-08T07:03:13.428Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+

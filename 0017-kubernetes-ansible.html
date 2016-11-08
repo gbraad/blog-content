@@ -1,0 +1,640 @@
+
+<!DOCTYPE HTML>
+<html lang="" >
+    <head>
+        <title>Deploying Kubernetes using Ansible · GitBook</title>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta content="text/html; charset=utf-8" http-equiv="Content-Type">
+        <meta name="description" content="">
+        <meta name="generator" content="GitBook 3.2.0">
+        
+        
+        
+    
+    <link rel="stylesheet" href="gitbook/style.css">
+
+    
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-highlight/website.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-search/search.css">
+                
+            
+                
+                <link rel="stylesheet" href="gitbook/gitbook-plugin-fontsettings/website.css">
+                
+            
+        
+
+    
+
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+        
+    
+
+        
+    
+    
+    <meta name="HandheldFriendly" content="true"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+    <meta name="apple-mobile-web-app-capable" content="yes">
+    <meta name="apple-mobile-web-app-status-bar-style" content="black">
+    <link rel="apple-touch-icon-precomposed" sizes="152x152" href="gitbook/images/apple-touch-icon-precomposed-152.png">
+    <link rel="shortcut icon" href="gitbook/images/favicon.ico" type="image/x-icon">
+
+    
+    <link rel="next" href="0018-openshift-cluster-up.html" />
+    
+    
+    <link rel="prev" href="0016-object-design.html" />
+    
+
+    </head>
+    <body>
+        
+<div class="book">
+    <div class="book-summary">
+        
+            
+<div id="book-search-input" role="search">
+    <input type="text" placeholder="Type to search" />
+</div>
+
+            
+                <nav role="navigation">
+                
+
+
+<ul class="summary">
+    
+    
+
+    
+
+    
+        
+        <li class="header">Introduction</li>
+        
+        
+    
+        <li class="chapter " data-level="1.1" data-path="./">
+            
+                <a href="./">
+            
+                    
+                    Introduction
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2014</li>
+        
+        
+    
+        <li class="chapter " data-level="2.1" data-path="0001-javascript-loaders.html">
+            
+                <a href="0001-javascript-loaders.html">
+            
+                    
+                    JavaScript Loaders
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="2.2" data-path="0002-trigger-phonegap-build-from-github.html">
+            
+                <a href="0002-trigger-phonegap-build-from-github.html">
+            
+                    
+                    Trigger PhoneGap builds from GitHub
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+        
+        <li class="header">2016</li>
+        
+        
+    
+        <li class="chapter " data-level="3.1" data-path="0003-hello-internet.html">
+            
+                <a href="0003-hello-internet.html">
+            
+                    
+                    Hello, Internet
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.2" data-path="0004-setup-self-hosted-cloud9.html">
+            
+                <a href="0004-setup-self-hosted-cloud9.html">
+            
+                    
+                    Setting up a powerful self-hosted IDE in the cloud
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.3" data-path="0005-custom-ceph-atomic-deployment.html">
+            
+                <a href="0005-custom-ceph-atomic-deployment.html">
+            
+                    
+                    Deployment of Ceph using custom Atomic images
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.4" data-path="0006-nonroot-container.html">
+            
+                <a href="0006-nonroot-container.html">
+            
+                    
+                    non-root user inside a Docker container
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.5" data-path="0007-highlighting-code-text.html">
+            
+                <a href="0007-highlighting-code-text.html">
+            
+                    
+                    Highlighting of Code and Text
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.6" data-path="0008-multitier-setup-openstack.html">
+            
+                <a href="0008-multitier-setup-openstack.html">
+            
+                    
+                    Building a multi-tier application using OpenStack (PackStack)
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.7" data-path="0012-ha-storage-using-gluster.html">
+            
+                <a href="0012-ha-storage-using-gluster.html">
+            
+                    
+                    Highly Available storage using GlusterFS
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.8" data-path="0013-document-generation.html">
+            
+                <a href="0013-document-generation.html">
+            
+                    
+                    Document generation using Markdown and Pandoc
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.9" data-path="0015-mentor-recommended-books.html">
+            
+                <a href="0015-mentor-recommended-books.html">
+            
+                    
+                    Mentors and recommended books
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.10" data-path="0016-object-design.html">
+            
+                <a href="0016-object-design.html">
+            
+                    
+                    Object Design
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter active" data-level="3.11" data-path="0017-kubernetes-ansible.html">
+            
+                <a href="0017-kubernetes-ansible.html">
+            
+                    
+                    Deploying Kubernetes using Ansible
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.12" data-path="0018-openshift-cluster-up.html">
+            
+                <a href="0018-openshift-cluster-up.html">
+            
+                    
+                    Deploying OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.13" data-path="0019-setup-docker-storage.html">
+            
+                <a href="0019-setup-docker-storage.html">
+            
+                    
+                    Setup Docker storage to use LVM thin pool
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.14" data-path="0020-openshift-example.html">
+            
+                <a href="0020-openshift-example.html">
+            
+                    
+                    Run an example application on OpenShift
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.15" data-path="0021-give-to-content-creators.html">
+            
+                <a href="0021-give-to-content-creators.html">
+            
+                    
+                    Giving to your favourite content creators
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.16" data-path="0022-dear-recruiter.html">
+            
+                <a href="0022-dear-recruiter.html">
+            
+                    
+                    Dear recruiter
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.17" data-path="0023-ansible-to-replace-scripts-packages.md">
+            
+                <span>
+            
+                    
+                    Replace scripts with Ansible: package installation
+            
+                </a>
+            
+
+            
+        </li>
+    
+        <li class="chapter " data-level="3.18" data-path="0024-personal-kanban-using-gitlab.md">
+            
+                <span>
+            
+                    
+                    Task management and Personal Kanban: how I use GitLab Issues
+            
+                </a>
+            
+
+            
+        </li>
+    
+
+    
+
+    <li class="divider"></li>
+
+    <li>
+        <a href="https://www.gitbook.com" target="blank" class="gitbook-link">
+            Published with GitBook
+        </a>
+    </li>
+</ul>
+
+
+                </nav>
+            
+        
+    </div>
+
+    <div class="book-body">
+        
+            <div class="body-inner">
+                
+                    
+
+<div class="book-header" role="navigation">
+    
+
+    <!-- Title -->
+    <h1>
+        <i class="fa fa-circle-o-notch fa-spin"></i>
+        <a href="." >Deploying Kubernetes using Ansible</a>
+    </h1>
+</div>
+
+
+
+
+                    <div class="page-wrapper" tabindex="-1" role="main">
+                        <div class="page-inner">
+                            
+<div id="book-search-results">
+    <div class="search-noresults">
+    
+                                <section class="normal markdown-section">
+                                
+                                <p>Recently I did a lot of tests with Atomic, such as a <a href="deployment-of-ceph-using-custom-atomic-images.html">creating custom images</a> for <a href="tag/ceph.html">Ceph</a>, and ways to provide an immutable infrastructure. However, Atomic is meant to be a host platform for a container platform using Kubernetes. Their <a href="http://www.projectatomic.io/docs/gettingstarted/" target="_blank">Getting Started guide</a> describes how to setup a basic environment to host containerized applications. However, this is a manual approach and with the help of Vincent<a href="https://blog.vanderkussen.org/deploy-kubernetes-with-ansible-on-atomic.html" target="_blank">*</a> I create a way to deploy this Kubernetes environment on Atomic and a standard CentOS installation using Ansible. In this article I will describe the components and provide instructions on how to deploy this basic environment yourself.</p><h2 id="requirements">Requirements</h2><p>To deploy the Kubernetes environment you will need either <a href="http://www.projectatomic.io/download/" target="_blank">Atomic Host</a> or a standard <a href="https://www.centos.org/download/" target="_blank">CentOS</a> installation. If you are using this for testing purposes, a cloud image on an OpenStack provider will do. The described Ansible scripts will work properly on both Atomic Host and CentOS cloud images. Although it has not been tested on Fedora, it should be able to make this work with minimal changes. If you do, please contribute these changes back.</p><p>You will need at least 2 (virtual) machines. One will be configured as the Kubernetes master and the remaining node(s) can be configured as minions or deployment nodes. I have used at least 4 nodes; a general controller node to perform the deployment from (also configured to install the Kubernetes client), a master node and at least two deployment nodes. Take note that this deployment does not handle <code>docker-storage-setup</code> and High Availability.</p><h2 id="setup-for-deployment">Setup for deployment</h2><p>Almost all the deployments I perform are initiated from a short-lived controller node. This is a machine that allows
+incoming and outgoing traffic, and mostly gets configured with an external Floating IP. This host can be seen as a jumphost. I will configure it with a dedicated set of SSH keys for communication with the other machines. You do not have to do this, and if you have limited resources, consider this host to be the same as the Kubernetes master node.</p><p>On this machine do the following:</p><pre><code>$ yum install -y ansible git
+$ git clone https://gitlab.com/gbraad/ansible-playbook-kubernetes.git
+$ cd ansible-playbook-kubernetes
+$ ansible-galaxy install -r roles.txt</code></pre>
+<p>This will install the Ansible playbook and the required roles:</p><pre><code>gbraad.docker
+gbraad.docker-registry
+gbraad.kubernetes-master
+gbraad.kubernetes-node
+gbraad.kubernetes-client</code></pre>
+<p>Each of the roles take care of the installation and/or configuration of the environment. Do take note that the Docker and Kubernetes roles do not install packages on the Atomic hosts as these already come with the needed software.</p><h2 id="configure-the-deployment">Configure the deployment</h2><p>If you look at the files <code>deploy-kubernetes.yml</code> you will see three tasks for a different group of hosts. As mentioned before, they will each take care of the installation when needed.</p><pre><code>- name: Deploy kubernetes Master
+  hosts: k8s-master
+  remote_user: centos
+  become: true
+  roles:
+  - gbraad.docker
+  - gbraad.kubernetes-master
+
+- name: Deploy kubernetes Nodes
+  hosts: k8s-nodes
+  remote_user: centos
+  become: true
+  roles:
+  - gbraad.docker
+  - gbraad.kubernetes-node
+
+- name: Install kubernetes client
+  hosts: k8s-client
+  remote_user: centos
+  become: true
+  roles:
+  - gbraad.kubernetes-client</code></pre>
+<p>Take notice of the setting of <code>remote_user</code>. On an Atomic host this is a passwordless sudo user, which can also login with SSH using a passwordless key-based authentication. If you use CentOS, please configure a user and allow add an entry with <code>echo &quot;username ALL=(root) NOPASSWD:ALL&quot; &gt; /etc/sudoers.d/username</code>.</p><h3 id="change-the-inventory">Change the inventory</h3><p>Ansible targets a playbook against a single or group of nodes that you specify in an inventory file. This file is named <code>hosts</code> in this playbook repository. When you open it you will see the same set of names as specified above in the <code>hosts</code> entry in the <code>deploy-kubernetes.yml</code> playbook. For our purposes you will always have to deploy a master and a node. If you do not specify the master node, the installation will fail as some of the deployment variables will be used for configuration of the nodes.</p><pre><code>$ vi hosts</code></pre>
+<pre><code>[k8s-master]
+atomic-01 ansible_ssh_host=10.5.0.11
+
+[k8s-nodes]
+atomic-02 ansible_ssh_host=10.5.0.14
+atomic-03 ansible_ssh_host=10.5.0.13
+atomic-04 ansible_ssh_host=10.5.0.12</code></pre>
+<h3 id="group-variables">Group variables</h3><p>At the moment the roles are not very configurable as they are mainly targeting a simple test environment. Inside the folder <code>group_vars</code> you will find the configration for the Kubernetes nodes. These are as follows</p><pre><code>skydns_enable: true
+dns_server: 10.254.0.10
+dns_domain: kubernetes.local</code></pre>
+<h2 id="perform-the-deployment">Perform the deployment</h2><p>After changing the variables in the <code>hosts</code> inventory file and the group variables, you are actually all set to perform the deployment. We will start with the following.</p><pre><code>$ ansible-playbook -i hosts deploy-docker-registry.yml</code></pre>
+<p>This first step will install Docker on the master node and pull the Docker Registry container. This is needed to provide a local cache of container images that you have pulled.</p><p>After this we can install the Kubernetes environment with:</p><pre><code>$ ansible-playbook -i hosts deploy-kubernetes.yml</code></pre>
+<p>Below I will describe what each part of the playbook does and some information about the functionality.</p><h2 id="playbook-and-role-description">Playbook and role description</h2><p>Below I will give a short description of what each part of the playbook and role does.</p><h3 id="role-gbraaddocker">Role <code>gbraad.docker</code></h3><p>Each node in the playbook will be targeted with the following role: <code>gbraad.docker</code>. This role determines if the node is an Atomic Host or not. This check is performed in the <code>tasks/main.yml</code> file. It the node is not an Atomic Host, it will include <code>install.yml</code> to perform additional installation tasks. At the moment this is a simple package installation for <code>docker</code>. After this step, the role will set state <code>started</code> and <code>enabled</code> for the services; <code>docker</code>.</p><p><a href="https://github.com/gbraad/ansible-role-docker" target="_blank">Source</a></p><h3 id="role-gbraadkubernetes-master">Role: <code>gbraad.kubernetes-master</code></h3><p>As part of the playbook, first we will configure the master node. For this, the role <code>gbraad.kubernetes-master</code> is used. Just like in the previous role, file <code>tasks/main.yml</code> will perform a simple check to determine if an Atomic Host is used or not. If not, some packages will be installed:</p><ul><li><code>kubernetes-master</code>
+</li>
+<li><code>flannel</code>
+</li>
+<li><code>etcd</code>
+</li></ul>
+<p><a href="https://github.com/gbraad/ansible-role-kubernetes-master" target="_blank">Source</a></p><h4 id="configure-kubernetes">Configure Kubernetes</h4><p>After this step Kubernetes will be configured on this hosts. Tasks are described in the file <code>tasks/configure_k8s.yml</code>, <a href="https://github.com/gbraad/ansible-role-kubernetes-master/blob/master/tasks/configure_k8s.yml" target="_blank">source</a>.</p><p><a href="https://galaxy.ansible.com/gbraad/kubernetes-master" target="_blank">Role</a></p><h5 id="congfigure-kubernetes-etcd">Congfigure Kubernetes: etcd</h5><p>This role will create a single &apos;etcd&apos; server on the master. For simplicty all IP address will be allowed by using <code>0.0.0.0</code> as the endpoint. The port used for etcd clients is 2379, but since 4001 is also widely used we will also configure to use this.</p><p>Tasks:</p><ul><li>Configure etcd LISTEN CLIENTS
+</li>
+<li>Configure etcd ADVERTISE CLIENTS
+</li></ul>
+<h5 id="configure-kubernetes-common-services">Configure Kubernetes: common services</h5><p>After this the role will set an entry in the file <code>/etc/kubernetes/config</code>. This is a general configuration file used by all the services. It sets the local IP address, identified as <code>default_ipv4_address</code> as etcd server and the kubernetes master nodes.</p><p>Tasks:</p><ul><li>Configure k8s common services
+</li></ul>
+<h5 id="configure-kubernetes-apiserver">Configure Kubernetes: apiserver</h5><p>For the apiserer the file <code>/etc/kubernetes/apiserver</code> is used. We will configure it to listen on all IP address. An admission control plug-in is a piece of code that intercepts requests to the Kubernetes API server prior to persistence of the object. For this role we removed <code>ServiceAccount</code> which is normally used to limit the creation requests of Pods based on the service account.</p><h5 id="restart-services">Restart services</h5><p>After this the services of the master node are <code>started</code> and <code>enabled</code>. These are:</p><ul><li><code>etcd</code>
+</li>
+<li><code>kube-apiserver</code>
+</li>
+<li><code>kube-controller-manager</code>
+</li>
+<li><code>kube-scheduler</code>
+</li></ul>
+<h4 id="configure-flannel">Configure flannel</h4><p>For this environment we will use flannel to provide an overlay network. An overlay network exists on top of another network to provide a virtual path between nodes who use this overlay network. The steps for this are specified in <code>tasks/configure_flannel.yml</code> <a href="https://github.com/gbraad/ansible-role-kubernetes-master/blob/master/tasks/configure_flannel.yml" target="_blank">source</a>.</p><p>The configuration of flannel is controller by etcd. We will copy a file to the master node containing:</p><pre><code>{
+  &quot;Network&quot;: &quot;172.16.0.0/12&quot;,
+  &quot;SubnetLen&quot;: 24,
+  &quot;Backend&quot;: {
+    &quot;Type&quot;: &quot;vxlan&quot;
+  }
+}</code></pre>
+<p>This file is located in the role as <code>files/flanneld-conf.json</code>. Using <code>curl</code> we will post this file to etcd on the master.</p><p>Tasks:</p><ul><li>Copy json with network config
+</li>
+<li>Configure subnet
+</li></ul>
+<p>After these steps the Kubernetes master is configured.</p><h3 id="role-gbraadkubernetes-node">Role: <code>gbraad.kubernetes-node</code></h3><p>For the configuration of a Kubernetes node we use the role <code>gbraad.kubernetes-node</code>. Just like in the previous roles we determine in <code>tasks/main.yml</code> to install packages or not. For all the nodes we will configure:</p><ul><li>SELinux
+</li>
+<li>flannel
+</li>
+<li>kubernetes specific settings
+</li></ul>
+<p><a href="https://github.com/gbraad/ansible-role-kubernetes-node" target="_blank">Source</a>, <a href="https://galaxy.ansible.com/gbraad/kubernetes-node/" target="_blank">Role</a></p><h4 id="configure-selinux">Configure SELinux</h4><p>Because I use persistent storage using NFS with Docker, I configure SELinux to set the boolean <code>virt_use_nfs</code>.</p><h4 id="configure-flannel">Configure flannel</h4><p>In the tasks:</p><ul><li>Overlay | configure etcd url
+</li>
+<li>Overlay | configure etcd config key
+</li>
+<li>Flannel systemd | create service.d
+</li>
+<li>Flannel systemd | deploy unit file
+</li></ul>
+<p>We configure all the nodes to use the etcd instance on <code>k8s-master</code> as the endpoint for flannel configuration. These tasks configure the networking to use the flanneld provided bridge IP and MTU settings. Using the last two tasks we configure systemd to start the service.</p><p>After this change we will restart the <code>flanneld</code> service.</p><h4 id="configure-kubernetes">Configure Kubernetes</h4><p>In the file <code>tasks/configure_k8s.yml</code> we do final configuration of the Kubernetes node to point it to the master node.</p><p>In the tasks:</p><ul><li>k8s client configuration
+</li>
+<li>k8s client configuration | KUBELET_HOSTNAME
+</li>
+<li>k8s client configuration | KUBELET_ARGS
+</li></ul>
+<p>we configure how the node is identified.</p><p>In the tasks:</p><ul><li>k8s client configuration | KUBELET_API_SERVER
+</li>
+<li>Configure k8s master on client | KUBE_MASTER
+</li></ul>
+<p>we set the location of the API server and the master node. Both of these will point to the IP address of the <code>k8s-master</code>.</p><p>After this change we will restart the <code>kubelet</code> and <code>kube-proxy</code> service.</p><h3 id="after-deployment">After deployment</h3><p>If all these tasks succeeded, you should have a working Kubernetes deployment. In the next steps we will perform some simple commands to verify if the environment works.</p><h2 id="deploy-client-and-verify-environment">Deploy client and verify environment</h2><p>As you have noticed from the <code>hosts</code> inventory file, there is a possibility to specify a client host:</p><pre><code>[k8s-client]
+controller ansible_ssh_host=10.5.0.3</code></pre>
+<p>You do not have to deploy a kubernetes client using this playbook. It will install a single package, but you could also just use the statically compiled Go binary that is provided from the Kubernetes releases:</p><pre><code>$ wget http://storage.googleapis.com/kubernetes-release/release/v1.3.4/bin/linux/amd64/kubectl
+$ chmod +x kubectl</code></pre>
+<h3 id="verify-nodes">Verify nodes</h3><p>Oncae all the nodes have been deployed using the playbook, you canb verify communication. From a client node you can perform the following command:</p><pre><code>$ kubectl --server=10.5.0.11:8080 get node`</code></pre>
+<pre><code>NAME             LABELS    STATUS
+10.5.0.12        &lt;none&gt;    Ready
+10.5.0.13        &lt;none&gt;    Ready
+10.5.0.14        &lt;none&gt;    Ready</code></pre>
+<h3 id="schedule-workload">Schedule workload</h3><p>If all looks good, you can schedule a workload on the environment. The following commands will create a simple <code>nginx</code> instance.</p><pre><code>$ vi kube-nginx.yml</code></pre>
+<pre><code>apiVersion: v1
+kind: Pod
+metadata:
+  name: www
+spec:
+  containers:
+    - name: nginx
+      image: nginx
+      ports:
+        - containerPort: 80
+          hostPort: 8080</code></pre>
+<p>This file described a Pod with a container called <code>nginx</code> using the &apos;nginx&apos; image. To schedule it, do:</p><pre><code>$ kubectl --server=10.5.0.11:8080 create -f kube-nginx.yml</code></pre>
+<pre><code>pods/www</code></pre>
+<p>Using the following command you can check the status:</p><pre><code>$ kubectl --server=192.168.124.40:8080 get pods</code></pre>
+<pre><code>POD       IP            CONTAINER(S)   IMAGE(S)   HOST                            LABELS    STATUS    CREATED      MESSAGE
+www       172.16.59.2                             10.5.0.12/10.5.0.12             &lt;none&gt;    Running   52 seconds
+                        nginx          nginx                                                Running   24 seconds</code></pre>
+<p>If you now open a browser pointing to the node Kubernetes used to create it (<a href="http://10.5.0.12:8080/" target="_blank">http://10.5.0.12:8080/</a>), you will see an nginx welcome page.</p><h2 id="conclusion">Conclusion</h2><p>Setting up Kubernetes can be a daunting task as there are many different components involved. Kelsey Hightower has a very good guide, called <a href="https://github.com/kelseyhightower/kubernetes-the-hard-way" target="_blank">Kubernetes The Hard Way</a> that will teach you how to deploy kubernetes manually on different cloud providers, such as AWS and the Google Compute Engine. After gaining some experience, it is advised to look at automation to deploy an environment, such as the the Ansible scripts that can be found in the <a href="https://github.com/kubernetes/contrib" target="_blank">contrib</a> repository of Kubernetes. this allows you to stand up an environment with High Availability. The scripts described in this article should only serve as an introduction to gain understanding what is needed for a Kubernetes environment.</p><p>If you want a production-ready environment, please have a look at OpenShift. OpenShift deals with setting up a cluster of kubernetes nodes, scheduling workload and most important, how to set up images for deployment. This is done using what is called &apos;source to image&apos;. This and OpenShift itself will be the topic of future articles.</p><h2 id="more-information">More information</h2><ul><li>Knowledge-base article about <a href="https://gitlab.com/gbraad/knowledge-base/blob/master/technology/atomic.md#kubernetes-on-atomic" target="_blank">Kubernetes on Atomic</a>
+</li>
+<li>Knowledge-base article about <a href="https://gitlab.com/gbraad/knowledge-base/tree/master/technology/kubernetes" target="_blank">Kubernestes</a>
+</li>
+<li>Hands-on-Lab: <a href="http://gbraad.gitlab.io/kubernetes-handsonlabs/deploying-Kubernetes-on-OpenStack.html" target="_blank">Kubernetes on OpenStack</a> (Not all material published yet)
+</li>
+<li>Deploying Kubernetes <a href="https://blog.vanderkussen.org/deploy-kubernetes-with-ansible-on-atomic.html" target="_blank">on Atomic hosts</a>
+</li></ul>
+
+                                
+                                </section>
+                            
+    </div>
+    <div class="search-results">
+        <div class="has-results">
+            
+            <h1 class="search-results-title"><span class='search-results-count'></span> results matching "<span class='search-query'></span>"</h1>
+            <ul class="search-results-list"></ul>
+            
+        </div>
+        <div class="no-results">
+            
+            <h1 class="search-results-title">No results matching "<span class='search-query'></span>"</h1>
+            
+        </div>
+    </div>
+</div>
+
+                        </div>
+                    </div>
+                
+            </div>
+
+            
+                
+                <a href="0016-object-design.html" class="navigation navigation-prev " aria-label="Previous page: Object Design">
+                    <i class="fa fa-angle-left"></i>
+                </a>
+                
+                
+                <a href="0018-openshift-cluster-up.html" class="navigation navigation-next " aria-label="Next page: Deploying OpenShift">
+                    <i class="fa fa-angle-right"></i>
+                </a>
+                
+            
+        
+    </div>
+
+    <script>
+        var gitbook = gitbook || [];
+        gitbook.push(function() {
+            gitbook.page.hasChanged({"page":{"Title":"Deploying Kubernetes using Ansible","Date":"2016-09-26T00:00:00.000Z","Category":"Containers","Tags":"kubernetes, atomic, ansible, docker, centos, containers","title":"Deploying Kubernetes using Ansible","level":"3.11","depth":1,"next":{"title":"Deploying OpenShift","level":"3.12","depth":1,"path":"0018-openshift-cluster-up.md","ref":"0018-openshift-cluster-up.md","articles":[]},"previous":{"title":"Object Design","level":"3.10","depth":1,"path":"0016-object-design.md","ref":"0016-object-design.md","articles":[]},"dir":"ltr"},"config":{"gitbook":"*","theme":"default","variables":{},"plugins":[],"pluginsConfig":{"highlight":{},"search":{},"lunr":{"maxIndexSize":1000000,"ignoreSpecialCharacters":false},"sharing":{"facebook":true,"twitter":true,"google":false,"weibo":false,"instapaper":false,"vk":false,"all":["facebook","google","twitter","weibo","instapaper"]},"fontsettings":{"theme":"white","family":"sans","size":2},"theme-default":{"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"},"showLevel":false}},"structure":{"langs":"LANGS.md","readme":"README.md","glossary":"GLOSSARY.md","summary":"SUMMARY.md"},"pdf":{"pageNumbers":true,"fontSize":12,"fontFamily":"Arial","paperSize":"a4","chapterMark":"pagebreak","pageBreaksBefore":"/","margin":{"right":62,"left":62,"top":56,"bottom":56}},"styles":{"website":"styles/website.css","pdf":"styles/pdf.css","epub":"styles/epub.css","mobi":"styles/mobi.css","ebook":"styles/ebook.css","print":"styles/print.css"}},"file":{"path":"0017-kubernetes-ansible.md","mtime":"2016-11-08T07:03:09.000Z","type":"markdown"},"gitbook":{"version":"3.2.0","time":"2016-11-08T07:03:13.428Z"},"basePath":".","book":{"language":""}});
+        });
+    </script>
+</div>
+
+        
+    <script src="gitbook/gitbook.js"></script>
+    <script src="gitbook/theme.js"></script>
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search-engine.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-search/search.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/lunr.min.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-lunr/search-lunr.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-sharing/buttons.js"></script>
+        
+    
+        
+        <script src="gitbook/gitbook-plugin-fontsettings/fontsettings.js"></script>
+        
+    
+
+    </body>
+</html>
+
